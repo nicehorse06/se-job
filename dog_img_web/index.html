@@ -2,21 +2,25 @@
 <html>
 
 <head>
+    <!-- 這裡為從外部引入CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <h1 class="title">hello world</div>
+    <!-- 這邊為註解不會顯示 -->
+    <h1 class="title">這邊的文字會被JS替換掉</h1>
+    <div class="counter"></div>
 
-        <img src="https://images.dog.ceo/breeds/weimaraner/n02092339_8029.jpg" />
+    <!-- 此張狗圖將會被index.js的檔案替換掉 -->
+    <img src="" />
 
-
-
-        <script>
-            document.querySelector('h1.title').textContent = 'Dog API 測試範例~~'
-            console.log('此為Dog API在console的顯示資料')
-        </script>
-        <script src="index.js"></script>
+    <!-- 這裡為HTML裡面內寫JS代碼 -->
+    <script>
+        document.querySelector('h1.title').textContent = 'Dog API 隨機圖片測試'
+        console.log('此為Dog API在console的顯示資料')
+    </script>
+    <!-- 這裡為從外部引入JS代碼 -->
+    <script src="index.js"></script>
 </body>
 
 </html>
