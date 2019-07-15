@@ -52,7 +52,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 用標記的方式快速產生網頁式的筆記
 	* 可搭配hackmd、trello做筆記
 
-## 前端工程介紹與就職參考文章
+## 前端工程介紹、就職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
 * [前端工程師養成手冊](https://mrliao.gitbooks.io/f2ebook/content/)
 * [[前端連載] 買早餐也能了解前端 vs 後端？](https://noootown.wordpress.com/2016/03/23/frontend-backend-breakfast/)
@@ -65,13 +65,13 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 網友上Udemy一些前端好課的心得
 * [[心得] 想轉職前端工程師? 幫你蒐集教學資源!](https://www.ptt.cc/bbs/Soft_Job/M.1562589512.A.CBA.html)
 
-* 開發作品集參考
-	* [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
-	* [The Star Wars API](https://swapi.co/)
-	* [Dog API](https://dog.ceo/dog-api/)
-	* 用網頁製作履歷
-	* twitch API
-	* 即時爬蟲API，如即時爬股票、匯率、天氣
+## 開發作品集參考靈感
+* [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
+* [The Star Wars API](https://swapi.co/)
+* [Dog API](https://dog.ceo/dog-api/)
+* 用網頁製作履歷
+* twitch API
+* 即時爬蟲API，如即時爬股票、匯率、天氣
 
 ## 公司應徵前端工程師的共通條件
 ### 基本條件
