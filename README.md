@@ -1,26 +1,25 @@
 # frontend-practice-course
 
-## 一些不錯的參考課程
-### 基礎前端文檔學習資源
+## 基礎前端文檔學習資源
 * [自強學堂 HTML 中文](https://code.ziqiangxuetang.com/html/html-tutorial.html)
 * [自強學堂 CSS 中文](https://code.ziqiangxuetang.com/css/css-tutorial.html)
 * [自強學堂 Javascript](https://code.ziqiangxuetang.com/js/js-tutorial.html)
 * [w3school 英文](https://www.w3schools.com/)
 * [MDN web docs](https://developer.mozilla.org/zh-TW/)
 
-### 前端練習與學習網站
+## 前端練習與學習網站
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
 * [從新手到中手：前端工程加強班](https://github.com/aszx87410/frontend-intermediate-course) 
 很棒的從初學的進階的範例、使用到twich API做一個直撥網頁
 * [codepen](https://codepen.io/)快速的線上demo程式的網站
 * [codecademy](https://www.codecademy.com/) 很棒的線上教學網站
 
-### 前端框架與套件
+## 前端框架與套件
 ```學框架與套件的目的是為了不重複造輪子、跟社群使用相同規範、讓前端更能軟體工程化```
 * [Vanilla.js](https://medium.com/%E7%A8%8B%E5%BC%8F%E4%BA%BA%E6%9C%88%E5%88%8A/%E5%8E%9F%E7%94%9F%E7%9A%84-javascript-%E7%94%A8%E6%B3%95-vanilla-js-e53d3cdb5e8)
 	* 只要使用原生Javascript的功能，可稱作`Vanilla.js`
 	* 不建議用`jQuery`套件來取代JS原生功能，應扎實了解JS，有需要再選擇所需套件
-* React和Vue為前端框架，現代前端工程師都建議了解其中一項
+```React和Vue為前端框架，現代前端工程師都建議了解其中一項```
 * React
 	* 現階段最流行框架，由FB主導開發，
 	* 自由度高，有很多社群開發的對應套件
@@ -29,7 +28,7 @@
 	* 由中國社群開發，最近竄紅的框架
 	* 入門門檻低，中文文文檔相對齊全
 
-### 軟體工作相關工具
+## 軟體工作相關工具
 * [github](https://github.com/)
 	* github 為軟體工作者上傳程式碼的地方、也是履歷與程式社交的一部分
 * [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
