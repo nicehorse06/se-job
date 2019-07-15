@@ -15,9 +15,19 @@
 * [codepen](https://codepen.io/)快速的線上demo程式的網站
 * [codecademy](https://www.codecademy.com/) 很棒的線上教學網站
 
-### 前端框架
+### 前端框架與套件
+```學框架與套件的目的是為了不重複造輪子、跟社群使用相同規範、讓前端更能軟體工程化```
+* [Vanilla.js](https://medium.com/%E7%A8%8B%E5%BC%8F%E4%BA%BA%E6%9C%88%E5%88%8A/%E5%8E%9F%E7%94%9F%E7%9A%84-javascript-%E7%94%A8%E6%B3%95-vanilla-js-e53d3cdb5e8)
+	* 只要使用原生Javascript的功能，可稱作`Vanilla.js`
+	* 不建議用`jQuery`套件來取代JS原生功能，應扎實了解JS，有需要再選擇所需套件
+* React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * React
+	* 現階段最流行框架，由FB主導開發，
+	* 自由度高，有很多社群開發的對應套件
+	* 入門門檻高，需有一定JS知識
 * Vue
+	* 由中國社群開發，最近竄紅的框架
+	* 入門門檻低，中文文文檔相對齊全
 
 ### 軟體工作相關工具
 * [github](https://github.com/)
@@ -40,12 +50,28 @@
 * [前端工程師養成手冊](https://mrliao.gitbooks.io/f2ebook/content/)
 * [[前端連載] 買早餐也能了解前端 vs 後端？](https://noootown.wordpress.com/2016/03/23/frontend-backend-breakfast/)
 * [我要成為前端工程師！給 JavaScript 新手的建議與學習資源整理](https://blog.miniasp.com/post/2016/02/02/JavaScript-novice-advice-and-learning-resources)
+* [Re: [請益] 一些關於自學前端的疑問](https://www.ptt.cc/bbs/Soft_Job/M.1529980631.A.041.html)
+	* 整理一些前端入門應有的知識點
+* [2019 年成為 Web 開發人員的路線圖](https://github.com/goodjack/developer-roadmap-chinese) 
+	* 軟體技能地圖
+* [[心得] Udemy 課程心得](https://www.ptt.cc/bbs/Soft_Job/M.1562604814.A.927.html) 
+	* 網友上Udemy一些前端好課的心得
+* [[心得] 想轉職前端工程師? 幫你蒐集教學資源!](https://www.ptt.cc/bbs/Soft_Job/M.1562589512.A.CBA.html)
+
+* 開發作品集參考
+	* [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
+	* [The Star Wars API](https://swapi.co/)
+	* [Dog API](https://dog.ceo/dog-api/)
+	* 用網頁製作履歷
+	* twitch API
+	* 即時爬蟲API，如即時爬股票、匯率、天氣
 
 ## 公司應徵前端工程師的共通條件
 ### 基本條件
 * 熟悉 Javascript、HTML、CSS
 * 熟悉 HTML5、CSS3、RWD、SASS(SCSS) 前端設計技巧
 * 串接 API 以及讀、寫文件能力
+* 熟悉 npm 套件管理工具
 
 ### 進階條件
 * 熟悉 Vue / Angular / React 任一框架開發
@@ -53,7 +79,6 @@
 * 有能力撰寫簡潔且高效的JavaScript程式碼（Function Scope、ES6 module、Event Loop、Promise ）
 * 靜態網站架構經驗 CDN 運用
 * 熟悉 Webpack
-* 熟悉 npm 套件管理工具
 * 對 UI / UX 設計敏感度佳 
 * SEO配置
 * 清楚 cross browser compatibility 可能會碰到的問題 (web / mobile web)
