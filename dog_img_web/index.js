@@ -14,7 +14,7 @@ var http_dog = function (targetUrl = 'https://dog.ceo/api/breeds/image/random') 
         // 回傳的json為字串，需用JSON.parse轉換成可讀物件
         let ourData = JSON.parse(ourRequest.responseText);
         // 測試用列印資料
-        console.log('ourData的資料為:', ourData)
+        // onsole.log('ourData的資料為:', ourData)
         // 抓HTML上的img tag的src替換為別張圖
         document.querySelector('img').src = ourData.message
 
