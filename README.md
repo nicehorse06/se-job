@@ -15,11 +15,15 @@
 * [codecademy](https://www.codecademy.com/) 很棒的線上教學網站
 
 ## 前端框架與套件
-```學框架與套件的目的是為了不重複造輪子、跟社群使用相同規範、讓前端更能軟體工程化```
+
+``` 
+學框架與套件的目的是為了不重複造輪子、跟社群使用相同規範、讓前端更能軟體工程化
+React和Vue為前端框架，現代前端工程師都建議了解其中一項 
+```
+
 * [Vanilla.js](https://medium.com/%E7%A8%8B%E5%BC%8F%E4%BA%BA%E6%9C%88%E5%88%8A/%E5%8E%9F%E7%94%9F%E7%9A%84-javascript-%E7%94%A8%E6%B3%95-vanilla-js-e53d3cdb5e8)
 	* 只要使用原生Javascript的功能，可稱作`Vanilla.js`
 	* 不建議用`jQuery`套件來取代JS原生功能，應扎實了解JS，有需要再選擇所需套件
-```React和Vue為前端框架，現代前端工程師都建議了解其中一項```
 * React
 	* 現階段最流行框架，由FB主導開發，
 	* 自由度高，有很多社群開發的對應套件
@@ -43,6 +47,9 @@
 	* 開發時瀏覽器建議用Chrome，其中的測試工具也很好用
 	* [Chrome dev tools 開發者工具](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html) 
 	* [Chrome 官方文檔](https://developers.google.com/web/tools/chrome-devtools/)
+* markdown
+	* 用標記的方式快速產生網頁式的筆記
+	* 可搭配hackmd、trello做筆記
 
 ## 前端工程介紹與就職參考文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
