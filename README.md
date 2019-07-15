@@ -4,8 +4,11 @@
 * [自強學堂 HTML 中文](https://code.ziqiangxuetang.com/html/html-tutorial.html)
 * [自強學堂 CSS 中文](https://code.ziqiangxuetang.com/css/css-tutorial.html)
 * [自強學堂 Javascript](https://code.ziqiangxuetang.com/js/js-tutorial.html)
+* [廖雪峰Javascript](https://www.liaoxuefeng.com/wiki/1022910821149312)
 * [w3school 英文](https://www.w3schools.com/)
 * [MDN web docs](https://developer.mozilla.org/zh-TW/)
+* [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
+	* git 為程式版本控管工具，現代工程師都應了解此多人協作、版本控管的方式
 
 ## 前端練習與學習網站
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
@@ -35,8 +38,6 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ## 軟體工作相關工具
 * [github](https://github.com/)
 	* github 為軟體工作者上傳程式碼的地方、也是履歷與程式社交的一部分
-* [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
-	* git 為程式版本控管工具
 * [Vscode](https://code.visualstudio.com/)
 	* 前端開發很棒的編輯器，有很多線上工具可下載使用
 * [鳥哥的 Linux 私房菜](http://linux.vbird.org/) 
