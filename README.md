@@ -34,6 +34,9 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * Vue
 	* 由中國社群開發，最近竄紅的框架
 	* 入門門檻低，中文文文檔相對齊全
+* CSS框架
+	* Bootstrap
+	* [NES-style CSS Framework](https://github.com/nostalgic-css/NES.css?ref=devawesome)
 
 ## 軟體工作相關工具
 * [github](https://github.com/)
@@ -72,6 +75,16 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 用網頁製作履歷
 * twitch API
 * 即時爬蟲API，如即時爬股票、匯率、天氣
+* todo list，參考自前端工程師養成手冊
+	* 增加「編輯」的功能，並顯示目前的當下時間
+	* 增加代辦類別功能，例如「全部顯示」、「已處理」、「待處理」
+	* 增加 localstorage 功能，讓代辦事項紀錄起來，打開瀏覽器也看得到
+	* 研究 Firebase database 資料庫功能，用 JS 去設計資料庫邏輯
+	* 瞭解 FB API 邏輯，整合 Firebase Auth 功能，設計一個能夠讓綁定會員的 todolist 服務
+	* 將程式上傳到 Heroku 主機
+	* 瞭解 Chrome 插件設計邏輯，並讓 插件服務與網頁版能同時整合
+	* 將程式整到 Electron，設計 Win、Mac 雙平台 APP
+	* 介接第三方金流，讓服務能夠進行收款
 
 ## 公司應徵前端工程師的共通條件
 ### 基本條件
