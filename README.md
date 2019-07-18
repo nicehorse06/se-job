@@ -7,7 +7,8 @@
 * [廖雪峰Javascript](https://www.liaoxuefeng.com/wiki/1022910821149312)
 * [w3school 英文](https://www.w3schools.com/)
 * [MDN web docs](https://developer.mozilla.org/zh-TW/)
-* [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
+* git：為程式版本控管工具，現代工程師都應了解此多人協作，版本控管的方式
+	* [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 	* git 為程式版本控管工具，現代工程師都應了解此多人協作、版本控管的方式
 
 ## 前端練習與學習網站
