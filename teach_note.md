@@ -16,3 +16,9 @@
 	* cv.html的樣式更改
 	* HTML、CSS、JS基礎知識補完
 	* leetcode刷題
+
+## 階段二
+* 基本git功能
+* 能使用github page產生自己的網頁
+* 更多leetcode題目
+* 使用表單與按鈕改變畫面狀態
