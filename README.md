@@ -1,14 +1,19 @@
 # frontend-practice-course
 
 ## 基礎前端文檔學習資源
-* [自強學堂 HTML 中文](https://code.ziqiangxuetang.com/html/html-tutorial.html)
-* [自強學堂 CSS 中文](https://code.ziqiangxuetang.com/css/css-tutorial.html)
-* [自強學堂 Javascript](https://code.ziqiangxuetang.com/js/js-tutorial.html)
-* [廖雪峰Javascript](https://www.liaoxuefeng.com/wiki/1022910821149312)
+* 自強學堂，一個簡體中文的網頁應用程式學習網站
+	* [HTML](https://code.ziqiangxuetang.com/html/html-tutorial.html)
+	* [CSS](https://code.ziqiangxuetang.com/css/css-tutorial.html)
+	* [Javascript](https://code.ziqiangxuetang.com/js/js-tutorial.html)
+* [廖雪峰的Javascript教程](https://www.liaoxuefeng.com/wiki/1022910821149312)
 * [w3school 英文](https://www.w3schools.com/)
+	* 好入門的英文文檔
 * [MDN web docs](https://developer.mozilla.org/zh-TW/)
+	* 具有權威性的英文前端文件網站
+* [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
+	* 可以跟著影片一起學習HTML、CSS、JS
 * git：為程式版本控管工具，現代工程師都應了解此多人協作，版本控管的方式
-	* [廖雪峰Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
+	* [廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 	* [為你自己學 Git](https://gitbook.tw/)
 
 ## 前端練習與學習網站
