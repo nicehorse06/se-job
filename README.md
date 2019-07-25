@@ -15,6 +15,7 @@
 * git：為程式版本控管工具，現代工程師都應了解此多人協作，版本控管的方式
 	* [廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 	* [為你自己學 Git](https://gitbook.tw/)
+	* [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
 
 ## 前端練習與學習網站
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
