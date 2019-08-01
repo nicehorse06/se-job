@@ -5,6 +5,8 @@
 * 安裝與學習`git`、申辦`github`帳號
 * 學習HTML、CSS、Javascript知識
 * 查看`前端工程師養成手冊`、`五個月成為 JavaScript 工程師的完整攻略`文章
+* 學習網頁知識並用`github page`展現你的網頁，如[範例](https://nicehorse06.github.io/frontend-practice-course/)
+* 面試
 
 ## 基礎前端文檔學習資源
 * 自強學堂，一個簡體中文的網頁應用程式學習網站
@@ -85,7 +87,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
 * [The Star Wars API](https://swapi.co/)
 * [Dog API](https://dog.ceo/dog-api/)
-* 用網頁製作履歷
+* 用網頁製作履歷如[範例](https://nicehorse06.github.io/frontend-practice-course/cv)，或是用markdown製作也可以
 * twitch API
 * 即時爬蟲API，如即時爬股票、匯率、天氣
 * 前端圖片尺寸轉換、大小寫轉換、Unicode轉換工具

@@ -1,5 +1,5 @@
 # 網站接案、自由工作者筆記
-`記錄自 [如何成為一個網站接案高手 Taker Wu](https://www.facebook.com/141247613278573/videos/254541315282535/)`
+記錄自 [如何成為一個網站接案高手 Taker Wu](https://www.facebook.com/141247613278573/videos/254541315282535/)
 
 ## 技能要練熟
 * HTML CSS JS 後端語言 RWD到平板、手機
