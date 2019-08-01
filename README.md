@@ -1,5 +1,11 @@
 # frontend-practice-course
 
+## 學習流程(底下都有資源連結)
+* 下載`vscode`
+* 安裝與學習`git`、申辦`github`帳號
+* 學習HTML、CSS、Javascript知識
+* 查看`前端工程師養成手冊`、`五個月成為 JavaScript 工程師的完整攻略`文章
+
 ## 基礎前端文檔學習資源
 * 自強學堂，一個簡體中文的網頁應用程式學習網站
 	* [HTML](https://code.ziqiangxuetang.com/html/html-tutorial.html)
