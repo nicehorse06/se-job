@@ -9,7 +9,6 @@
 4. 繼續第二步
 
 ## 產生`.git`
-
 * git init
 	* 功能為新建新的`.git`
 	* 使用時機為要自行建立新的git時
@@ -51,7 +50,6 @@
 	* 功能為上傳本地端的`commit`
 	* 使用時機為上傳本地端`commit`，如果多人協作需要用`git pull`確認有無他人的`commit`才能上傳
 
-
 ## 查看git狀態
 * git log
 	* 功能為查看歷史`commit`狀態
@@ -71,8 +69,9 @@
 ## 一些進階功能概述
 * branch
 	* git的一種狀態，目的為對應到不同的場景會需要到不同的`commit`記錄
-	* 比如最穩定的產品其branch上的`commit`皆要非常穩定
-	* 開發中的產品就會基於穩定的`commit`加上一些開發中額外功能`commit`
+		* 比如最穩定的產品其branch上的`commit`皆要非常穩定
+		* 開發中的產品就會基於穩定的`commit`加上一些開發中額外功能`commit`
+	* 需學習一些從其他branch合併其`commit`的指令
 	* 有更多博大精深的指令在此
 * git checkout
 	* 可把目前git狀態切換到別的branch
