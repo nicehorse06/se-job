@@ -31,6 +31,8 @@
 很棒的從初學的進階的範例、使用到twich API做一個直撥網頁
 * [codepen](https://codepen.io/)快速的線上demo程式的網站
 * [codecademy](https://www.codecademy.com/) 很棒的線上教學網站
+* youtube或大陸影片網站(如bilibili)有很多不錯的教學影片，只要把關鍵字丟進去即可
+	* [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
 
 ## 前端框架與套件
 
@@ -94,6 +96,9 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 如前端圖片尺寸轉換、英文大小寫轉換、中文簡繁轉換、Unicode轉換工具、字數計算&文字計數、重複行數轉換
 	* 參考[ToolsKK 線上工具 網路資源 免費使用](https://toolskk.com/)
 	* 參考[ifreesite](https://www.ifreesite.com/)
+* 遊戲開發，HTML5
+	* [MDN Web 遊戲開發介紹](https://developer.mozilla.org/zh-TW/docs/Games/Introduction)
+	* [phaser引擎筆記](https://github.com/nicehorse06/phaser-demo) 一個很強大的遊戲框架
 * todo list，參考自前端工程師養成手冊
 	* 增加「編輯」的功能，並顯示目前的當下時間
 	* 增加代辦類別功能，例如「全部顯示」、「已處理」、「待處理」
