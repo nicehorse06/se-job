@@ -85,6 +85,16 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [[心得] Udemy 課程心得](https://www.ptt.cc/bbs/Soft_Job/M.1562604814.A.927.html) 
 	* 網友上Udemy一些前端好課的心得
 * [[心得] 想轉職前端工程師? 幫你蒐集教學資源!](https://www.ptt.cc/bbs/Soft_Job/M.1562589512.A.CBA.html)
+* [Re: [請益] 一些關於自學前端的疑問](https://www.ptt.cc/bbs/Soft_Job/M.1529980631.A.041.html)
+
+## 工程師應徵工作，履歷、作品集參考
+* 履歷中盡量不要提供與學經歷、工作無關的個人資訊
+* 聯絡方式和工作相關技能最為重要
+* 可用markdown產出履歷的PDF檔案
+* [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
+* [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
+* [Leon Kuo'sWorks Collection](https://iamkyc.github.io/Work-collection/)
+* [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
 
 ## 開發作品集參考靈感
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
