@@ -100,6 +100,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 遊戲開發，HTML5
 	* [MDN Web 遊戲開發介紹](https://developer.mozilla.org/zh-TW/docs/Games/Introduction)
 	* [phaser引擎筆記](https://github.com/nicehorse06/phaser-demo) 一個很強大的遊戲框架
+* [寫給純前端，讓 Google Sheets 當你的後端完成寫入功能](https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013)
 * todo list，參考自前端工程師養成手冊
 	* 增加「編輯」的功能，並顯示目前的當下時間
 	* 增加代辦類別功能，例如「全部顯示」、「已處理」、「待處理」
