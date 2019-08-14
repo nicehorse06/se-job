@@ -100,7 +100,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
 * [The Star Wars API](https://swapi.co/)
 * [Dog API](https://dog.ceo/dog-api/)
-* 用網頁製作履歷如[範例](https://nicehorse06.github.io/frontend-practice-course/cv)，或是用markdown製作也可以
+* 用網頁製作履歷如[範例](https://nicehorse06.github.io/frontend-practice-course/)，或是用markdown製作也可以
 * twitch API
 * 即時爬蟲API，如即時爬股票、匯率、天氣
 * 線上小工具
