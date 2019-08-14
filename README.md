@@ -122,6 +122,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 瞭解 Chrome 插件設計邏輯，並讓 插件服務與網頁版能同時整合
 	* 將程式整到 Electron，設計 Win、Mac 雙平台 APP
 	* 介接第三方金流，讓服務能夠進行收款
+* [軟體需求與功能規格書-以線上糕餅網站為例](https://masonwu1762.gitbooks.io/bakerystorespec/content/)
 
 ## 公司應徵前端工程師的共通條件
 ### 基本條件
