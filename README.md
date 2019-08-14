@@ -95,6 +95,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
 * [Leon Kuo'sWorks Collection](https://iamkyc.github.io/Work-collection/)
 * [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
+* [前端工程師 面試攻略分享 by 姚偉揚](https://www.facebook.com/hilivecode/videos/227151178021549/)
 
 ## 開發作品集參考靈感
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
@@ -126,6 +127,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ### 基本條件
 * 熟悉 Javascript、HTML、CSS
 * 熟悉 HTML5、CSS3、RWD、SASS(SCSS) 前端設計技巧
+* 了解 git
 * 串接 API 以及讀、寫文件能力
 * 熟悉 npm 套件管理工具
 
