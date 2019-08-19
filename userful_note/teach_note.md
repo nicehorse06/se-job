@@ -18,7 +18,11 @@
 	* leetcode刷題
 
 ## 階段二
-* 基本git功能
+* 基本git功，已經可以自主上傳，文件參閱git.md
 * 能使用github page產生自己的網頁
 * 更多leetcode題目
+* 開始用[從新手到中手：前端工程加強班](https://github.com/aszx87410/frontend-intermediate-course)實作自己的作品
+
+## 階段三
+* node.js和npm的初步了解與使用
 * 使用表單與按鈕改變畫面狀態
