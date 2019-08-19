@@ -1,4 +1,4 @@
-# frontend-practice-course
+# 網頁前端程式入門、工作文章整理
 
 ## 學習流程(底下都有資源連結)
 * 下載`vscode`
@@ -34,6 +34,7 @@
 * [codecademy](https://www.codecademy.com/) 很棒的線上教學網站
 * youtube或大陸影片網站(如bilibili)有很多不錯的教學影片，只要把關鍵字丟進去即可
 	* [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
+* [學習 CSS 版面配置](http://zh-tw.learnlayout.com/)
 
 ## 前端框架與套件
 

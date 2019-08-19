@@ -1,6 +1,16 @@
 # Git基礎中的基礎指令
 
+## 參考資料
+* [廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
+* [為你自己學 Git](https://gitbook.tw/)
+* [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials 
+* [什麼是 Git？為什麼要學習它？](https://gitbook.tw/chapters/introduction/what-is-git.html)
+
+## 什麼是`Git`
+* 為一種分散式的版本控制系統
+* 可記錄某資料夾檔案的所有改變
 * git的原理為在目標資料夾產生一個隱藏檔案`.git`，監視並記錄該資料夾的改變和紀錄
+* 可用git把程式上傳到git server，通常是`github`
 
 ## 執行步驟
 1. 產生`.git`
@@ -76,8 +86,3 @@
 * git checkout
 	* 可把目前git狀態切換到別的branch
 	* 可以除所有未被暫存跟commit記錄的修改，用法為`git checkout [檔案名稱]`
-
-## 參考資料
-* [廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
-* [為你自己學 Git](https://gitbook.tw/)
-* [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials 
