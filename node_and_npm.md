@@ -26,14 +26,14 @@
 * 如果版本太舊，可執行`npm install -g npm`更新版本
 
 ## 初始化
-* git init
+* `npm init`
 	* 使用時機為要建立新的node專案時
 	* 執行後，會詢問專案的基本資料，並產生`package.json`記錄此訊息
 	* `package.json`除了基本訊息，還會記錄此專案所用到的套件，和特殊命令設定
-* npm install
+* `npm install`
 	* 語法為後面不帶參數，使用時機為拿到舊有的專案
 	* 依據該專案的`package.json`安裝所需套件到`node_modules/`
-	* 如git clone新專案時，不會有`node_modules/`，需要此命令安裝套件
+	* 如git clone新專案時，因為.gitignore ,不會有 `node_modules/`，需要此命令安裝套件
 
 ## 套件安裝(npm install)
 * 執行後會從`http://npmjs.org`下載套件
@@ -42,6 +42,20 @@
 	* 也可以從github下載如`npm install [github地址]`
 * 在JS中通過`require()`來引入套件
 	* 如`var express = require('express');`
+	* 範例如以下node.js檔案
+```javascript
+var express = require('express');
+var app = express();
+
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
+
+```
 
 ### 本地安裝
 * 套件會儲存在該專案的`node_modules/`
