@@ -10,6 +10,7 @@
 ## character
 * 字元、字符
 * 如`var char = "a"`
+* js裡字元等同於長度一的字串
 
 ## String
 * 字串、字符串
@@ -20,6 +21,14 @@
 * `var numberList = [1,2,3,4,5]`
 
 ## Object
+* 物件
+* 一個key對應到一個value
+```json
+{
+	"Taiwan": Taipei,
+	"Japan": Tokyo
+}
+```
 
 ## null
 
