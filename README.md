@@ -35,6 +35,7 @@
 * youtube或大陸影片網站(如bilibili)有很多不錯的教學影片，只要把關鍵字丟進去即可
 	* [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
 * [學習 CSS 版面配置](http://zh-tw.learnlayout.com/)
+* [Can I use...](https://caniuse.com) 用來查看各個瀏覽器的語法支援
 
 ## 前端框架與套件
 
