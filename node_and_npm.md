@@ -83,7 +83,7 @@ app.listen(3000, function () {
 	* 最新版本似乎預設為命令皆有`--save`
 * `npm install`預設會把套件寫到`dependencies`中
 	* 代表此套件是此專案的相依套件，專案最後發布後要有此套件才會運行
-* `npm install [套件名稱] -dev`會把此專案寫到`devDependencies`中
+* `npm install [套件名稱] --save-dev`會把此專案寫到`devDependencies`中
 	* 代表此套件只會在開發時需要，發布專案時用不到此套件
 	* 在發布前的套件安裝可忽略此欄位的套件
 * `npm run [腳本名稱]`
