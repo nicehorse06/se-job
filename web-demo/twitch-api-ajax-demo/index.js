@@ -1,10 +1,11 @@
-//當前頁數
+//記錄當前頁數
 let currentPage = 0;
 //確保每次ajax玩才會再發一次
 let isLoading = false;
 
+// window.onload為如果HTML的資源全都載入後觸發
 window.onload = () => {
-  // 首次載入前20項
+  // 首次載入前20項，後續的畫面移動會再確認是否需要載入額外項目
   appendData();
 
   // 滑動時執行該函式
@@ -31,18 +32,18 @@ window.onload = () => {
   }
 }
 
-// 發出 ajax
+// 對twitch發出 ajax，且遊戲指定LOL
 let sendHttpRequest = (callback) => {
   const client_id = '80stfocyvne9dzzxyvz4j4x9yl75bd';
   const game = 'League%20of%20Legends';
   let basetUrl = 'https://api.twitch.tv/kraken/streams/';
   let urlPara = {
-    'game' : game,
-    'client_id' : client_id,
-    'offset' : currentPage,
+    'game': game,
+    'client_id': client_id,
+    'offset': currentPage,
   }
   let targetUrl = url_maker(basetUrl, urlPara);
-  
+
   let request = new XMLHttpRequest();
   isLoading = true;
   request.open("GET", targetUrl);
@@ -56,14 +57,17 @@ let sendHttpRequest = (callback) => {
 // 用來結合 HttpRequest 和 插入 HTML 內容的函式
 let appendData = () => {
   sendHttpRequest((err, data) => {
-      const { streams } = data;
-      const row = document.querySelector('.row');
-      for (let stream of streams) {
-        //插入element string到row的最後一個子項
-        row.insertAdjacentHTML('beforeend', getColumn(stream));
-      }
-      currentPage += 20;
-      isLoading = false;
+    // data 中需要的key有preview、channel
+    const { streams } = data;
+    const row = document.querySelector('.row');
+    // 抽取streams中的每一項為stream做處理
+    for (let stream of streams) {
+      //插入element string到row的最後一個子項，
+      // beforeend是insertAdjacentHTML的特殊參數，表加在後面，insertAdjacentHTML第二個參數為要加入的項目
+      row.insertAdjacentHTML('beforeend', getColumn(stream));
+    }
+    currentPage += 20;
+    isLoading = false;
   });
 }
 
@@ -88,15 +92,16 @@ let getColumn = (stream) => {
     `
 }
 
+// 依據參數產生對應url
 let url_maker = (url, para) => {
   let first_item = true;
-  for(let key of Object.keys(para)){
+  for (let key of Object.keys(para)) {
     let prefix = '&'
-    if(first_item){
+    if (first_item) {
       prefix = '?'
       first_item = false
     }
-    url += `${prefix}${key}=${para[key]}` 
+    url += `${prefix}${key}=${para[key]}`
   }
   return url
 }

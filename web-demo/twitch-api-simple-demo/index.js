@@ -9,8 +9,12 @@ re.onload = () => {
 };
 re.send();
 
+// 偵測存在的col數量再做渲染
+let col_num = document.querySelector('.row').children.length
+
 let render_page = (data) => {
-  for (let i = 0; i < 9; i++) {
+  //開發方便先用block-id表示每個col
+  for (let i = 0; i < col_num; i++) {
     document.querySelector(`#block-${i + 1} .display_name`).innerText =
       data.streams[i].channel.display_name;
     document.querySelector(`#block-${i + 1} .streamer-name`).innerText =
