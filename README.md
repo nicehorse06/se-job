@@ -74,6 +74,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * markdown
 	* 用標記的方式快速產生網頁式的筆記
 	* 可搭配hackmd、trello做筆記
+	* [Markdown文件](https://markdown.tw/) 基本的markdown文檔
 
 ## 前端工程介紹、就職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
@@ -88,6 +89,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 網友上Udemy一些前端好課的心得
 * [[心得] 想轉職前端工程師? 幫你蒐集教學資源!](https://www.ptt.cc/bbs/Soft_Job/M.1562589512.A.CBA.html)
 * [Re: [請益] 一些關於自學前端的疑問](https://www.ptt.cc/bbs/Soft_Job/M.1529980631.A.041.html)
+* [紮實的網頁前端學習路線與資源推薦](https://medium.com/@hulitw/front-end-learning-path-55201571ecfe)
 
 ## 工程師應徵工作，履歷、作品集參考
 * 履歷中盡量不要提供與學經歷、工作無關的個人資訊
