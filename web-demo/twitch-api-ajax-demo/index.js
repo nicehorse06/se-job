@@ -1,3 +1,5 @@
+// todo 目前載入會有bug重複項，待修復
+
 //記錄當前頁數
 let currentPage = 0;
 //確保每次ajax玩才會再發一次
