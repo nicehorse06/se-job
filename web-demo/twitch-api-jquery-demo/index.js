@@ -44,14 +44,15 @@ let sendHttpRequest = (callback) => {
   }
   let targetUrl = url_maker(basetUrl, urlPara);
 
-  let request = new XMLHttpRequest();
-  isLoading = true;
-  request.open("GET", targetUrl);
-  request.onload = () => {
-    data = JSON.parse(request.responseText);
-    callback(null, data);
-  };
-  request.send();
+  $.ajax({
+    url: targetUrl,
+    dataType: 'json',
+    method: 'get',
+    timeout: 10000,
+    success: function (data) {
+      callback(null, data);
+    }
+  });
 };
 
 // 用來結合 HttpRequest 和 插入 HTML 內容的函式
@@ -59,12 +60,11 @@ let appendData = () => {
   sendHttpRequest((err, data) => {
     // data 中需要的key有preview、channel
     const { streams } = data;
-    const row = document.querySelector('.row');
+    const row = $(`.row`);
     // 抽取streams中的每一項為stream做處理
     for (let stream of streams) {
-      //插入element string到row的最後一個子項，
-      // beforeend是insertAdjacentHTML的特殊參數，表加在後面，insertAdjacentHTML第二個參數為要加入的項目
-      row.insertAdjacentHTML('beforeend', getColumn(stream));
+      //插入element string到row的最後一個子項
+      row.append(getColumn(stream))
     }
     currentPage += 20;
     isLoading = false;

@@ -1,6 +1,6 @@
-# [demo url](https://nicehorse06.github.io/frontend-practice-course/web-demo/twitch-api-simple-demo/)
+# [demo url](https://nicehorse06.github.io/frontend-practice-course/web-demo/twitch-api-jqery-demo/)
 
-`簡易的取代html的假資料帶入api拿到的真資料`
+`用jQuery動態載入twitch資料`
 
 * [從新手到中手：前端工程加強班](https://github.com/aszx87410/frontend-intermediate-course)
 * [twitch api](https://dev.twitch.tv/docs/v5/reference/streams/)
