@@ -116,17 +116,11 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* [MDN Web 遊戲開發介紹](https://developer.mozilla.org/zh-TW/docs/Games/Introduction)
 	* [phaser引擎筆記](https://github.com/nicehorse06/phaser-demo) 一個很強大的遊戲框架
 * [寫給純前端，讓 Google Sheets 當你的後端完成寫入功能](https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013)
-* todo list，參考自前端工程師養成手冊
-	* 增加「編輯」的功能，並顯示目前的當下時間
-	* 增加代辦類別功能，例如「全部顯示」、「已處理」、「待處理」
-	* 增加 localstorage 功能，讓代辦事項紀錄起來，打開瀏覽器也看得到
-	* 研究 Firebase database 資料庫功能，用 JS 去設計資料庫邏輯
-	* 瞭解 FB API 邏輯，整合 Firebase Auth 功能，設計一個能夠讓綁定會員的 todolist 服務
-	* 將程式上傳到 Heroku 主機
-	* 瞭解 Chrome 插件設計邏輯，並讓 插件服務與網頁版能同時整合
-	* 將程式整到 Electron，設計 Win、Mac 雙平台 APP
-	* 介接第三方金流，讓服務能夠進行收款
+* todo list，參考[工程師是否有年紀背景限制？](https://ithelp.ithome.com.tw/articles/10191952)
 * [軟體需求與功能規格書-以線上糕餅網站為例](https://masonwu1762.gitbooks.io/bakerystorespec/content/)
+* 活動頁面
+	* [瓜吉競選網站](https://froggychiu.com/)
+	* [一個野餐網站](https://www.vogue.com.tw/voguepicnic/)
 
 ## 公司應徵前端工程師的共通條件
 ### 基本條件
