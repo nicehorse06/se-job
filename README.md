@@ -24,6 +24,7 @@
 	* [廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 	* [為你自己學 Git](https://gitbook.tw/)
 	* [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
+	* [Learn-Git-in-30-days](https://github.com/doggy8088/Learn-Git-in-30-days) Will 保哥 【30 天精通 Git 版本控管】
 	* [Git基礎中的基礎指令](https://github.com/nicehorse06/frontend-practice-course/blob/master/git.md) 我的簡易git心得
 
 ## 前端練習與學習網站
