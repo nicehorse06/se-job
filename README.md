@@ -94,14 +94,18 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 
 ## 工程師應徵工作，履歷、作品集參考
 * 履歷中盡量不要提供與學經歷、工作無關的個人資訊
+	* 可不要放相片，照片會涉及年齡、性別、種族歧視問題
+	* 不用寫性別，除非你是女生
 * 聯絡方式和工作相關技能最為重要
-* 可用markdown產出履歷的PDF檔案
+* 用PDF的一頁式履歷，排版要乾淨，可用markdown產出履歷
+* 在以前的專案中展現`你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？`
 * [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
 * [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
 * [Leon Kuo'sWorks Collection](https://iamkyc.github.io/Work-collection/)
 * [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
 * [前端工程師 面試攻略分享 by 姚偉揚](https://www.facebook.com/hilivecode/videos/227151178021549/)
-* [前端工程師如何準備作品集 7種累積作品的方法](https://tw.alphacamp.co/blog/front-end-engineer-portfolio-web-developer-job)
+* [前端工程師如何準備作品集 7種累積作品的方法](https://tw.alphacamp.co/blog/front-end-engineer-portfolio-web-developer-job)F
+* [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
 
 ## 開發作品集參考靈感
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
