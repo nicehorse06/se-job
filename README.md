@@ -93,11 +93,12 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [紮實的網頁前端學習路線與資源推薦](https://medium.com/@hulitw/front-end-learning-path-55201571ecfe)
 
 ## 工程師應徵工作，履歷、作品集參考
+* 用PDF的一頁式履歷，排版要乾淨，可用markdown產出履歷
+	* 一頁式簡易履歷稱作resume，多頁詳細履歷稱作CV，台灣大部分工作用resume即可
 * 履歷中盡量不要提供與學經歷、工作無關的個人資訊
 	* 可不要放相片，照片會涉及年齡、性別、種族歧視問題
 	* 不用寫性別，除非你是女生
 * 聯絡方式和工作相關技能最為重要
-* 用PDF的一頁式履歷，排版要乾淨，可用markdown產出履歷
 * 在以前的專案中展現`你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？`
 * [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
 * [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
