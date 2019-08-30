@@ -123,6 +123,10 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 活動頁面
 	* [瓜吉競選網站](https://froggychiu.com/)
 	* [一個野餐網站](https://www.vogue.com.tw/voguepicnic/)
+* 平常的公文書或表格也是很好練習排版的對象
+	* [替代役公文書](https://i.imgur.com/YrtdZYu.jpg)
+	* [複雜的工作申請表](https://i.imgur.com/KHJVqR3.png)
+	* [出貨單](https://i.imgur.com/AM3nYmG.jpg)
 
 ## 公司應徵前端工程師的共通條件
 ### 基本條件
