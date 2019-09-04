@@ -25,7 +25,7 @@
 	* [為你自己學 Git](https://gitbook.tw/)
 	* [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
 	* [Learn-Git-in-30-days](https://github.com/doggy8088/Learn-Git-in-30-days) Will 保哥 【30 天精通 Git 版本控管】
-	* [Git基礎中的基礎指令](https://github.com/nicehorse06/frontend-practice-course/blob/master/git.md) 我的簡易git心得
+	* [Git基礎中的基礎指令](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/git.md) 嘿嘿馬的簡易git心得
 
 ## 前端練習與學習網站
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
@@ -76,6 +76,12 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 用標記的方式快速產生網頁式的筆記
 	* 可搭配hackmd、trello做筆記
 	* [Markdown文件](https://markdown.tw/) 基本的markdown文檔
+* node.js
+	* 一個以Javascript在後端運行的框架
+	* 其提供的npm工具可管理下載CSS和JS的套件
+	* [嘿嘿馬的簡易npm心得](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/node_and_npm.md)
+* `英文`，非常重要，請弄好英文
+	* [嘿嘿馬的工程師英文精進筆記](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/engineering_english.md)
 
 ## 前端工程介紹、就職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
@@ -138,7 +144,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 熟悉 Javascript、HTML、CSS
 * 熟悉 HTML5、CSS3、RWD、SASS(SCSS) 前端設計技巧
 * 了解 git
-* 串接 API 以及讀、寫文件能力
+* 串接 API 到網頁及其讀、寫文件能力
 * 熟悉 npm 套件管理工具
 
 ### 進階條件
@@ -152,3 +158,6 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 清楚 cross browser compatibility 可能會碰到的問題 (web / mobile web)
 * 瀏覽器效能優化
 * 瞭解 GraphQL
+* 做過第三方登入（Facebook or LINE or Google)
+* 串接過金流支付API
+* Websocket
