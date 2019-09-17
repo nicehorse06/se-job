@@ -3,6 +3,8 @@ let targetUrl =
   `https://api.twitch.tv/kraken/streams/?game=League%20of%20Legends&client_id=${client_id}`;
 let re = new XMLHttpRequest();
 re.open("GET", targetUrl);
+// v5 API的用法要在HTTP Header上加上 Accept:application/vnd.twitchtv.v5+json
+re.setRequestHeader('Accept', 'application/vnd.twitchtv.v5+json')
 re.onload = () => {
   let data = JSON.parse(re.responseText);
   render_page(data);

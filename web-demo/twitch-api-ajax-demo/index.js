@@ -47,6 +47,8 @@ let sendHttpRequest = (callback) => {
   let request = new XMLHttpRequest();
   isLoading = true;
   request.open("GET", targetUrl);
+  // v5 API的用法要在HTTP Header上加上 Accept:application/vnd.twitchtv.v5+json
+  request.setRequestHeader('Accept', 'application/vnd.twitchtv.v5+json')
   request.onload = () => {
     data = JSON.parse(request.responseText);
     callback(null, data);

@@ -44,10 +44,14 @@ let sendHttpRequest = (callback) => {
   }
   let targetUrl = url_maker(basetUrl, urlPara);
 
+  // v5 API的用法要在HTTP Header上加上 Accept:application/vnd.twitchtv.v5+json
   $.ajax({
     url: targetUrl,
     dataType: 'json',
     method: 'get',
+    headers: {
+      "Accept":"application/vnd.twitchtv.v5+json",
+    },
     timeout: 10000,
     success: function (data) {
       callback(null, data);
