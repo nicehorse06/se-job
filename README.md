@@ -25,7 +25,7 @@
 	* [為你自己學 Git](https://gitbook.tw/)
 	* [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
 	* [Learn-Git-in-30-days](https://github.com/doggy8088/Learn-Git-in-30-days) Will 保哥 【30 天精通 Git 版本控管】
-	* [Git基礎中的基礎指令](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/git.md) 嘿嘿馬的簡易git心得
+	* [Git基礎中的基礎指令](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/git.md) 的簡易git心得
 
 ## 前端練習與學習網站
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
@@ -79,9 +79,9 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * node.js
 	* 一個以Javascript在後端運行的框架
 	* 其提供的npm工具可管理下載CSS和JS的套件
-	* [嘿嘿馬的簡易npm心得](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/node_and_npm.md)
+	* [Jimmy的簡易npm心得](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/node_and_npm.md)
 * `英文`，非常重要，請弄好英文
-	* [嘿嘿馬的工程師英文精進筆記](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/engineering_english.md)
+	* [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/engineering_english.md)
 
 ## 前端工程介紹、就職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
@@ -113,6 +113,8 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [前端工程師 面試攻略分享 by 姚偉揚](https://www.facebook.com/hilivecode/videos/227151178021549/)
 * [前端工程師如何準備作品集 7種累積作品的方法](https://tw.alphacamp.co/blog/front-end-engineer-portfolio-web-developer-job)F
 * [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
+* [什麽是愛情？怎麽談戀愛，才能有效的找到自己的真命天子？李永樂老師講愛情數學](https://www.youtube.com/watch?v=pelPCK22W7k)
+	* 愛情和工作亦如是，挑選伴侶和職業的文章可以互相參考，建議觀看 by Jimmy
 
 ## 開發作品集參考靈感
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
