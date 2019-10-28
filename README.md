@@ -38,6 +38,7 @@
 * [學習 CSS 版面配置](http://zh-tw.learnlayout.com/)
 * [Can I use...](https://caniuse.com) 用來查看各個瀏覽器的語法支援
 * [金魚都能懂的這個網頁畫面怎麼切](https://ithelp.ithome.com.tw/users/20112550/ironman/2623)
+* [[熱門面試題] 從輸入網址列到渲染畫面，過程經歷了什麼事？](https://w3c.hexschool.com/%E5%AE%A2%E5%BA%A7%E6%8A%95%E7%A8%BF/how-web-applications-work-8d691e4f)
 
 ## 前端框架與套件
 
