@@ -32,6 +32,8 @@
 * [學習 CSS 版面配置](http://zh-tw.learnlayout.com/)
 * [Can I use...](https://caniuse.com) 用來查看各個瀏覽器的語法支援
 * [codepen](https://codepen.io/)快速的線上demo程式的網站
+* [金魚都能懂的這個網頁畫面怎麼切](https://ithelp.ithome.com.tw/users/20112550/ironman/2623)
+* [[熱門面試題] 從輸入網址列到渲染畫面，過程經歷了什麼事？](https://w3c.hexschool.com/%E5%AE%A2%E5%BA%A7%E6%8A%95%E7%A8%BF/how-web-applications-work-8d691e4f)
 
 ## 前端學習與作品產出資源
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
@@ -44,6 +46,7 @@
 	* 可以跟著影片一起學習HTML、CSS、JS
 * Udemy
 * 六角學院
+* [React Project Netflix Website Clone](https://www.youtube.com/playlist?list=PL6jnTQwFvrdbccPErnd5AsCY3dkYUk3e5&app=desktop)
 
 ## 前端框架與套件
 
@@ -86,9 +89,9 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * node.js
 	* 一個以Javascript在後端運行的框架
 	* 其提供的npm工具可管理下載CSS和JS的套件
-	* [嘿嘿馬的簡易npm心得](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/node_and_npm.md)
+	* [Jimmy的簡易npm心得](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/node_and_npm.md)
 * `英文`，非常重要，請弄好英文
-	* [嘿嘿馬的工程師英文精進筆記](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/engineering_english.md)
+	* [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/engineering_english.md)
 
 ## 前端工程介紹、就職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
@@ -113,13 +116,17 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 不用寫性別，除非你是女生
 * 聯絡方式和工作相關技能最為重要
 * 在以前的專案中展現`你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？`
-* [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
-* [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
 * [Leon Kuo'sWorks Collection](https://iamkyc.github.io/Work-collection/)
 * [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
 * [前端工程師 面試攻略分享 by 姚偉揚](https://www.facebook.com/hilivecode/videos/227151178021549/)
 * [前端工程師如何準備作品集 7種累積作品的方法](https://tw.alphacamp.co/blog/front-end-engineer-portfolio-web-developer-job)F
 * [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
+	* 你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？
+* [什麽是愛情？怎麽談戀愛，才能有效的找到自己的真命天子？李永樂老師講愛情數學](https://www.youtube.com/watch?v=pelPCK22W7k)
+	* 愛情和工作亦如是，挑選伴侶和職業的文章可以互相參考，建議觀看 by Jimmy
+### 英文履歷
+* [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
+* [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
 
 ## 開發作品集參考靈感
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
