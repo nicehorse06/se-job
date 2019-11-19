@@ -1,23 +1,30 @@
 # 網頁前端程式入門、工作文章整理
 
-## 學習流程(底下都有資源連結)
-* 下載`vscode`
-* 安裝與學習`git`、申辦`github`帳號
-* 學習HTML、CSS、Javascript知識
-* 查看`前端工程師養成手冊`、`五個月成為 JavaScript 工程師的完整攻略`文章
+## 學習與面試流程(底下都有資源連結)
+* 下載`vscode`，當作程式編輯器，或是使用codepen可以線上練習前端程式
+* 安裝與學習`git`、申辦`github`帳號，參閱[連結](https://github.com/nicehorse06/frontend-practice-course#%E5%9F%BA%E7%A4%8E%E5%89%8D%E7%AB%AF%E5%AD%B8%E7%BF%92%E6%96%87%E6%AA%94)
+* 學習HTML、CSS、Javascript知識，參閱[連結](https://github.com/nicehorse06/frontend-practice-course#%E5%9F%BA%E7%A4%8E%E5%89%8D%E7%AB%AF%E5%AD%B8%E7%BF%92%E6%96%87%E6%AA%94)
+* 查看`前端工程師養成手冊`、`五個月成為 JavaScript 工程師的完整攻略`文章，參閱[連結](https://github.com/nicehorse06/frontend-practice-course#%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E4%BB%8B%E7%B4%B9%E5%B0%B1%E8%81%B7%E5%BF%83%E5%BE%97%E6%96%87%E7%AB%A0)
 * 學習網頁知識並用`github page`展現你的網頁，如[範例](https://nicehorse06.github.io/frontend-practice-course/)
 * 面試前端工程師
 	* 面試條件參閱[公司應徵前端工程師的共通條件](https://github.com/nicehorse06/frontend-practice-course#%E5%85%AC%E5%8F%B8%E6%87%89%E5%BE%B5%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E5%85%B1%E9%80%9A%E6%A2%9D%E4%BB%B6)
-	* 去104搜尋前端工程師查看需要的條件
+	* 去104搜尋前端工程師查看需要的條件，並以心儀的工作為目標準備
 	* 初學者可以以只需要HTML、CSS、Javascript的工作為目標
 		* 也就是不要求會前端框架如React、Vue
-	* 建議去Udemy、六角學院、youtube找一些教學
+	* 建議製作一些作品放到github page
+		* 去Udemy、六角學院、youtube找一些有作品的教學，做完可以拿去面試
 
 ## 基礎前端學習文檔
 * 自強學堂，一個簡體中文的網頁應用程式學習網站
 	* [HTML](https://code.ziqiangxuetang.com/html/html-tutorial.html)
+		* 前端網頁的內容呈現
 	* [CSS](https://code.ziqiangxuetang.com/css/css-tutorial.html)
+		* 前端網頁的樣式呈現
 	* [Javascript](https://code.ziqiangxuetang.com/js/js-tutorial.html)
+		* 前端唯一的程式語言
+		* 可以更改HTML跟CSS的邏輯
+		* 此語言也可以編寫後端程式
+		* 前端工程師的精髓
 * [廖雪峰的Javascript教程](https://www.liaoxuefeng.com/wiki/1022910821149312)
 * [w3school 英文](https://www.w3schools.com/)
 	* 好入門的英文文檔
@@ -175,3 +182,5 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 做過第三方登入（Facebook or LINE or Google)
 * 串接過金流支付API
 * Websocket
+* 單元測試
+* 電腦科學的基礎知識
