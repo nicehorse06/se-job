@@ -6,9 +6,14 @@
 * 學習HTML、CSS、Javascript知識
 * 查看`前端工程師養成手冊`、`五個月成為 JavaScript 工程師的完整攻略`文章
 * 學習網頁知識並用`github page`展現你的網頁，如[範例](https://nicehorse06.github.io/frontend-practice-course/)
-* 面試
+* 面試前端工程師
+	* 面試條件參閱[公司應徵前端工程師的共通條件](https://github.com/nicehorse06/frontend-practice-course#%E5%85%AC%E5%8F%B8%E6%87%89%E5%BE%B5%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E5%85%B1%E9%80%9A%E6%A2%9D%E4%BB%B6)
+	* 去104搜尋前端工程師查看需要的條件
+	* 初學者可以以只需要HTML、CSS、Javascript的工作為目標
+		* 也就是不要求會前端框架如React、Vue
+	* 建議去Udemy、六角學院、youtube找一些教學
 
-## 基礎前端文檔學習資源
+## 基礎前端學習文檔
 * 自強學堂，一個簡體中文的網頁應用程式學習網站
 	* [HTML](https://code.ziqiangxuetang.com/html/html-tutorial.html)
 	* [CSS](https://code.ziqiangxuetang.com/css/css-tutorial.html)
@@ -18,25 +23,27 @@
 	* 好入門的英文文檔
 * [MDN web docs](https://developer.mozilla.org/zh-TW/)
 	* 具有權威性的英文前端文件網站
-* [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
-	* 可以跟著影片一起學習HTML、CSS、JS
 * git：為程式版本控管工具，現代工程師都應了解此多人協作，版本控管的方式
 	* [廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 	* [為你自己學 Git](https://gitbook.tw/)
 	* [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
 	* [Learn-Git-in-30-days](https://github.com/doggy8088/Learn-Git-in-30-days) Will 保哥 【30 天精通 Git 版本控管】
 	* [Git基礎中的基礎指令](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/git.md) 嘿嘿馬的簡易git心得
+* [學習 CSS 版面配置](http://zh-tw.learnlayout.com/)
+* [Can I use...](https://caniuse.com) 用來查看各個瀏覽器的語法支援
+* [codepen](https://codepen.io/)快速的線上demo程式的網站
 
-## 前端練習與學習網站
+## 前端學習與作品產出資源
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
 * [從新手到中手：前端工程加強班](https://github.com/aszx87410/frontend-intermediate-course) 
 很棒的從初學的進階的範例、使用到twich API做一個直撥網頁
-* [codepen](https://codepen.io/)快速的線上demo程式的網站
 * [codecademy](https://www.codecademy.com/) 很棒的線上教學網站
 * youtube或大陸影片網站(如bilibili)有很多不錯的教學影片，只要把關鍵字丟進去即可
 	* [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
-* [學習 CSS 版面配置](http://zh-tw.learnlayout.com/)
-* [Can I use...](https://caniuse.com) 用來查看各個瀏覽器的語法支援
+* [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
+	* 可以跟著影片一起學習HTML、CSS、JS
+* Udemy
+* 六角學院
 
 ## 前端框架與套件
 
