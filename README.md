@@ -41,6 +41,8 @@
 * [codepen](https://codepen.io/)快速的線上demo程式的網站
 * [金魚都能懂的這個網頁畫面怎麼切](https://ithelp.ithome.com.tw/users/20112550/ironman/2623)
 * [[熱門面試題] 從輸入網址列到渲染畫面，過程經歷了什麼事？](https://w3c.hexschool.com/%E5%AE%A2%E5%BA%A7%E6%8A%95%E7%A8%BF/how-web-applications-work-8d691e4f)
+* [RUNOOB.COM](https://www.runoob.com/)	
+	* 包含前端、後端、git、系統、db的學習資源
 
 ## 前端學習與作品產出資源
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
