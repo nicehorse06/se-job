@@ -30,12 +30,6 @@
 	* 好入門的英文文檔
 * [MDN web docs](https://developer.mozilla.org/zh-TW/)
 	* 具有權威性的英文前端文件網站
-* git：為程式版本控管工具，現代工程師都應了解此多人協作，版本控管的方式
-	* [廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
-	* [為你自己學 Git](https://gitbook.tw/)
-	* [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
-	* [Learn-Git-in-30-days](https://github.com/doggy8088/Learn-Git-in-30-days) Will 保哥 【30 天精通 Git 版本控管】
-	* [Git基礎中的基礎指令](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/git.md) 嘿嘿馬的簡易git心得
 * [學習 CSS 版面配置](http://zh-tw.learnlayout.com/)
 * [Can I use...](https://caniuse.com) 用來查看各個瀏覽器的語法支援
 * [codepen](https://codepen.io/)快速的線上demo程式的網站
@@ -77,28 +71,36 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* [NES-style CSS Framework](https://github.com/nostalgic-css/NES.css?ref=devawesome)
 
 ## 軟體工作相關工具
-* [github](https://github.com/)
-	* github 為軟體工作者上傳程式碼的地方、也是履歷與程式社交的一部分
-* [Vscode](https://code.visualstudio.com/)
-	* 前端開發很棒的編輯器，有很多線上工具可下載使用
-* [鳥哥的 Linux 私房菜](http://linux.vbird.org/) 
-	* 程式工作者都需要基本的Linux/Unix作業系統指令使用的認知，
-	* Mac就屬於Unix，如果只在windows上開發會有其指令的不方便和限制
-	* 如果只有windows的電腦，要學習linux指令就需要安裝linux的雙系統或是裝虛擬機器到windows中
-* Chrome 瀏覽器
-	* 開發時瀏覽器建議用Chrome，其中的測試工具也很好用
-	* [Chrome dev tools 開發者工具](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html) 
-	* [Chrome 官方文檔](https://developers.google.com/web/tools/chrome-devtools/)
-* markdown
-	* 用標記的方式快速產生網頁式的筆記
-	* 可搭配hackmd、trello做筆記
-	* [Markdown文件](https://markdown.tw/) 基本的markdown文檔
-* node.js
-	* 一個以Javascript在後端運行的框架
-	* 其提供的npm工具可管理下載CSS和JS的套件
-	* [Jimmy的簡易npm心得](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/node_and_npm.md)
-* `英文`，非常重要，請弄好英文
-	* [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/engineering_english.md)
+### git
+* git為程式版本控管工具，現代工程師都應了解此多人協作，版本控管的方式
+* [廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
+* [為你自己學 Git](https://gitbook.tw/)
+* [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
+* [Learn-Git-in-30-days](https://github.com/doggy8088/Learn-Git-in-30-days) Will 保哥 【30 天精通 Git 版本控管】
+* [Git基礎中的基礎指令](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/git.md) 嘿嘿馬的簡易git心得
+* [Git & GitHub 教學手冊](https://w3c.hexschool.com/git/cfdbd310)
+	* [github](https://github.com/) 為軟體工作者上傳程式碼的地方、也是履歷與程式社交的一部分
+### [Vscode](https://code.visualstudio.com/)
+* 前端開發很棒的編輯器，有很多線上工具可下載使用
+### [鳥哥的 Linux 私房菜](http://linux.vbird.org/) 
+* 程式工作者都需要基本的Linux/Unix作業系統指令使用的認知，
+* Mac就屬於Unix，如果只在windows上開發會有其指令的不方便和限制
+* 如果只有windows的電腦，要學習linux指令就需要安裝linux的雙系統或是裝虛擬機器到windows中
+### Chrome 瀏覽器
+* 開發時瀏覽器建議用Chrome，其中的測試工具也很好用
+* [Chrome dev tools 開發者工具](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html) 
+* [Chrome 官方文檔](https://developers.google.com/web/tools/chrome-devtools/)
+### markdown
+* 用標記的方式快速產生網頁式的筆記
+* 可搭配hackmd、trello做筆記
+* [Markdown文件](https://markdown.tw/) 基本的markdown文檔
+### node.js
+* 一個以Javascript在後端運行的框架
+* 其提供的npm工具可管理下載CSS和JS的套件
+* [Jimmy的簡易npm心得](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/node_and_npm.md)
+### 英文
+* 非常重要，請弄好英文
+* [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/engineering_english.md)
 
 ## 前端工程介紹、就職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
