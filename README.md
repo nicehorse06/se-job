@@ -102,7 +102,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [Jimmy的簡易npm心得](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/node_and_npm.md)
 ### 英文
 * 非常重要，請弄好英文
-* [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/engineering_english.md)
+* [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/blog/issues/3)
 
 ## 前端工程介紹、就職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
