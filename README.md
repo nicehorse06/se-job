@@ -146,6 +146,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 用網頁製作履歷如[範例](https://nicehorse06.github.io/frontend-practice-course/)，或是用markdown製作也可以
 * twitch API
 * 即時爬蟲API，如即時爬股票、匯率、天氣
+* [hsiangfeng/APIList](https://github.com/hsiangfeng/APIList)
 * 線上小工具
 	* 如前端圖片尺寸轉換、英文大小寫轉換、中文簡繁轉換、Unicode轉換工具、字數計算&文字計數、重複行數轉換
 	* 參考[ToolsKK 線上工具 網路資源 免費使用](https://toolskk.com/)
