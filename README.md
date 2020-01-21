@@ -50,6 +50,8 @@
 * Udemy
 * 六角學院
 * [React Project Netflix Website Clone](https://www.youtube.com/playlist?list=PL6jnTQwFvrdbccPErnd5AsCY3dkYUk3e5&app=desktop)
+* [小马技术](https://www.youtube.com/channel/UCazV3A3_1-Mtd6E_auw_ifg)
+	* 一位技術型Youtuber，裡面提供了如Vue、Python、Docker、CSS、Git、HTML、DB等相關實用基礎教學
 
 ## 前端框架與套件
 
@@ -88,6 +90,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 程式工作者都需要基本的Linux/Unix作業系統指令使用的認知，
 * Mac就屬於Unix，如果只在windows上開發會有其指令的不方便和限制
 * 如果只有windows的電腦，要學習linux指令就需要安裝linux的雙系統或是裝虛擬機器到windows中
+* [JSLinux](https://bellard.org/jslinux/)為用瀏覽器就可以執行linux的網站，也可以練習git
 ### Chrome 瀏覽器
 * 開發時瀏覽器建議用Chrome，其中的測試工具也很好用
 * [Chrome dev tools 開發者工具](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html) 
@@ -130,7 +133,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [Leon Kuo'sWorks Collection](https://iamkyc.github.io/Work-collection/)
 * [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
 * [前端工程師 面試攻略分享 by 姚偉揚](https://www.facebook.com/hilivecode/videos/227151178021549/)
-* [前端工程師如何準備作品集 7種累積作品的方法](https://tw.alphacamp.co/blog/front-end-engineer-portfolio-web-developer-job)F
+* [前端工程師如何準備作品集 7種累積作品的方法](https://tw.alphacamp.co/blog/front-end-engineer-portfolio-web-developer-job)
 * [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
 	* 你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？
 * [什麽是愛情？怎麽談戀愛，才能有效的找到自己的真命天子？李永樂老師講愛情數學](https://www.youtube.com/watch?v=pelPCK22W7k)
