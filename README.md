@@ -107,7 +107,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 非常重要，請弄好英文
 * [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/blog/issues/3)
 
-## 前端工程介紹、就職、心得文章
+## 前端工程介紹、就職、轉職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
 * [前端工程師養成手冊](https://mrliao.gitbooks.io/f2ebook/content/)
 * [[前端連載] 買早餐也能了解前端 vs 後端？](https://noootown.wordpress.com/2016/03/23/frontend-backend-breakfast/)
@@ -121,6 +121,8 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [[心得] 想轉職前端工程師? 幫你蒐集教學資源!](https://www.ptt.cc/bbs/Soft_Job/M.1562589512.A.CBA.html)
 * [Re: [請益] 一些關於自學前端的疑問](https://www.ptt.cc/bbs/Soft_Job/M.1529980631.A.041.html)
 * [紮實的網頁前端學習路線與資源推薦](https://medium.com/@hulitw/front-end-learning-path-55201571ecfe)
+* [【密技】台灣軟體業業界現況詳解、軟體工程師指南](https://forum.gamer.com.tw/C.php?bsn=60076&snA=5444020)
+* [[心得] 轉職心得分享](https://www.ptt.cc/bbs/Soft_Job/M.1563795875.A.333.html)
 
 ## 工程師應徵工作，履歷、作品集參考
 * 用PDF的一頁式履歷，排版要乾淨，可用markdown產出履歷
@@ -138,6 +140,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？
 * [什麽是愛情？怎麽談戀愛，才能有效的找到自己的真命天子？李永樂老師講愛情數學](https://www.youtube.com/watch?v=pelPCK22W7k)
 	* 愛情和工作亦如是，挑選伴侶和職業的文章可以互相參考，建議觀看 by Jimmy
+* [[心得] 軟體工程師的薪資市場最佳化](https://www.ptt.cc/bbs/Soft_Job/M.1553065300.A.E65.html)
 ### 英文履歷
 * [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
 * [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
