@@ -3,6 +3,7 @@
 ### swift
 * [codecademy](https://www.codecademy.com/learn/learn-swift)
     * 互動式語言學習
+* [tutorialspoint](https://www.tutorialspoint.com/swift/index.htm)
 * leetcode，用swift練習leetcode easy題目
     * 面試的第一關一大部分都是類leetcode題目
 * github
