@@ -72,6 +72,8 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 現階段最流行框架，由FB主導開發，
 	* 自由度高，有很多社群開發的對應套件
 	* 入門門檻高，需有一定JS知識
+	* [React.js 小书](http://huziketang.mangojuice.top/books/react/)
+		* 胡立老師推薦的React免費教材
 * Vue
 	* 由中國社群開發，最近竄紅的框架
 	* 入門門檻低，中文文文檔相對齊全
