@@ -37,6 +37,9 @@
 * [[熱門面試題] 從輸入網址列到渲染畫面，過程經歷了什麼事？](https://w3c.hexschool.com/%E5%AE%A2%E5%BA%A7%E6%8A%95%E7%A8%BF/how-web-applications-work-8d691e4f)
 * [RUNOOB.COM](https://www.runoob.com/)	
 	* 包含前端、後端、git、系統、db的學習資源
+* [lidemy](https://lidemy.com/)
+	* 我推薦lidemy的課程給網頁前後端新手
+	* 裡面的內容很實用，就算是免費課程的部分也可以學很多東西
 
 ## 前端學習與作品產出資源
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
