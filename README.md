@@ -40,8 +40,9 @@
 
 ## 前端學習與作品產出資源
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
-* [從新手到中手：前端工程加強班](https://github.com/aszx87410/frontend-intermediate-course) 
-很棒的從初學的進階的範例、使用到twich API做一個直撥網頁
+* [從新手到中手：前端工程加強班](https://lidemy.com/p/frontend-intermediate-course)
+	* [github](https://github.com/aszx87410/frontend-intermediate-course) 
+	* 很棒的從初學的進階的範例、使用到twich API做一個直撥網頁
 * [codecademy](https://www.codecademy.com/) 很棒的線上教學網站
 * youtube或大陸影片網站(如bilibili)有很多不錯的教學影片，只要把關鍵字丟進去即可
 	* [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
@@ -52,6 +53,10 @@
 * [React Project Netflix Website Clone](https://www.youtube.com/playlist?list=PL6jnTQwFvrdbccPErnd5AsCY3dkYUk3e5&app=desktop)
 * [小马技术](https://www.youtube.com/channel/UCazV3A3_1-Mtd6E_auw_ifg)
 	* 一位技術型Youtuber，裡面提供了如Vue、Python、Docker、CSS、Git、HTML、DB等相關實用基礎教學
+* [先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
+	* 很棒的為新手準備的解題導讀，從JS開始
+* [初心者的計概與 coding 火球術](https://lidemy.com/p/cs101-coding)
+	* 容易理解的簡易版計算機概論
 
 ## 前端框架與套件
 
