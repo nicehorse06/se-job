@@ -37,11 +37,15 @@
 * [[熱門面試題] 從輸入網址列到渲染畫面，過程經歷了什麼事？](https://w3c.hexschool.com/%E5%AE%A2%E5%BA%A7%E6%8A%95%E7%A8%BF/how-web-applications-work-8d691e4f)
 * [RUNOOB.COM](https://www.runoob.com/)	
 	* 包含前端、後端、git、系統、db的學習資源
+* [Lidemy 鋰學院](https://lidemy.com/)
+	* 我推薦lidemy的課程給網頁前後端新手
+	* 裡面的內容很實用，就算是免費課程的部分也可以學很多東西
 
 ## 前端學習與作品產出資源
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
-* [從新手到中手：前端工程加強班](https://github.com/aszx87410/frontend-intermediate-course) 
-很棒的從初學的進階的範例、使用到twich API做一個直撥網頁
+* [從新手到中手：前端工程加強班](https://lidemy.com/p/frontend-intermediate-course)
+	* [github](https://github.com/aszx87410/frontend-intermediate-course) 
+	* 很棒的從初學的進階的範例、使用到twich API做一個直撥網頁
 * [codecademy](https://www.codecademy.com/) 很棒的線上教學網站
 * youtube或大陸影片網站(如bilibili)有很多不錯的教學影片，只要把關鍵字丟進去即可
 	* [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
@@ -50,6 +54,12 @@
 * Udemy
 * 六角學院
 * [React Project Netflix Website Clone](https://www.youtube.com/playlist?list=PL6jnTQwFvrdbccPErnd5AsCY3dkYUk3e5&app=desktop)
+* [小马技术](https://www.youtube.com/channel/UCazV3A3_1-Mtd6E_auw_ifg)
+	* 一位技術型Youtuber，裡面提供了如Vue、Python、Docker、CSS、Git、HTML、DB等相關實用基礎教學
+* [先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
+	* 很棒的為新手準備的解題導讀，從JS開始
+* [初心者的計概與 coding 火球術](https://lidemy.com/p/cs101-coding)
+	* 容易理解的簡易版計算機概論
 
 ## 前端框架與套件
 
@@ -65,6 +75,8 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 現階段最流行框架，由FB主導開發，
 	* 自由度高，有很多社群開發的對應套件
 	* 入門門檻高，需有一定JS知識
+	* [React.js 小书](http://huziketang.mangojuice.top/books/react/)
+		* 胡立老師推薦的React免費教材
 * Vue
 	* 由中國社群開發，最近竄紅的框架
 	* 入門門檻低，中文文文檔相對齊全
@@ -88,6 +100,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 程式工作者都需要基本的Linux/Unix作業系統指令使用的認知，
 * Mac就屬於Unix，如果只在windows上開發會有其指令的不方便和限制
 * 如果只有windows的電腦，要學習linux指令就需要安裝linux的雙系統或是裝虛擬機器到windows中
+* [JSLinux](https://bellard.org/jslinux/)為用瀏覽器就可以執行linux的網站，也可以練習git
 ### Chrome 瀏覽器
 * 開發時瀏覽器建議用Chrome，其中的測試工具也很好用
 * [Chrome dev tools 開發者工具](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html) 
@@ -102,9 +115,9 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [Jimmy的簡易npm心得](https://github.com/nicehorse06/software-job-note/blob/master/userful_note/node_and_npm.md)
 ### 英文
 * 非常重要，請弄好英文
-* [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/software-job-note/blob/master/userful_note/engineering_english.md)
+* [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/blog/issues/3)
 
-## 前端工程介紹、就職、心得文章
+## 前端工程介紹、就職、轉職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
 * [前端工程師養成手冊](https://mrliao.gitbooks.io/f2ebook/content/)
 * [[前端連載] 買早餐也能了解前端 vs 後端？](https://noootown.wordpress.com/2016/03/23/frontend-backend-breakfast/)
@@ -118,6 +131,8 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [[心得] 想轉職前端工程師? 幫你蒐集教學資源!](https://www.ptt.cc/bbs/Soft_Job/M.1562589512.A.CBA.html)
 * [Re: [請益] 一些關於自學前端的疑問](https://www.ptt.cc/bbs/Soft_Job/M.1529980631.A.041.html)
 * [紮實的網頁前端學習路線與資源推薦](https://medium.com/@hulitw/front-end-learning-path-55201571ecfe)
+* [【密技】台灣軟體業業界現況詳解、軟體工程師指南](https://forum.gamer.com.tw/C.php?bsn=60076&snA=5444020)
+* [[心得] 轉職心得分享](https://www.ptt.cc/bbs/Soft_Job/M.1563795875.A.333.html)
 
 ## 工程師應徵工作，履歷、作品集參考
 * 用PDF的一頁式履歷，排版要乾淨，可用markdown產出履歷
@@ -130,11 +145,12 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [Leon Kuo'sWorks Collection](https://iamkyc.github.io/Work-collection/)
 * [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
 * [前端工程師 面試攻略分享 by 姚偉揚](https://www.facebook.com/hilivecode/videos/227151178021549/)
-* [前端工程師如何準備作品集 7種累積作品的方法](https://tw.alphacamp.co/blog/front-end-engineer-portfolio-web-developer-job)F
+* [前端工程師如何準備作品集 7種累積作品的方法](https://tw.alphacamp.co/blog/front-end-engineer-portfolio-web-developer-job)
 * [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
 	* 你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？
 * [什麽是愛情？怎麽談戀愛，才能有效的找到自己的真命天子？李永樂老師講愛情數學](https://www.youtube.com/watch?v=pelPCK22W7k)
 	* 愛情和工作亦如是，挑選伴侶和職業的文章可以互相參考，建議觀看 by Jimmy
+* [[心得] 軟體工程師的薪資市場最佳化](https://www.ptt.cc/bbs/Soft_Job/M.1553065300.A.E65.html)
 ### 英文履歷
 * [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
 * [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
@@ -146,6 +162,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 用網頁製作履歷如[範例](https://nicehorse06.github.io/software-job-note/)，或是用markdown製作也可以
 * twitch API
 * 即時爬蟲API，如即時爬股票、匯率、天氣
+* [hsiangfeng/APIList](https://github.com/hsiangfeng/APIList)
 * 線上小工具
 	* 如前端圖片尺寸轉換、英文大小寫轉換、中文簡繁轉換、Unicode轉換工具、字數計算&文字計數、重複行數轉換
 	* 參考[ToolsKK 線上工具 網路資源 免費使用](https://toolskk.com/)
