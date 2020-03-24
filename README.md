@@ -2,12 +2,12 @@
 
 ## 學習與面試流程(底下都有資源連結)
 * 下載`vscode`，當作程式編輯器，或是使用codepen可以線上練習前端程式
-* 安裝與學習`git`、申辦`github`帳號，參閱[連結](https://github.com/nicehorse06/frontend-practice-course#git)
-* 學習HTML、CSS、Javascript知識，參閱[連結](https://github.com/nicehorse06/frontend-practice-course#%E5%9F%BA%E7%A4%8E%E5%89%8D%E7%AB%AF%E5%AD%B8%E7%BF%92%E6%96%87%E6%AA%94)
-* 查看`前端工程師養成手冊`、`五個月成為 JavaScript 工程師的完整攻略`文章，參閱[連結](https://github.com/nicehorse06/frontend-practice-course#%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E4%BB%8B%E7%B4%B9%E5%B0%B1%E8%81%B7%E5%BF%83%E5%BE%97%E6%96%87%E7%AB%A0)
-* 學習網頁知識並用`github page`展現你的網頁，如[範例](https://nicehorse06.github.io/frontend-practice-course/)
+* 安裝與學習`git`、申辦`github`帳號，參閱[連結](https://github.com/nicehorse06/software-job-note#git)
+* 學習HTML、CSS、Javascript知識，參閱[連結](https://github.com/nicehorse06/software-job-note#%E5%9F%BA%E7%A4%8E%E5%89%8D%E7%AB%AF%E5%AD%B8%E7%BF%92%E6%96%87%E6%AA%94)
+* 查看`前端工程師養成手冊`、`五個月成為 JavaScript 工程師的完整攻略`文章，參閱[連結](https://github.com/nicehorse06/software-job-note#%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E4%BB%8B%E7%B4%B9%E5%B0%B1%E8%81%B7%E5%BF%83%E5%BE%97%E6%96%87%E7%AB%A0)
+* 學習網頁知識並用`github page`展現你的網頁，如[範例](https://nicehorse06.github.io/software-job-note/)
 * 面試前端工程師
-	* 面試條件參閱[公司應徵前端工程師的共通條件](https://github.com/nicehorse06/frontend-practice-course#%E5%85%AC%E5%8F%B8%E6%87%89%E5%BE%B5%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E5%85%B1%E9%80%9A%E6%A2%9D%E4%BB%B6)
+	* 面試條件參閱[公司應徵前端工程師的共通條件](https://github.com/nicehorse06/software-job-note#%E5%85%AC%E5%8F%B8%E6%87%89%E5%BE%B5%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E5%85%B1%E9%80%9A%E6%A2%9D%E4%BB%B6)
 	* 去104搜尋前端工程師查看需要的條件，並以心儀的工作為目標準備
 	* 初學者可以以只需要HTML、CSS、Javascript的工作為目標
 		* 也就是不要求會前端框架如React、Vue
@@ -79,7 +79,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [為你自己學 Git](https://gitbook.tw/)
 * [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
 * [Learn-Git-in-30-days](https://github.com/doggy8088/Learn-Git-in-30-days) Will 保哥 【30 天精通 Git 版本控管】
-* [Git基礎中的基礎指令](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/git.md) 嘿嘿馬的簡易git心得
+* [Git基礎中的基礎指令](https://github.com/nicehorse06/software-job-note/blob/master/userful_note/git.md) 嘿嘿馬的簡易git心得
 * [Git & GitHub 教學手冊](https://w3c.hexschool.com/git/cfdbd310)
 	* [github](https://github.com/) 為軟體工作者上傳程式碼的地方、也是履歷與程式社交的一部分
 ### [Vscode](https://code.visualstudio.com/)
@@ -99,10 +99,10 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ### node.js
 * 一個以Javascript在後端運行的框架
 * 其提供的npm工具可管理下載CSS和JS的套件
-* [Jimmy的簡易npm心得](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/node_and_npm.md)
+* [Jimmy的簡易npm心得](https://github.com/nicehorse06/software-job-note/blob/master/userful_note/node_and_npm.md)
 ### 英文
 * 非常重要，請弄好英文
-* [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/frontend-practice-course/blob/master/userful_note/engineering_english.md)
+* [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/software-job-note/blob/master/userful_note/engineering_english.md)
 
 ## 前端工程介紹、就職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
@@ -143,7 +143,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
 * [The Star Wars API](https://swapi.co/)
 * [Dog API](https://dog.ceo/dog-api/)
-* 用網頁製作履歷如[範例](https://nicehorse06.github.io/frontend-practice-course/)，或是用markdown製作也可以
+* 用網頁製作履歷如[範例](https://nicehorse06.github.io/software-job-note/)，或是用markdown製作也可以
 * twitch API
 * 即時爬蟲API，如即時爬股票、匯率、天氣
 * 線上小工具
