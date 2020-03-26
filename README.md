@@ -9,8 +9,8 @@
 * 面試前端工程師
 	* 面試條件參閱[公司應徵前端工程師的共通條件](https://github.com/nicehorse06/software-job-note#%E5%85%AC%E5%8F%B8%E6%87%89%E5%BE%B5%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E5%85%B1%E9%80%9A%E6%A2%9D%E4%BB%B6)
 	* 去104搜尋前端工程師查看需要的條件，並以心儀的工作為目標準備
-	* 初學者可以以只需要HTML、CSS、Javascript的工作為目標
-		* 也就是不要求會前端框架如React、Vue
+	* 初學者可以找只需要HTML、CSS、Javascript的工作為目標
+		* 不要求會前端框架如React、Vue
 	* 建議製作一些作品放到github page
 		* 去Udemy、六角學院、youtube找一些有作品的教學，做完可以拿去面試
 
