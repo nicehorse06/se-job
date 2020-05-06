@@ -21,7 +21,7 @@
 	* [CSS](https://code.ziqiangxuetang.com/css/css-tutorial.html)
 		* 前端網頁的樣式呈現
 	* [Javascript](https://code.ziqiangxuetang.com/js/js-tutorial.html)
-		* 前端唯一的程式語言
+		* 前端唯一的程式語言，在瀏覽器上有`話語霸權`
 		* 可以更改HTML跟CSS的邏輯
 		* 此語言也可以編寫後端程式
 		* 前端工程師的精髓
