@@ -40,13 +40,16 @@
 * [Lidemy 鋰學院](https://lidemy.com/)
 	* 我推薦lidemy的課程給網頁前後端新手
 	* 裡面的內容很實用，就算是免費課程的部分也可以學很多東西
+* 程式體驗入門
+	* [grasshopper](https://learn.grasshopper.app/)，類似codecademy，讓不會寫程式的人也可以操控網頁上的蟋蟀移動
+	* [scratch](https://scratch.mit.edu/)，MIT出品，讓新手能用方塊移動學習寫程式
 
 ## 前端學習與作品產出資源
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
 * [從新手到中手：前端工程加強班](https://lidemy.com/p/frontend-intermediate-course)
 	* [github](https://github.com/aszx87410/frontend-intermediate-course) 
 	* 很棒的從初學的進階的範例、使用到twich API做一個直撥網頁
-* [codecademy](https://www.codecademy.com/) 很棒的線上教學網站
+* [codecademy](https://www.codecademy.com/) 很棒的線上教學網站，用關卡、線上實作一步步進入狀況
 * youtube或大陸影片網站(如bilibili)有很多不錯的教學影片，只要把關鍵字丟進去即可
 	* [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
 * [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
