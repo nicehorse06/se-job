@@ -99,11 +99,13 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* [github](https://github.com/) 為軟體工作者上傳程式碼的地方、也是履歷與程式社交的一部分
 ### [Vscode](https://code.visualstudio.com/)
 * 前端開發很棒的編輯器，有很多線上工具可下載使用
-### [鳥哥的 Linux 私房菜](http://linux.vbird.org/) 
+### Linux作業系統操作
 * 程式工作者都需要基本的Linux/Unix作業系統指令使用的認知，
 * Mac就屬於Unix，如果只在windows上開發會有其指令的不方便和限制
 * 如果只有windows的電腦，要學習linux指令就需要安裝linux的雙系統或是裝虛擬機器到windows中
+* [鳥哥的 Linux 私房菜](http://linux.vbird.org/) 
 * [JSLinux](https://bellard.org/jslinux/)為用瀏覽器就可以執行linux的網站，也可以練習git
+* [The Linux Command Line 中文版](https://www.kancloud.cn/thinkphp/linux-command-line/39431?fbclid=IwAR27EjhmbXIrBBkPVXyoeQp8YsNRtM7-uZ6VEvqRQM_ppfh59Ga3jHqeVnQ)
 ### Chrome 瀏覽器
 * 開發時瀏覽器建議用Chrome，其中的測試工具也很好用
 * [Chrome dev tools 開發者工具](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html) 
