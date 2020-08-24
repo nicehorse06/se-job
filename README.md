@@ -106,7 +106,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 程式工作者都需要基本的Linux/Unix作業系統指令使用的認知，
 * Mac就屬於Unix，如果只在windows上開發會有其指令的不方便和限制
 * 如果只有windows的電腦，要學習linux指令就需要安裝linux的雙系統或是裝虛擬機器到windows中
-* [鳥哥的 Linux 私房菜](http://linux.vbird.org/) 
+* [鳥哥的 Linux 私房菜](https://linux.vbird.org/) 
 * [JSLinux](https://bellard.org/jslinux/)為用瀏覽器就可以執行linux的網站，也可以練習git
 * [The Linux Command Line 中文版](https://www.kancloud.cn/thinkphp/linux-command-line/39431?fbclid=IwAR27EjhmbXIrBBkPVXyoeQp8YsNRtM7-uZ6VEvqRQM_ppfh59Ga3jHqeVnQ)
 ### Chrome 瀏覽器
