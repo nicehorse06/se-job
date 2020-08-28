@@ -58,6 +58,11 @@
 * [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
 	* 可以跟著影片一起學習HTML、CSS、JS
 * Udemy
+	* [[北美] Udemy課程評比](https://www.ptt.cc/bbs/Oversea_Job/M.1553280573.A.15E.html)
+	* [[心得] Udemy 課程心得](https://www.ptt.cc/bbs/Soft_Job/M.1562604814.A.927.html)
+		* [Udemy筆記](https://hsins.me/Learn/Udemy/)
+	* [[心得] 2020 最值得買的Udemy線上課程推薦](https://www.pttcc.org/bbs/Course/M.8893899202.A.C02)
+
 * 六角學院
 * [React Project Netflix Website Clone](https://www.youtube.com/playlist?list=PL6jnTQwFvrdbccPErnd5AsCY3dkYUk3e5&app=desktop)
 * [小马技术](https://www.youtube.com/channel/UCazV3A3_1-Mtd6E_auw_ifg)
