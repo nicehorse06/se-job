@@ -79,21 +79,23 @@
 React和Vue為前端框架，現代前端工程師都建議了解其中一項 
 ```
 
-* [Vanilla.js](https://medium.com/%E7%A8%8B%E5%BC%8F%E4%BA%BA%E6%9C%88%E5%88%8A/%E5%8E%9F%E7%94%9F%E7%9A%84-javascript-%E7%94%A8%E6%B3%95-vanilla-js-e53d3cdb5e8)
-	* 只要使用原生Javascript的功能，可稱作`Vanilla.js`
-	* 不建議用`jQuery`套件來取代JS原生功能，應扎實了解JS，有需要再選擇所需套件
-* React
-	* 現階段最流行框架，由FB主導開發，
-	* 自由度高，有很多社群開發的對應套件
-	* 入門門檻高，需有一定JS知識
-	* [React.js 小书](http://huziketang.mangojuice.top/books/react/)
-		* 胡立老師推薦的React免費教材
-* Vue
-	* 由中國社群開發，最近竄紅的框架
-	* 入門門檻低，中文文文檔相對齊全
-* CSS框架
-	* Bootstrap
-	* [NES-style CSS Framework](https://github.com/nostalgic-css/NES.css?ref=devawesome)
+### [Vanilla.js](https://medium.com/%E7%A8%8B%E5%BC%8F%E4%BA%BA%E6%9C%88%E5%88%8A/%E5%8E%9F%E7%94%9F%E7%9A%84-javascript-%E7%94%A8%E6%B3%95-vanilla-js-e53d3cdb5e8)
+* 只要使用原生Javascript的功能，可稱作`Vanilla.js`
+* 不建議用`jQuery`套件來取代JS原生功能，應扎實了解JS，有需要再選擇所需套件
+### React
+* 現階段最流行框架，由FB主導開發，
+* 自由度高，有很多社群開發的對應套件
+* 入門門檻高，需有一定JS知識
+* [React.js 小书](http://huziketang.mangojuice.top/books/react/)
+	* 胡立老師推薦的React免費教材
+### Vue
+* 由中國社群開發，最近竄紅的框架
+* 入門門檻低，中文文文檔相對齊全
+### CSS框架
+* Bootstrap
+* [NES-style CSS Framework](https://github.com/nostalgic-css/NES.css?ref=devawesome)
+### ref
+* [Vue 與 React 的 template engine 設計哲學差異](https://devs.tw/post/368)
 
 ## 軟體工作相關工具
 ### git
