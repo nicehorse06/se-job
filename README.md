@@ -132,6 +132,10 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 非常重要，請弄好英文
 * [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/blog/issues/3)
 
+
+### 其他
+* [httpbin](https://httpbin.org/)，此網站可以接收http並回傳接收到的結果，方便測試client
+
 ## 前端工程介紹、就職、轉職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
 * [前端工程師養成手冊](https://mrliao.gitbooks.io/f2ebook/content/)
