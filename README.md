@@ -123,6 +123,8 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ### markdown
 * 用標記的方式快速產生網頁式的筆記
 * 可搭配hackmd、trello做筆記
+  * [HackMD 快速入門教學](https://hackmd.io/s/quick-start-tw)
+  * [用固定網址發布筆記](https://hackmd.io/s/how-to-share-note-tw)
 * [Markdown文件](https://markdown.tw/) 基本的markdown文檔
 ### node.js
 * 一個以Javascript在後端運行的框架
