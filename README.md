@@ -121,12 +121,14 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [Chrome dev tools 開發者工具](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html) 
 * [Chrome 官方文檔](https://developers.google.com/web/tools/chrome-devtools/)
 ### markdown
+* git中標準寫文檔的格式，此文即用markdown書寫
 * 用標記的方式快速產生網頁式的筆記
 * 可搭配hackmd、trello做筆記
-  * [HackMD 快速入門教學](https://hackmd.io/s/quick-start-tw)
-  * [用固定網址發布筆記](https://hackmd.io/s/how-to-share-note-tw)
 * [基本的markdown中文文檔](https://markdown.tw/)
 * [官方Markdown文件](https://daringfireball.net/projects/markdown/)
+#### hackmd
+* [HackMD 快速入門教學](https://hackmd.io/s/quick-start-tw)
+* [用固定網址發布筆記](https://hackmd.io/s/how-to-share-note-tw)
 * [如何與 GitHub 同步筆記](https://hackmd.io/c/tutorials-tw/%2Fs%2Flink-with-github-tw)
 ### node.js
 * 一個以Javascript在後端運行的框架
