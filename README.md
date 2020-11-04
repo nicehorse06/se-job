@@ -125,7 +125,8 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 可搭配hackmd、trello做筆記
   * [HackMD 快速入門教學](https://hackmd.io/s/quick-start-tw)
   * [用固定網址發布筆記](https://hackmd.io/s/how-to-share-note-tw)
-* [Markdown文件](https://markdown.tw/) 基本的markdown文檔
+* [基本的markdown中文文檔](https://markdown.tw/)
+* [官方Markdown文件](https://daringfireball.net/projects/markdown/)
 ### node.js
 * 一個以Javascript在後端運行的框架
 * 其提供的npm工具可管理下載CSS和JS的套件
