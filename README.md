@@ -199,7 +199,8 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * todo list，參考[工程師是否有年紀背景限制？](https://ithelp.ithome.com.tw/articles/10191952)
 * [軟體需求與功能規格書-以線上糕餅網站為例](https://masonwu1762.gitbooks.io/bakerystorespec/content/)
 * 活動頁面
-	* [瓜吉競選網站](https://froggychiu.com/)
+	* [瓜吉競選網站](https://service.froggychiu.com/)
+		* [FroggyTaipei/froggy-service](https://github.com/FroggyTaipei/froggy-service) source code
 	* [一個野餐網站](https://www.vogue.com.tw/voguepicnic/)
 * 平常的公文書或表格也是很好練習排版的對象
 	* [替代役公文書](https://i.imgur.com/YrtdZYu.jpg)
