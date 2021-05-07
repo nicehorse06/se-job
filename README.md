@@ -86,11 +86,17 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 現階段最流行框架，由FB主導開發，
 * 自由度高，有很多社群開發的對應套件
 * 入門門檻高，需有一定JS知識
-* [React.js 小书](http://huziketang.mangojuice.top/books/react/)
+* [React.js 小书](https://hyf.js.org/react-naive-book/)
 	* 胡立老師推薦的React免費教材
 ### Vue
 * 由中國社群開發，最近竄紅的框架
 * 入門門檻低，中文文文檔相對齊全
+* [重新認識 Vue.js 008 天絕對看不完的 Vue.js 3.0 指南](https://book.vue.tw/)
+
+### Angular
+* 大而全、嚴謹的企業級框架
+* Google主導開發
+
 ### CSS框架
 * Bootstrap
 * [NES-style CSS Framework](https://github.com/nostalgic-css/NES.css?ref=devawesome)
@@ -112,7 +118,12 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ### Linux作業系統操作
 * 程式工作者都需要基本的Linux/Unix作業系統指令使用的認知，
 * Mac就屬於Unix，如果只在windows上開發會有其指令的不方便和限制
-* 如果只有windows的電腦，要學習linux指令就需要安裝linux的雙系統或是裝虛擬機器到windows中
+* 如果只有windows的電腦
+	* 使用linux指令就需要安裝linux的雙系統
+	* 安裝Linux到虛擬機器中，如virtualbox
+	* 使用微軟提供的WSL服務，在windows上用容器技術使用Linux
+		* 在windows環境工作比較推薦的作法
+		* 可以直接使用VScode做連線 	
 * [鳥哥的 Linux 私房菜](https://linux.vbird.org/) 
 * [JSLinux](https://bellard.org/jslinux/)為用瀏覽器就可以執行linux的網站，也可以練習git
 * [The Linux Command Line 中文版](https://www.kancloud.cn/thinkphp/linux-command-line/39431?fbclid=IwAR27EjhmbXIrBBkPVXyoeQp8YsNRtM7-uZ6VEvqRQM_ppfh59Ga3jHqeVnQ)
@@ -120,6 +131,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 開發時瀏覽器建議用Chrome，其中的測試工具也很好用
 * [Chrome dev tools 開發者工具](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html) 
 * [Chrome 官方文檔](https://developers.google.com/web/tools/chrome-devtools/)
+* [瀏覽器入門 - F12 開發者工具 | 開發人員工具 | DevTools](https://www.youtube.com/watch?v=u48D0aBycP8)
 ### markdown
 * git中標準寫文檔的格式，此文即用markdown書寫
 * 用標記的方式快速產生網頁式的筆記
@@ -137,7 +149,6 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ### 英文
 * 非常重要，請弄好英文
 * [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/blog/issues/3)
-
 
 ### 其他
 * [httpbin](https://httpbin.org/)，此網站可以接收http並回傳接收到的結果，方便測試client
