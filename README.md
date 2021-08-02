@@ -4,7 +4,7 @@
 * 下載`vscode`，當作程式編輯器，或是使用codepen可以線上練習前端程式
 * 安裝與學習`git`、申辦`github`帳號，參閱[連結](https://github.com/nicehorse06/software-job-note#git)
 * 學習HTML、CSS、Javascript知識，參閱[連結](https://github.com/nicehorse06/software-job-note#%E5%9F%BA%E7%A4%8E%E5%89%8D%E7%AB%AF%E5%AD%B8%E7%BF%92%E6%96%87%E6%AA%94)
-* 查看`前端工程師養成手冊`、`五個月成為 JavaScript 工程師的完整攻略`文章，參閱[連結](https://github.com/nicehorse06/software-job-note#%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E4%BB%8B%E7%B4%B9%E5%B0%B1%E8%81%B7%E5%BF%83%E5%BE%97%E6%96%87%E7%AB%A0)
+* 查看`前端工程師養成手冊`、`五個月成為 JavaScript 工程師的完整攻略`文章，參閱[連結](https://github.com/nicehorse06/software-job-note#%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E4%BB%8B%E7%B4%B9%E5%B0%B1%E8%81%B7%E8%BD%89%E8%81%B7%E5%BF%83%E5%BE%97%E6%96%87%E7%AB%A0)
 * 學習網頁知識並用`github page`展現你的網頁，如[範例](https://nicehorse06.github.io/software-job-note/)
 * 面試前端工程師
 	* 面試條件參閱[公司應徵前端工程師的共通條件](https://github.com/nicehorse06/software-job-note#%E5%85%AC%E5%8F%B8%E6%87%89%E5%BE%B5%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E5%85%B1%E9%80%9A%E6%A2%9D%E4%BB%B6)
