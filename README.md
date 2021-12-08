@@ -74,6 +74,7 @@
 	* 很棒的為新手準備的解題導讀，從JS開始
 * [初心者的計概與 coding 火球術](https://lidemy.com/p/cs101-coding)
 	* 容易理解的簡易版計算機概論
+* [freeCodeCamp.org](https://www.freecodecamp.org/learn)
 
 ## 前端框架與套件
 
@@ -153,7 +154,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 非常重要，請弄好英文
 * [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/blog/issues/3)
 
-### 其他
+### 測試工具
 * [httpbin](https://httpbin.org/)，此網站可以接收http並回傳接收到的結果，方便測試client
 
 ## 前端工程介紹、就職、轉職、心得文章
