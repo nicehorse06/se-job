@@ -56,6 +56,7 @@
 		* Node.js後端，用Express、MongoDB、Mongoose建立一個服務。
 	* 有中文
 	* Youtube上有更多免費教學影片
+* [the odin project](https://www.theodinproject.com/)
 
 ## 前端學習與作品產出資源
 * [Bootstrap教學 - 利用HTML + CSS，完整編寫網站外觀示範
