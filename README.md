@@ -147,6 +147,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [Chrome dev tools 開發者工具](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html) 
 * [Chrome 官方文檔](https://developers.google.com/web/tools/chrome-devtools/)
 * [瀏覽器入門 - F12 開發者工具 | 開發人員工具 | DevTools](https://www.youtube.com/watch?v=u48D0aBycP8)
+* [Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
 ### markdown
 * git中標準寫文檔的格式，此文即用markdown書寫
 * 用標記的方式快速產生網頁式的筆記
