@@ -16,6 +16,12 @@
 		* 不要求會前端框架如React、Vue
 	* 建議製作一些作品放到github page
 		* 去Udemy、六角學院、youtube找一些有作品的教學，做完可以拿去面試
+* 找工作管道
+	* [meet job](https://meet.jobs/en?referral_code=jimmatw)
+		* meet job裡面有很多好缺，真心推薦，如果應徵上有獎金100美金喔!!
+	* PTT
+	* 104
+	* [f2etw/jobs](https://github.com/f2etw/jobs/issues)
 
 ## 基礎前端學習文檔
 * 自強學堂，一個簡體中文的網頁應用程式學習網站
