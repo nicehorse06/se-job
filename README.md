@@ -18,7 +18,7 @@
 		* 去Udemy、六角學院、youtube找一些有作品的教學，做完可以拿去面試
 * 找工作管道
 	* [meet job](https://meet.jobs/en?referral_code=jimmatw)
-		* meet job裡面有很多好缺，真心推薦，如果應徵上有獎金100美金喔!!
+		* meet job裡面有很多好缺，真心推薦，如果應徵上你還可以拿獎金100美金!!
 	* PTT
 	* 104
 	* [f2etw/jobs](https://github.com/f2etw/jobs/issues)
