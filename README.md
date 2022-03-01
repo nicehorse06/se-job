@@ -5,7 +5,7 @@
 * 網頁後端程式入門
     * 建置中
 
-* 如果覺得內容有幫助，歡迎使用[我的meet job連結](https://meet.jobs?referral_code=jimmatw)找工作，如果你面試上了[meet job]((https://meet.jobs?referral_code=jimmatw)會給你100美元獎金喔 !
+* 如果覺得內容有幫助，歡迎使用[我的meet job連結](https://meet.jobs?referral_code=jimmatw)找工作，如果你面試上了[meet job](https://meet.jobs?referral_code=jimmatw)會給你100美元獎金喔 !
 
 
 ## 常見問題
