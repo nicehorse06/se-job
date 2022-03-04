@@ -1,6 +1,7 @@
 # 軟體工作入門與求職記錄
 
-* 推薦使用[meet job](https://meet.jobs?referral_code=jimmatw)找工作，如果面試上了，[meet job](https://meet.jobs?referral_code=jimmatw)會給你100美元就職金    :partying_face: 
+* 推薦用[meet job](https://meet.jobs?referral_code=jimmatw)找工作，有很多入門或高薪好缺
+    * 找到工作[meet job](https://meet.jobs?referral_code=jimmatw)還會給你100美元就職金 :partying_face:
 
 ## 入門筆記
 * [網頁前端程式入門](https://github.com/nicehorse06/software-job-note/tree/master/frontend)
