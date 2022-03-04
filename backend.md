@@ -7,3 +7,8 @@
 * [flask](https://flask.palletsprojects.com/en/2.0.x/)
     * [flask入門教程](https://read.helloflask.com/)
         * [flask-movie-blog](https://github.com/nicehorse06/flask-movie-blog)
+
+
+## todo
+* Python
+* Node.js

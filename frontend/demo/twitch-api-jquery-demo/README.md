@@ -1,4 +1,4 @@
-# [demo url](https://nicehorse06.github.io/software-job-note/web-demo/twitch-api-jquery-demo/)
+# [demo url](https://nicehorse06.github.io/software-job-note/frontend/demo/twitch-api-jquery-demo/)
 
 `用jQuery動態載入twitch資料`
 
