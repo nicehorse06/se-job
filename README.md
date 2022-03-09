@@ -15,5 +15,5 @@
 * 網頁工程師待遇如何
 * 我該不該報名XX單位的AI課程變AI工程師
 * 如何找工作
-    * [meet jon](https://meet.jobs?referral_code=jimmatw)
+    * [meet.jobs](https://meet.jobs?referral_code=jimmatw)
 * 建置中
