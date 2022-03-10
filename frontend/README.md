@@ -19,9 +19,6 @@
 * 找工作管道
 	* [meet.jobs](https://meet.jobs/en?referral_code=jimmatw)
 		* meet.jobs裡面有很多好缺，真心推薦，如果應徵上你還可以拿獎金100美金!!
-	* PTT
-	* 104
-	* [f2etw/jobs](https://github.com/f2etw/jobs/issues)
 
 ## 基礎前端學習文檔
 * 自強學堂，一個簡體中文的網頁應用程式學習網站
@@ -65,8 +62,7 @@
 * [the odin project](https://www.theodinproject.com/)
 
 ## 前端學習與作品產出資源
-* [Bootstrap教學 - 利用HTML + CSS，完整編寫網站外觀示範
-](https://www.youtube.com/watch?v=9X1graZtuPs)
+* [Bootstrap教學 - 利用HTML + CSS，完整編寫網站外觀示範](https://www.youtube.com/watch?v=9X1graZtuPs)
 	* 從0開始一小時快速建立一頁活動網站，如[範例](https://nicehorse06.github.io/bootstrap-demo-note/)
 * [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
 * [從新手到中手：前端工程加強班](https://lidemy.com/p/frontend-intermediate-course)
@@ -83,7 +79,7 @@
 		* [Udemy筆記](https://hsins.me/Learn/Udemy/)
 	* [[心得] 2020 最值得買的Udemy線上課程推薦](https://www.pttcc.org/bbs/Course/M.8893899202.A.C02)
 
-* 六角學院
+* 六角學院，裡面的課程對新手入門很有幫助
 * [React Project Netflix Website Clone](https://www.youtube.com/playlist?list=PL6jnTQwFvrdbccPErnd5AsCY3dkYUk3e5&app=desktop)
 * [小马技术](https://www.youtube.com/channel/UCazV3A3_1-Mtd6E_auw_ifg)
 	* 一位技術型Youtuber，裡面提供了如Vue、Python、Docker、CSS、Git、HTML、DB等相關實用基礎教學

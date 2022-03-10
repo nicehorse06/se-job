@@ -8,7 +8,7 @@
 * [網頁前端程式入門筆記](https://github.com/nicehorse06/software-job-note/tree/master/frontend)
 * 網頁前端程式入門筆記(建置中)
 
-## 程式常見問題(建置中)
+## 常見問題(建置中)
 ### 什麼是網站前端
 * 瀏覽器上的程式，使用HTML、CSS、Javascript
 * 負責網頁的畫面、顯示後端的資料
@@ -23,8 +23,6 @@
 * 知識單純，只須了解瀏覽器、HTML、CSS、Javascript
 * 負責畫面較直覺，入門門檻低
 * 大學不重視，非本科系易達到業界需求
-* 未來需求越來越多
-    * 購物網站、一頁式APP、社群網站、官網、網頁遊戲、桌面程式、手機APP
 * 職涯靈活，可轉後端、UI、專案管理(PM)
 ### 什麼是API
 * 一種不同平台間的溝通方式
@@ -53,8 +51,6 @@
     * [GoFreight](https://meet.jobs/en/jobs/29544-senior-frontend-engineer?referral_code=jimmatw)
     * [Omlet Inc.](https://meet.jobs/en/jobs/30370-web-frontend-engineer?referral_code=jimmatw)
 
-### 我該不該報名XX單位的AI課程變AI工程師
-* todo
 ### 找工作管道
 * [meet.jobs](https://meet.jobs?referral_code=jimmatw)
     * 如果有適合的缺，推薦，可以領就職金，業務也很專業
@@ -62,3 +58,6 @@
 * 104，通常是入門缺，大公司也會請104求職者去自己的網站投履歷
 * Linkedin，常常經營跟更新，獵人頭會幫你找
 * [f2etw/jobs](https://github.com/f2etw/jobs/issues)
+
+### 我該不該報名XX單位的AI課程變AI工程師
+* todo
