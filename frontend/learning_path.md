@@ -10,3 +10,7 @@
 ## 階段二、了解Javascript
 * [w3schools JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
     * [中文版](https://www.w3school.com.cn/js/index.asp)
+
+## 階段三、做專案
+* 下載VScode
+* 開始做[從新手到中手：前端工程加強班](https://github.com/aszx87410/frontend-intermediate-course)
