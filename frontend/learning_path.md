@@ -10,11 +10,19 @@
 ## 階段二、了解Javascript
 * [w3schools JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
     * [中文版](https://www.w3school.com.cn/js/index.asp)
-* 刷題
 
-## 階段三、做專案
-* 下載VScode
+## 階段三、做專案，twitch API
+* 下載VScode、註冊Github
 * 開始做[從新手到中手：前端工程加強班](https://github.com/aszx87410/frontend-intermediate-course)
 
-## Vue.js
+## 階段四、刷題
+* 做[lidemy](https://oj.lidemy.com/problem)題目
+* 看[[ALG101] 先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
+
+## 階段五、了解計算機概論
+* [[CS101] 初心者的計概與 coding 火球術](https://lidemy.com/p/cs101-coding)
+
+## 階段六、使用JS框架(Vue.js)
+* [Vue.js](https://vuejs.org/)
 * todo
+

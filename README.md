@@ -4,7 +4,7 @@
     * 裡面有很多入門、高薪、外商好缺
     * 面試上還會給你100美元就職金 :partying_face:
 
-## [網頁前端程式入門筆記](https://github.com/nicehorse06/software-job-note/tree/master/frontend)
+## [網頁前端程式入門筆記](https://github.com/nicehorse06/software-job-note/tree/master/frontend/README.md)，前端學習資源
 
 ## 網頁後端程式入門筆記(建置中)
 
