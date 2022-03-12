@@ -4,7 +4,8 @@
     * 裡面有很多入門、高薪、外商好缺
     * 面試上還會給你100美元就職金 :partying_face:
 
-## [網頁前端程式入門筆記](https://github.com/nicehorse06/software-job-note/tree/master/frontend/README.md)，前端學習資源
+## [網頁前端程式入門筆記](https://github.com/nicehorse06/software-job-note/tree/master/frontend/README.md)
+* 很多前端學習資源建議
 
 ## 網頁後端程式入門筆記(建置中)
 
@@ -34,7 +35,7 @@
 ### 如何免費佈署網站
 * 使用github的github page功能，即可佈署屬於自己的前端網頁程式
 ### 前端網頁工程師待遇如何
-* 初級職缺: HTML + CSS + Javascript和框架，0~1年經驗，月薪3~6萬
+* 初級職缺: HTML + CSS + Javascript和框架，0到1年經驗，月薪3到6萬
     * [類星體數位](https://meet.jobs/en/jobs/31130-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-junior-front-end-engineer?referral_code=jimmatw)
     * [統智科技](https://meet.jobs/en/jobs/32017-%E7%B6%B2%E9%A0%81%E7%B3%BB%E7%B5%B1%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
     * [Dr.Right](https://meet.jobs/en/jobs/29982-%E5%89%8D%E7%AB%AF%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC%E5%B7%A5%E7%A8%8B%E5%B8%AB-front-end-developer?referral_code=jimmatw)
