@@ -85,7 +85,7 @@
     * API使用
     * Vue 或 React 或 Angular 
     * 課程結束有作品
-* 最重要的核心就是`Javascirpt`，跟我念三次
+* 最重要的核心就是`Javascript`，跟我念三次
 
 ### 我該不該報名XX單位的AI課程變AI工程師
 * todo
