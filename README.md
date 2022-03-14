@@ -12,23 +12,35 @@
 ### 這個專案有什麼資源?
 * [網頁前端程式入門筆記](https://github.com/nicehorse06/software-job-note/tree/master/frontend/README.md)，裡面有很多前端學習資源建議
 
-### 什麼是網站前端
+### 什麼是網站前端?
 * 瀏覽器上的程式，使用HTML、CSS、Javascript
 * 負責網頁的畫面、顯示後端的資料
 ![](https://i.imgur.com/hgJjHH9.png)
 
-### 什麼是網站後端
+### 為什麼推薦新手入門走前端?
+* 知識單純，只須了解瀏覽器、HTML、CSS、Javascript
+* 負責畫面較直覺，入門門檻低
+* 大學不重視，非本科系易達到業界需求
+* 職涯靈活，依照職崖規劃可轉後端、UI工程師、專案管理(PM)
+
+### 什麼是網站後端?
 * 伺服器上的程式
     * 常見後端語言Javascript(Node), Java, Python, PHP, Golang, Ruby, C#
     * 資料庫查詢語言SQL
 * 負責儲存、運算資料，開API接口給前端
 ![](https://i.imgur.com/lnA5G2x.png)
 
-### 為什麼推薦新手入門走前端
-* 知識單純，只須了解瀏覽器、HTML、CSS、Javascript
-* 負責畫面較直覺，入門門檻低
-* 大學不重視，非本科系易達到業界需求
-* 職涯靈活，依照職崖規劃可轉後端、UI工程師、專案管理(PM)
+### 為什麼不推薦新手走後端?
+* 通常執行環境是Linux OS，需要熟悉CLI文字介面，進入門檻高
+* 小公司的後端也是要懂前端，希望你做全端
+* 後端還要學公有雲佈署、資料庫操作、容器話應用
+* 可以先熟悉前端再跨入後端
+
+### 為什麼不推薦新手走APP
+* 執行環境是各式各樣不同尺寸的手機，比瀏覽器複雜
+* IOS的話綁定買Mac，進入門檻高
+* APP上架手續麻煩，不像web用github page即可永久免費佈署
+* 網頁可以發布手機尺寸的網站，也可以跨平台手機APP
 
 ### 前端工程師的缺點是什麼?
 * todo
@@ -39,20 +51,51 @@
 ### 非本科系會有差嗎?
 * todo
 
-### 我該怎麼學前端?
+### 資工本科系都不屑走前端嗎?
 * todo
+
+### 我該怎麼線上學前端?
+* 看本專案
+* 教學網站
+    * [w3schools 英文](https://www.w3schools.com/)
+    * [w3school 簡體中文](https://www.w3school.com.cn/)
+    * [lidemy](https://lidemy.com/)
+    * [MDN web doc](https://developer.mozilla.org/)
+* Youtube搜尋前端教學、網頁教學
+    * [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
+* 免費互動式教學網站
+    * codecademy
+    * [freecodecamp](https://www.freecodecamp.org/)，有中文
+* 中文付費課程
+    * 六角學院、alpha camp
+* 英文付費
+    * Udemy
 
 ### 我該怎麼選前端課程
-* todo
-
-### 我繳錢上完前端課程就可以找到工作了嗎?
-* [MUKI SPACE 面試有感](https://www.facebook.com/mukispace/posts/pfbid02QL8dcHCyeq9v9iFSPto6HQBNCxnEEuhp7qWzEWE2zCADqWd96B3w91SQCTVGbShFl)
+* 找以下關鍵字
+    * HTML
+    * CSS
+    * Javascript
+    * RWD
+    * API使用
+    * Vue.js 或 React.js
+    * 課程結束有作品
+* 最重要的核心就是Javascirpt，跟我念三次
 
 ### 我該不該報名XX單位的AI課程變AI工程師
 * todo
 
 ### 我該繳錢參加資策會的課嗎？
-* todo
+* 如果你是初學者，時間很多，自學能力有限，是可以考慮的選項
+* 最大的成本不是學費，而是花進去的時間
+* 選課自己要確定方向，有時課堂會塞一堆實際上用不到的技術浪費時間
+* 去資策會出來不會是加分的，可能還會扣分，重點還是要回到自學能力
+
+### 我繳錢上完課程就可以找到工作了嗎?
+* [MUKI SPACE 面試有感](https://www.facebook.com/mukispace/posts/pfbid02QL8dcHCyeq9v9iFSPto6HQBNCxnEEuhp7qWzEWE2zCADqWd96B3w91SQCTVGbShFl)
+    * 最大的原因，我覺得是「面試的作品集千篇一律」。
+    * 面試者從學校順利畢業，拿到相關結業證書，對我來說根本沒有意義
+    * 比較在意的是，從這些學校畢業之後，能不能利用所學，再去做出一個個獨特不一樣的專案
 
 ### 前端工程師待遇如何? 如何才能百萬年薪?
 * 初級職缺: HTML + CSS + Javascript和框架，0到1年經驗，月薪3到6萬
