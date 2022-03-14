@@ -45,6 +45,9 @@
 ### 我該怎麼選前端課程
 * todo
 
+### 我繳錢上完前端課程就可以找到工作了嗎?
+* [MUKI SPACE 面試有感](https://www.facebook.com/mukispace/posts/pfbid02QL8dcHCyeq9v9iFSPto6HQBNCxnEEuhp7qWzEWE2zCADqWd96B3w91SQCTVGbShFl)
+
 ### 我該不該報名XX單位的AI課程變AI工程師
 * todo
 
