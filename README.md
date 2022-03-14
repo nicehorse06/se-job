@@ -11,6 +11,8 @@
 
 ### 這個專案有什麼資源?
 * [網頁前端程式入門筆記](https://github.com/nicehorse06/software-job-note/tree/master/frontend/README.md)，裡面有很多前端學習資源建議
+* [前端自學路線建議](https://github.com/nicehorse06/software-job-note/blob/master/frontend/learning_path.md)
+* 持續整理中...
 
 ### 什麼是網站前端?
 * 瀏覽器上的程式，使用HTML、CSS、Javascript
