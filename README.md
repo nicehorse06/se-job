@@ -41,6 +41,7 @@
 * IOS的話綁定買Mac，進入門檻高
 * APP上架手續麻煩，不像web用github page即可永久免費佈署
 * 網頁可以發布手機尺寸的網站，也可以跨平台手機APP
+* [【入門解盲】2020 年還學寫網站/Web App，落後了嗎？](https://beginneros.com/articleDetail.php?article_id=284)
 
 ### 前端工程師的缺點是什麼?
 * todo
@@ -78,9 +79,9 @@
     * Javascript
     * RWD
     * API使用
-    * Vue.js 或 React.js
+    * Vue 或 React 或 Angular 
     * 課程結束有作品
-* 最重要的核心就是Javascirpt，跟我念三次
+* 最重要的核心就是`Javascirpt`，跟我念三次
 
 ### 我該不該報名XX單位的AI課程變AI工程師
 * todo
