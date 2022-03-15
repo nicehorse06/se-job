@@ -46,7 +46,7 @@
 * 後端還要學公有雲佈署、資料庫操作、容器話應用
 * 可以先熟悉前端再跨入後端
 
-### 為什麼不推薦新手走APP
+### 為什麼不推薦新手走APP?
 * 執行環境是各式各樣不同尺寸的手機，比瀏覽器複雜
 * IOS的話綁定買Mac，進入門檻高
 * APP上架手續麻煩，不像web用github page即可永久免費佈署
@@ -96,7 +96,7 @@
         * [JavaScript 全攻略：克服 JS 的奇怪部分](https://www.udemy.com/course/javascriptjs/#content)
         * [[心得] Udemy 課程心得](https://www.ptt.cc/bbs/Soft_Job/M.1562604814.A.927.html)
 
-### 我該怎麼選前端課程
+### 我該怎麼選前端課程?
 * 找以下關鍵字
     * HTML
     * CSS
@@ -107,7 +107,7 @@
     * 課程結束有作品
 * 最重要的核心就是`Javascript`，跟我念三次
 
-### 我該不該報名XX單位的AI課程變AI工程師
+### 我該不該報名XX單位的AI課程變AI工程師?
 * todo
 
 ### 我該繳錢參加資策會的課嗎？
@@ -123,7 +123,7 @@
     * 面試者從學校順利畢業，拿到相關結業證書，對我來說根本沒有意義
     * 比較在意的是，從這些學校畢業之後，能不能利用所學，再去做出一個個獨特不一樣的專案
 
-### 我該選擇哪一個JS框架(React/Vue/Angular)框架呢
+### 我該選擇哪一個JS框架(React/Vue/Angular)框架呢?
 * 基本上把JS弄熟，很多原理是互通的，最好都要了解，然後專攻一個
 #### Vue
 * 入門門檻低，中文文檔相對齊全，尤雨溪（Evan You）主導開發
@@ -157,7 +157,7 @@
     * [GoFreight](https://meet.jobs/zh-TW/jobs/29544-senior-frontend-engineer?referral_code=jimmatw)
     * [Omlet Inc.](https://meet.jobs/zh-TW/jobs/30370-web-frontend-engineer?referral_code=jimmatw)
 
-### 常見找工作管道有哪些
+### 常見找工作管道有哪些?
 * [meet.jobs](https://meet.jobs?referral_code=jimmatw)
     * 如果有適合的缺，很推薦，還可以領就職金
 * PTT，很多特別的缺會出現在這
