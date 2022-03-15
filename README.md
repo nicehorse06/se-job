@@ -15,6 +15,10 @@
 * [前端自學路線建議](https://github.com/nicehorse06/software-job-note/blob/master/frontend/learning_path.md)
 * 持續整理中...
 
+### 寫網頁需要什麼能力?
+* 基本上不用
+* 後期就是英文和刷題能力
+
 ### 什麼是網站前端?
 * 瀏覽器上的程式，使用HTML、CSS、Javascript
 * 負責網頁的畫面、顯示後端的資料
@@ -47,7 +51,13 @@
 * [【入門解盲】2020 年還學寫網站/Web App，落後了嗎？](https://beginneros.com/articleDetail.php?article_id=284)
 
 ### 前端工程師的缺點是什麼?
-* todo
+* 門檻低會有很多競爭者，google `前端難民`
+    * 這些`前端難民`很多都是知名大學來競爭
+* 技術更迭很快，前端技術每年都會更新
+    * 但因更迭快，反而容易短期培養技術
+* 處理畫面需培養溝通能力、美感(UI)、使用者經驗(UX)
+    * 如果克服了就變成優勢
+* 近期太多程式培訓班的學生拉高了就職門檻，現在至少要會一個JS框架(React/Vue/Angular)比較好找工作
 
 ### 我要準備什麼樣的能力可以開始面試前端?
 * 有作品，裡面至少用到RWD切版、後端API呼叫、使用JS框架(React/Vue/Angular)
@@ -60,6 +70,9 @@
 * todo
 * [[請益] 本科在前端(應該有)的優勢?](https://www.ptt.cc/bbs/Soft_Job/M.1647160345.A.D92.html)
 
+### 我該花錢買課程上課嗎?
+* 記得，投資自己貴的永遠不是課程、書本的價錢，而是你所花下去的時間。
+
 ### 我該怎麼線上學前端?
 * 看本專案
 * 教學網站
@@ -69,13 +82,16 @@
     * [MDN web doc](https://developer.mozilla.org/)
 * Youtube搜尋前端教學、網頁教學
     * [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
+* 如果時間允許，套件的官方網站就是很好的教程，可以跟著做一次
 * 免費互動式教學網站
     * codecademy
     * [freecodecamp](https://www.freecodecamp.org/)，有中文
 * 中文付費課程
-    * 六角學院、alpha camp
+    * hahow、六角學院、alpha camp
 * 英文付費
     * Udemy
+        * [JavaScript 全攻略：克服 JS 的奇怪部分](https://www.udemy.com/course/javascriptjs/#content)
+        * [[心得] Udemy 課程心得](https://www.ptt.cc/bbs/Soft_Job/M.1562604814.A.927.html)
 
 ### 我該怎麼選前端課程
 * 找以下關鍵字
@@ -103,6 +119,22 @@
     * 最大的原因，我覺得是「面試的作品集千篇一律」。
     * 面試者從學校順利畢業，拿到相關結業證書，對我來說根本沒有意義
     * 比較在意的是，從這些學校畢業之後，能不能利用所學，再去做出一個個獨特不一樣的專案
+
+### 我該選擇哪一個JS框架(React/Vue/Angular)框架呢
+* 基本上把JS弄熟，很多原理是互通的，最好都要了解，然後專攻一個
+#### Vue
+* 入門門檻低，中文文檔相對齊全，尤雨溪（Evan You）主導開發
+* 如果你是程式新手要入行、之前都沒碰過Javasript或很資淺，選Vue
+#### React
+* 現階段最流行框架，由FB主導開發
+    * 也就是缺最多
+* 入門門檻高，需有一定JS知識
+* 如果你已經是JS熟手想衝高年薪、並且想去厲害的大公司的話，選React
+#### Angular
+* 大而全、嚴謹的企業級框架，Google主導開發
+* Google有很詳盡的文檔應付升級，每年的變化相對其他兩個低
+* 如果你是後端熟手，想跳到前端Angular的嚴謹性會讓你很好上手
+* 當然你React/Vue很熟的話，Angular的公司也會收你
 
 ### 前端工程師待遇如何? 如何才能百萬年薪?
 * 初級職缺: HTML + CSS + Javascript和框架，0到1年經驗，月薪3到6萬
