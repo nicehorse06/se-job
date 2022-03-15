@@ -17,7 +17,7 @@
 	* 建議製作一些作品放到github page
 		* 去Udemy、六角學院、youtube找一些有作品的教學，做完可以拿去面試
 * 找工作管道
-	* [meet.jobs](https://meet.jobs/en?referral_code=jimmatw)
+	* [meet.jobs](https://meet.jobs/zh-TW?referral_code=jimmatw)
 		* meet.jobs裡面有很多好缺，真心推薦，如果應徵上你還可以拿獎金100美金!!
 
 ## 基礎前端學習文檔
