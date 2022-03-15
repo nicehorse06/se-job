@@ -6,9 +6,12 @@
     * 如果覺得有幫助，歡迎在工作推薦人上填入`jimmatw`，讓我為你一起開心 :D
 
 ## 光速Q&A
-### 這個專案是什麼
+### 這個專案是什麼?
 * 網頁前後端引導專案，讓新手可以快速進入狀況
 * 收集很多學習連結，加上我自己的少量教學分享
+
+### 這個專案目標客群是?
+* 非本科系想跨足軟體工作的人，讓你能找到第一份軟體工作為目標
 
 ### 這個專案有什麼資源?
 * [網頁前端程式入門筆記](https://github.com/nicehorse06/software-job-note/tree/master/frontend/README.md)，裡面有很多前端學習資源建議
@@ -163,4 +166,6 @@
 * [f2etw/jobs](https://github.com/f2etw/jobs/issues)
 * FB相關社團
 
-### 如果還有什麼問題可以在issue問我喔~~~
+### 更多問題
+* 如果還有什麼問題可以在issue問我
+* 或是mail到jimmatw@gmail.com
