@@ -3,6 +3,7 @@
 * 推薦用 [meet.jobs](https://meet.jobs?referral_code=jimmatw) 找工作
     * 裡面有很多入門、高薪、外商缺，顧問也很專業
     * 面試上還會給你100美元就職金 :partying_face:
+    * 如果覺得有幫助，歡迎在工作推薦人上填入`jimmatw`，讓我為你一起開心 :D
 
 ## 光速Q&A
 ### 這個專案是什麼
