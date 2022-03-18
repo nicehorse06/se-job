@@ -11,16 +11,17 @@
 * 收集很多學習連結，加上我自己的少量教學分享
 
 ### 這個專案目標客群是?
-* 非本科系想跨足軟體工作的人，讓你能找到第一份軟體工作為目標
+* 想跨足網頁軟體的人，以找到第一份工作為目標
 
 ### 這個專案有什麼資源?
 * [網頁前端程式入門筆記](https://github.com/nicehorse06/software-job-note/tree/master/frontend/README.md)，裡面有很多前端學習資源建議
 * [前端自學路線建議](https://github.com/nicehorse06/software-job-note/blob/master/frontend/learning_path.md)
 * 持續整理中...
 
-### 寫網頁需要什麼能力?
+### 學寫網頁需要什麼能力?
 * 基本上不用
-* 後期就是英文和刷題能力
+* 有對程式的熱誠才會走的常常久久
+* 後期著重英文和刷題能力
 
 ### 什麼是網站前端?
 * 瀏覽器上的程式，使用HTML、CSS、Javascript
@@ -79,19 +80,19 @@
 ### 我該怎麼線上學前端?
 * 看本專案
 * 教學網站
+    * [MDN web doc](https://developer.mozilla.org/)
     * [w3schools 英文](https://www.w3schools.com/)
     * [w3school 簡體中文](https://www.w3school.com.cn/)
     * [lidemy](https://lidemy.com/)
-    * [MDN web doc](https://developer.mozilla.org/)
 * Youtube搜尋前端教學、網頁教學
     * [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
 * 如果時間允許，套件的官方網站就是很好的教程，可以跟著做一次
 * 免費互動式教學網站
     * codecademy
     * [freecodecamp](https://www.freecodecamp.org/)，有中文
-* 中文付費課程
-    * hahow、六角學院、alpha camp
-* 英文付費
+* 中文課程
+    * 六角學院、alpha camp、appworks、hahow
+* 英文課程
     * Udemy
         * [JavaScript 全攻略：克服 JS 的奇怪部分](https://www.udemy.com/course/javascriptjs/#content)
         * [[心得] Udemy 課程心得](https://www.ptt.cc/bbs/Soft_Job/M.1562604814.A.927.html)
@@ -129,15 +130,16 @@
 * 入門門檻低，中文文檔相對齊全，尤雨溪（Evan You）主導開發
 * 如果你是程式新手要入行、之前都沒碰過Javasript或很資淺，選Vue
 #### React
-* 現階段最流行框架，由FB主導開發
+* 現階段最流行框架，Facebook主導開發
     * 也就是缺最多
-* 入門門檻高，需有一定JS知識
+* 入門門檻相對高，需有一定JS知識
 * 如果你已經是JS熟手想衝高年薪、並且想去厲害的大公司的話，選React
 #### Angular
 * 大而全、嚴謹的企業級框架，Google主導開發
 * Google有很詳盡的文檔應付升級，每年的變化相對其他兩個低
 * 如果你是後端熟手，想跳到前端Angular的嚴謹性會讓你很好上手
-* 當然你React/Vue很熟的話，Angular的公司也會收你
+* 會學Angular通常是就業導向，確定想要去某一間用Angular的公司
+    * 然後你React/Vue很熟的話，Angular的公司也會收你
 
 ### 前端工程師待遇如何? 如何才能百萬年薪?
 * 初級職缺: HTML + CSS + Javascript和框架，0到1年經驗，月薪3到6萬
