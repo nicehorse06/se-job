@@ -83,16 +83,16 @@
     * [MDN web doc](https://developer.mozilla.org/)
     * [w3schools 英文](https://www.w3schools.com/)
     * [w3school 簡體中文](https://www.w3school.com.cn/)
-    * [lidemy](https://lidemy.com/)
+    * [lidemy](https://lidemy.com/)，部分免費，推薦
 * Youtube搜尋前端教學、網頁教學
     * [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
 * 如果時間允許，套件的官方網站就是很好的教程，可以跟著做一次
 * 免費互動式教學網站
-    * codecademy
-    * [freecodecamp](https://www.freecodecamp.org/)，有中文
-* 中文課程
-    * 六角學院、alpha camp、appworks、hahow
-* 英文課程
+    * [freecodecamp](https://www.freecodecamp.org/)，完全免費，有中文
+    * codecademy，部分要付費解鎖
+* 中文付費課程 (歡迎拉贊助，有限版面才能介紹更多 XD)
+    * alpha camp、appworks、hahow、hiskio、六角學院
+* 英文付費課程
     * Udemy
         * [JavaScript 全攻略：克服 JS 的奇怪部分](https://www.udemy.com/course/javascriptjs/#content)
         * [[心得] Udemy 課程心得](https://www.ptt.cc/bbs/Soft_Job/M.1562604814.A.927.html)
