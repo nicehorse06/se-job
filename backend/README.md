@@ -1,5 +1,11 @@
 # 後端程式入門、工作文章整理
 
+## TODO
+* flask
+* django
+* more node.js
+* SQL
+
 ## Client Server 架構
 * Client(前端)為使用者端如網頁、app，使用者身邊的裝置，會發出請求(如HTTP協定)到Server的API
 * Server(後端)為伺服器端，工程師能控制的主機，會執行一個網頁伺服器並連結資料庫，開放API給外界呼叫
