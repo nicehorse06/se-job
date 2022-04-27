@@ -18,7 +18,7 @@
 * [前端自學路線建議](https://github.com/nicehorse06/software-job-note/blob/master/frontend/learning_path.md)
 * 持續整理中...
 
-### 學寫網頁需要什麼能力?
+### 想學寫網頁需要什麼能力?
 * 基本上不用
 * 有對程式的熱誠才會走的常常久久
 * 後期著重英文和刷題能力
@@ -109,7 +109,11 @@
 * 最重要的核心就是`Javascript`，跟我念三次
 
 ### 我該不該報名XX單位的AI課程變AI工程師?
-* todo
+* 先講結論，有這樣疑問的程式新手先不要
+* 如果課程前面有Python語法入門課程，自己看[w3school Python Tutorial](https://www.w3schools.com/python/)就好
+* 資料科學、機械學習的就業門檻高，至少要相關學系碩士，只用皮毛套件對工作幫助有限
+    * 台灣的工作假AI居多，這個行業僧多粥少
+* 如果有教聊天機器人，那屬於後端工程師的範圍，建議直接學Python框架Django or Flask即可。
 
 ### 我該繳錢參加資策會的課嗎？
 * 如果你是初學者，時間很多，自學能力有限，是可以考慮的選項
@@ -167,6 +171,23 @@
 * Linkedin，常常經營跟更新，獵人頭會幫你找
 * [f2etw/jobs](https://github.com/f2etw/jobs/issues)
 * FB相關社團
+
+### 為什麼我面試前端工作一直沒辦法錄取呢?
+* 前端工作因為前端訓練班的出現造成門檻提升
+    * 現在沒有作品跟基礎很難直接被錄取
+    * 面試時的作品務必跟訓練班做出差異化
+* 除了基礎語法，瀏覽器與網路知識也要了解
+    * [初心者的計概與 coding 火球術](https://lidemy.com/p/cs101-coding)
+* 你刷題了嗎? 技術高的公司很難不考白板題
+    * [先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
+* 你的作品夠強嗎? 還是看起來像是玩具或是照抄課程的project?
+    * 務必了解作品的每一個細節
+    * 試著加入JS框架、API使用、RWD頁面並佈署在github page
+* 每天練習的時間夠嗎? 我猜你一天練習時間不到一個小時
+* 可以考慮使用正式英文履歷，把附有大頭照的花花綠綠履歷換掉
+    * [讓我拿到FAANG面試的履歷 by HackBear 泰瑞](https://www.youtube.com/watch?v=MsbzY6QbRVA&t=304s)
+* 如果會一點後端操作如Linux、Git指令、Node後端就太棒了
+* 如果還有困難那就深入React，把React技術和周邊框架都摸爛，offer就在不遠處
 
 ### 更多問題
 * 如果還有什麼問題可以在issue問我

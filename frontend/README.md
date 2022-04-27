@@ -109,6 +109,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 由中國社群開發，最近竄紅的框架
 * 入門門檻低，中文文文檔相對齊全
 * [重新認識 Vue.js 008 天絕對看不完的 Vue.js 3.0 指南](https://book.vue.tw/)
+* [Vue 與 React 的 template engine 設計哲學差異](https://devs.tw/post/368)
 
 ### Angular
 * 大而全、嚴謹的企業級框架
