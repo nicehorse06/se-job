@@ -21,7 +21,7 @@
 * git clone [目標git網址]
 	* 功能為複製下載別人的專案
 	* 使用時機為從目標網址的git 伺服器下載檔案，會包含其`.git`
-	* 範例：`git clone git@github.com:nicehorse06/software-job-note.git`
+	* 範例：`git clone git@github.com:nicehorse06/se-job.git`
 	* `目標git網址`在該git 伺服器網站皆可找到
 
 ## 記錄變更狀態

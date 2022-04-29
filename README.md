@@ -14,8 +14,8 @@
 * 想跨足網頁軟體的人，以找到第一份工作為目標
 
 ### 這個專案有什麼資源?
-* [網頁前端程式入門筆記](https://github.com/nicehorse06/software-job-note/tree/master/frontend/README.md)，裡面有很多前端學習資源建議
-* [前端自學路線建議](https://github.com/nicehorse06/software-job-note/blob/master/frontend/learning_path.md)
+* [網頁前端程式入門筆記](https://github.com/nicehorse06/se-job/tree/master/frontend/README.md)，裡面有很多前端學習資源建議
+* [前端自學路線建議](https://github.com/nicehorse06/se-job/blob/master/frontend/learning_path.md)
 * 持續整理中...
 
 ### 想學寫網頁需要什麼能力?

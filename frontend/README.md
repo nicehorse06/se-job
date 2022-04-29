@@ -128,7 +128,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [為你自己學 Git](https://gitbook.tw/)
 * [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
 * [Learn-Git-in-30-days](https://github.com/doggy8088/Learn-Git-in-30-days) Will 保哥 【30 天精通 Git 版本控管】
-* [Git基礎中的基礎指令](https://github.com/nicehorse06/software-job-note/blob/master/userful_note/git.md) 嘿嘿馬的簡易git心得
+* [Git基礎中的基礎指令](https://github.com/nicehorse06/se-job/blob/master/userful_note/git.md) 嘿嘿馬的簡易git心得
 * [Git & GitHub 教學手冊](https://w3c.hexschool.com/git/cfdbd310)
 	* [github](https://github.com/) 為軟體工作者上傳程式碼的地方、也是履歷與程式社交的一部分
 ### [Vscode](https://code.visualstudio.com/)
@@ -164,7 +164,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ### node.js
 * 一個以Javascript在後端運行的框架
 * 其提供的npm工具可管理下載CSS和JS的套件
-* [Jimmy的簡易npm心得](https://github.com/nicehorse06/software-job-note/blob/master/userful_note/node_and_npm.md)
+* [Jimmy的簡易npm心得](https://github.com/nicehorse06/se-job/blob/master/userful_note/node_and_npm.md)
 ### 英文
 * 非常重要，請弄好英文
 * [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/blog/issues/3)
@@ -214,7 +214,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
 * [The Star Wars API](https://swapi.co/)
 * [Dog API](https://dog.ceo/dog-api/)
-* 用網頁製作履歷如[範例](https://nicehorse06.github.io/software-job-note/)，或是用markdown製作也可以
+* 用網頁製作履歷如[範例](https://nicehorse06.github.io/se-job/)，或是用markdown製作也可以
 * twitch API
 * 即時爬蟲API，如即時爬股票、匯率、天氣
 * [hsiangfeng/APIList](https://github.com/hsiangfeng/APIList)

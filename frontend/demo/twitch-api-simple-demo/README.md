@@ -1,4 +1,4 @@
-# [demo url](https://nicehorse06.github.io/software-job-note/frontend/demo/twitch-api-simple-demo/)
+# [demo url](https://nicehorse06.github.io/se-job/frontend/demo/twitch-api-simple-demo/)
 
 `簡易的取代html的假資料帶入api拿到的真資料`
 
