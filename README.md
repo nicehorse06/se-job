@@ -122,7 +122,7 @@
 * 免費互動式教學網站
     * [freecodecamp](https://www.freecodecamp.org/)，完全免費，有中文
     * codecademy，部分要付費解鎖
-* 中文付費課程 (歡迎拉贊助，有限版面才能介紹更多 XD)
+* 中文課程
     * alpha camp、appworks、hahow、hiskio、六角學院
 * 英文付費課程
     * Udemy
