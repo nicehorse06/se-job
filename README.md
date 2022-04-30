@@ -205,7 +205,7 @@
 * FB相關社團
 
 ### 前端面試的過程中不如預期嗎?
-#### gj
+###### gj
 * 如果非本科系轉職，求的是工作經驗
     * 需求的薪水可以不用太高，一兩年就跳了
     * 雖然公司很多負評，只要進去技術能成長，其他都好說
@@ -218,12 +218,12 @@
     * [初心者的計概與 coding 火球術](https://lidemy.com/p/cs101-coding)
 * 你刷題了嗎? 技術高的公司很難不考白板題
     * [先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
-* 你的作品夠強嗎? 還是看起來像是玩具或是照抄課程的project?
+* 你的作品夠強嗎? 還是看起來像玩具或照抄課程的project?
     * 務必了解作品的每一個細節
     * 試著加入JS框架、API使用、RWD頁面並佈署在github page
 * 每天練習的時間夠嗎? 是否一天練習時間不到一個小時?
-* 考慮經營blog，就是寫上自己學習的心得也好，一定有東西可以寫，
-    * 從issue blog開始做很簡單，參考[aszx87410/blog](https://github.com/aszx87410/blog/issues)
+* 經營技術blog，寫上學習的心得也好，一定有東西可以寫
+    * 從github issue blog開始寫很簡單，參考[aszx87410/blog](https://github.com/aszx87410/blog/issues)
 * 可以考慮使用正式英文履歷，把附有大頭照的花花綠綠履歷換掉
     * [讓我拿到FAANG面試的履歷 by HackBear 泰瑞](https://www.youtube.com/watch?v=MsbzY6QbRVA&t=304s)
     * [程式設計師的履歷撰寫要點](https://blog.m157q.tw/posts/2016/01/22/how-to-write-a-resume-for-programming-jobs/)
