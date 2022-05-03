@@ -34,13 +34,13 @@
 * 後期著重英文和刷題能力
 
 ### 什麼是網站前端?
-* 瀏覽器上的程式，使用HTML、CSS、Javascript
+* 瀏覽器上的程式，使用HTML、CSS、JavaScript
 * 負責網頁的畫面、顯示後端的資料
 
 ![](https://i.imgur.com/hgJjHH9.png)
 
 ### 為什麼推薦新手入門走前端?
-* 知識單純，只須了解瀏覽器、HTML、CSS、Javascript
+* 知識單純，只須了解瀏覽器、HTML、CSS、JavaScript
 * 負責畫面較直覺，入門門檻低
 * 大學不重視，非本科系易達到業界需求
 * 職涯靈活，依照職崖規劃可轉後端、UI工程師、專案管理(PM)
@@ -48,7 +48,7 @@
 ### 什麼是網站後端?
 * 伺服器上的程式
     * 常見後端語言:
-        * Javascript(Node)
+        * JavaScript(Node)
         * Java
         * Python
         * PHP
@@ -161,12 +161,12 @@
 * 找以下關鍵字
     * HTML
     * CSS
-    * Javascript
+    * JavaScript
     * RWD
     * API使用
     * Vue 或 React 或 Angular 
     * 課程結束有作品
-* 最重要的核心就是`Javascript`，跟我念三次
+* 最重要的核心就是`JavaScript`，跟我念三次
 
 ### 我該不該報名XX單位的AI課程變AI工程師?
 * 先講結論，有這樣疑問的程式新手先不要
@@ -209,20 +209,20 @@
     * 然後你React/Vue很熟的話，Angular的公司也會收你
 
 ### 前端工程師待遇如何? 如何才能百萬年薪?
-* 初級職缺: HTML + CSS + Javascript和框架，0到1年經驗，月薪3到6萬
+* 初級職缺: HTML + CSS + JavaScript和框架，0到1年經驗，月薪3到6萬
     * [類星體數位](https://meet.jobs/zh-TW/jobs/31130-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-junior-front-end-engineer?referral_code=jimmatw)
     * [統智科技](https://meet.jobs/zh-TW/jobs/32017-%E7%B6%B2%E9%A0%81%E7%B3%BB%E7%B5%B1%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
     * [Dr.Right](https://meet.jobs/zh-TW/jobs/29982-%E5%89%8D%E7%AB%AF%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC%E5%B7%A5%E7%A8%8B%E5%B8%AB-front-end-developer?referral_code=jimmatw)
     * [麟數據科技](https://meet.jobs/zh-TW/jobs/28962-web%E5%85%A8%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E6%AD%A1%E8%BF%8E%E6%96%B0%E9%AE%AE%E4%BA%BA?referral_code=jimmatw)
     * [TITANSOFT 新加坡商鈦坦科技](https://meet.jobs/zh-TW/jobs/29447-software-engineer%EF%BC%8Fprogrammer-%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%98%E9%9B%84?referral_code=jimmatw)
     * [愛卡拉 iKala](https://meet.jobs/zh-TW/jobs/32022-ikala-commerce%E7%B6%B2%E9%A0%81%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-web-frontend-engineer?referral_code=jimmatw)
-* 中級職缺: HTML + CSS + Javascript和框架，3年以上經驗，年薪約100
+* 中級職缺: HTML + CSS + JavaScript和框架，3年以上經驗，年薪約100
     * [端傳媒](https://meet.jobs/zh-TW/jobs/32025-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-frontend-developer?referral_code=jimmatw)
     * [瑞嘉軟體](https://meet.jobs/zh-TW/jobs/30647-%E6%96%B0%E7%AB%B9full-stackfrontend-engineer-%E5%85%A8%E7%AB%AF%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A6%AC%E5%81%95%E9%86%AB%E9%99%A2%E6%97%81?referral_code=jimmatw)
     * [均一平台教育基金會](https://meet.jobs/zh-TW/jobs/27698-%E8%B3%87%E6%B7%B1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
     * [BitoEX (幣託) ](https://meet.jobs/zh-TW/jobs/31078-senior-frontend-developer-%E6%AF%8F%E6%9C%88%E6%9C%89%E9%81%A0%E7%AB%AF%E6%97%A5?referral_code=jimmatw)
     * [Tomofun友愉](https://meet.jobs/zh-TW/jobs/26971-sr-frontend-engineer-%E8%B3%87%E6%B7%B1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
-* 高級職缺: HTML + CSS + Javascript和框架 + Node後端經驗，3年以上經驗，年薪約120~200+
+* 高級職缺: HTML + CSS + JavaScript和框架 + Node後端經驗，3年以上經驗，年薪約120~200+
     * [GoFreight](https://meet.jobs/zh-TW/jobs/29544-senior-frontend-engineer?referral_code=jimmatw)
     * [Omlet Inc.](https://meet.jobs/zh-TW/jobs/30370-web-frontend-engineer?referral_code=jimmatw)
 

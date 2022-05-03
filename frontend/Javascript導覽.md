@@ -1,3 +1,3 @@
-# Javascript導覽
+# JavaScript導覽
 
 * TODO

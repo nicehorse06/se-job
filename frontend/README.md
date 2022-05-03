@@ -6,13 +6,13 @@
 	* 下載`vscode`使用codepen可以線上練習前端程式
 	* 使用codepen可以線上練習前端程式
 	* 登入github，在git repo上按`.`，啟動線上vscode編輯程式
-* 學習HTML、CSS、Javascript知識
+* 學習HTML、CSS、JavaScript知識
 * 查看`前端工程師養成手冊`、`五個月成為 JavaScript 工程師的完整攻略`文章
 * 學習網頁知識並用`github page`展現你的網頁
 * 面試前端工程師
 	* 面試條件參閱`公司應徵前端工程師的共通條件`
 	* 去104搜尋前端工程師查看需要的條件，並以心儀的工作為目標準備
-	* 初學者可以找只需要HTML、CSS、Javascript的工作為目標
+	* 初學者可以找只需要HTML、CSS、JavaScript的工作為目標
 		* 不要求會前端框架如React、Vue
 	* 建議製作一些作品放到github page
 		* 去Udemy、六角學院、youtube找一些有作品的教學，做完可以拿去面試
@@ -26,12 +26,12 @@
 		* 前端網頁的內容呈現
 	* [CSS](https://code.ziqiangxuetang.com/css/css-tutorial.html)
 		* 前端網頁的樣式呈現
-	* [Javascript](https://code.ziqiangxuetang.com/js/js-tutorial.html)
+	* [JavaScript](https://code.ziqiangxuetang.com/js/js-tutorial.html)
 		* 前端唯一的程式語言，在瀏覽器上有`話語霸權`
 		* 可以更改HTML跟CSS的邏輯
 		* 此語言也可以編寫後端程式
 		* 前端工程師的精髓
-* [廖雪峰的Javascript教程](https://www.liaoxuefeng.com/wiki/1022910821149312)
+* [廖雪峰的JavaScript教程](https://www.liaoxuefeng.com/wiki/1022910821149312)
 * [w3school 英文](https://www.w3schools.com/)
 	* 好入門的英文文檔
 * [MDN web docs](https://developer.mozilla.org/zh-TW/)
@@ -54,7 +54,7 @@
 	* 類似codecademy互動式的教學網頁
 	* 內容豐富
 		* RWD網頁設計
-		* Javascript資料結構、演算法
+		* JavaScript資料結構、演算法
 		* React套件
 		* Node.js後端，用Express、MongoDB、Mongoose建立一個服務。
 	* 有中文
@@ -64,7 +64,7 @@
 ## 前端學習與作品產出資源
 * [Bootstrap教學 - 利用HTML + CSS，完整編寫網站外觀示範](https://www.youtube.com/watch?v=9X1graZtuPs)
 	* 從0開始一小時快速建立一頁活動網站，如[範例](https://nicehorse06.github.io/bootstrap-demo-note/)
-* [Javascript 30](https://javascript30.com/) 有三十個不錯的 JS範例
+* [JavaScript 30](https://javascript30.com/) 有三十個不錯的 JS範例
 * [從新手到中手：前端工程加強班](https://lidemy.com/p/frontend-intermediate-course)
 	* [github](https://github.com/aszx87410/frontend-intermediate-course) 
 	* 很棒的從初學的進階的範例、使用到twich API做一個直撥網頁
@@ -97,7 +97,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ```
 
 ### [Vanilla.js](https://medium.com/%E7%A8%8B%E5%BC%8F%E4%BA%BA%E6%9C%88%E5%88%8A/%E5%8E%9F%E7%94%9F%E7%9A%84-javascript-%E7%94%A8%E6%B3%95-vanilla-js-e53d3cdb5e8)
-* 只要使用原生Javascript的功能，可稱作`Vanilla.js`
+* 只要使用原生JavaScript的功能，可稱作`Vanilla.js`
 * 不建議用`jQuery`套件來取代JS原生功能，應扎實了解JS，有需要再選擇所需套件
 ### React
 * 現階段最流行框架，由FB主導開發，
@@ -162,7 +162,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [用固定網址發布筆記](https://hackmd.io/s/how-to-share-note-tw)
 * [如何與 GitHub 同步筆記](https://hackmd.io/c/tutorials-tw/%2Fs%2Flink-with-github-tw)
 ### node.js
-* 一個以Javascript在後端運行的框架
+* 一個以JavaScript在後端運行的框架
 * 其提供的npm工具可管理下載CSS和JS的套件
 * [Jimmy的簡易npm心得](https://github.com/nicehorse06/se-job/blob/master/userful_note/node_and_npm.md)
 ### 英文
@@ -239,7 +239,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 
 ## 公司應徵前端工程師的共通條件
 ### 基本條件
-* 熟悉 Javascript、HTML、CSS
+* 熟悉 JavaScript、HTML、CSS
 * 熟悉 HTML5、CSS3、RWD、SASS(SCSS) 前端設計技巧
 * 了解 git
 * 串接 API 到網頁及其讀、寫文件能力

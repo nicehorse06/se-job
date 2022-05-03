@@ -10,7 +10,7 @@
     * [中文版](https://www.w3school.com.cn/css/index.asp)
 * [MDN Web 入门](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web)，搭配著w3schools看
 
-## 階段二，了解Javascript
+## 階段二，了解JavaScript
 * [w3schools JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
     * [中文版](https://www.w3school.com.cn/js/index.asp)
 * 刷題(選做)，目的是要熟悉JS語法，可和階段三併行
@@ -31,6 +31,6 @@
 * 從生活中想要解決的事情開始
     * 記帳、行事曆、youtube影片、個人網站
 ### 準備履歷
-### 準備Javascript刷題
+### 準備JavaScript刷題
 ### 學習基本電腦知識
 * [[CS101] 初心者的計概與 coding 火球術](https://lidemy.com/p/cs101-coding)

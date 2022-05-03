@@ -35,8 +35,8 @@
     * 如果是後端語言的職缺，PHP大概是最多的了，很多舊網站在用
     * 推薦急著想找工作的新手
 * Node.js
-    * 使用Javascript撰寫，建議已經熟悉前端的工程師從Node切入
-        * Javascript不是Java，名稱很像是歷史原因
+    * 使用JavaScript撰寫，建議已經熟悉前端的工程師從Node切入
+        * JavaScript不是Java，名稱很像是歷史原因
     * 因前後端語言一樣，很多新創使用
     * 推薦短時間想拿高薪以全端為目標的工程師
 * Go(Golang)
