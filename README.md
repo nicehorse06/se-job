@@ -12,21 +12,25 @@
 * 收集很多學習連結，加上我自己的少量教學分享
 
 ### 這個專案目標客群是?
-* 想跨足網頁軟體的人，以找到第一份工作為目標
+* 想跨足網頁開發的人，以找到第一份工作為目標
 
 ### 這個專案有什麼資源?
-* [網頁前端程式入門筆記](https://github.com/nicehorse06/se-job/tree/master/frontend/README.md)，裡面有很多前端學習資源建議
+* [網頁前端程式入門筆記](https://github.com/nicehorse06/se-job/tree/master/frontend/README.md)
+    * 裡面有很多前端學習資源建議
 * [前端自學路線建議](https://github.com/nicehorse06/se-job/blob/master/frontend/learning_path.md)
 * 持續整理中...
 
 ### 想學寫網頁需要什麼能力?
 * 基本上不用
 * 有對程式的熱誠才會走的常常久久
+    * 喜歡自己研究、創造作品的感覺
+    * 喜歡持續學習來精進自己的專業
 * 後期著重英文和刷題能力
 
 ### 什麼是網站前端?
 * 瀏覽器上的程式，使用HTML、CSS、Javascript
 * 負責網頁的畫面、顯示後端的資料
+
 ![](https://i.imgur.com/hgJjHH9.png)
 
 ### 為什麼推薦新手入門走前端?
@@ -37,13 +41,24 @@
 
 ### 什麼是網站後端?
 * 伺服器上的程式
-    * 常見後端語言Javascript(Node), Java, Python, PHP, Golang, Ruby, C#
-    * 資料庫查詢語言SQL
+    * 常見後端語言:
+        * Javascript(Node)
+        * Java
+        * Python
+        * PHP
+        * Golang
+        * Ruby
+        * C#
+    * 資料庫查詢語言: SQL
+        * 後端跟前端很大的差別是會儲存資料
+        * SQL的資料查詢速度影響使用者體驗甚鉅
 * 負責儲存、運算資料，開API接口給前端
 ![](https://i.imgur.com/lnA5G2x.png)
 
 ### 為什麼不推薦新手走後端?
-* 通常執行環境是Linux OS，需要熟悉CLI文字介面，進入門檻高
+* 通常執行環境是Linux OS
+    * 需要熟悉CLI文字介面
+    * 進入門檻高
 * 小公司的後端也是要懂前端，希望你有全端的能力
 * 後端還要學公有雲佈署、資料庫操作、容器應用
 * 可以先熟悉前端再跨入後端
@@ -53,19 +68,24 @@
 * IOS的話綁定買Mac，進入門檻高
 * APP上架手續麻煩，不像web用github page即可永久免費佈署
 * 網頁可以發布手機尺寸的網站，也可以跨平台手機APP
-* [【入門解盲】2020 年還學寫網站/Web App，落後了嗎？](https://beginneros.com/articleDetail.php?article_id=284)
+* ref
+    * [【入門解盲】2020 年還學寫網站/Web App，落後了嗎？](https://beginneros.com/articleDetail.php?article_id=284)
 
 ### 前端工程師的缺點是什麼?
 * 門檻低會有很多競爭者，google `前端難民`
-    * 這些`前端難民`很多都是知名大學來競爭
+    * 這些`前端難民`很多都是頂尖大學來競爭
 * 技術更迭很快，前端技術每年都會更新
     * 但因更迭快，反而容易短期培養技術
 * 處理畫面需培養溝通能力、美感(UI)、使用者經驗(UX)
     * 如果克服了就變成優勢
-* 近期太多程式培訓班的學生拉高了就職門檻，現在至少要會一個JS框架(React/Vue/Angular)比較好找工作
+* 近期太多程式培訓班的學生拉高了就職門檻
+    * 現在至少要會一個JS框架(React/Vue/Angular)比較好找工作
 
 ### 我要準備什麼樣的能力可以開始面試前端?
-* 有作品，裡面至少用到RWD切版、後端API呼叫、使用JS框架(React/Vue/Angular)
+* 有作品，裡面至少用到
+    * RWD切版
+    * 後端API呼叫
+    * 使用JS框架(React/Vue/Angular)
 
 ### 非本科系沒學歷會有差嗎?
 * 一定有些許影響，但對前端來說努力可以克服
@@ -99,7 +119,8 @@
     
 
 ### 資工本科系都不屑走前端嗎?
-* 資工系的訓練不是為前端而生，所以頂尖的資工畢業生不會以前端為目標
+* 資工系的訓練不是為前端而生
+    * 所以頂尖的資工畢業生不會以前端為目標
     * 會去做門檻更高、更吃資工知識、待遇更高的工作
 * 一部分畢業生還是會基於興趣或現實的考量選擇前端
     * 可以想像成美國人來台灣念外文系虐人
@@ -111,20 +132,21 @@
 
 ### 我該怎麼線上學前端?
 * 看本專案
+* 如果時間允許，套件的官方網站就是很好的教程，可以跟著做一次
 * 教學網站
     * [MDN web doc](https://developer.mozilla.org/)
     * [w3schools 英文](https://www.w3schools.com/)
     * [w3school 簡體中文](https://www.w3school.com.cn/)
-    * [lidemy](https://lidemy.com/)，部分免費，推薦
+    * [廖雪峰的官方網站 JS](https://www.liaoxuefeng.com/wiki/1022910821149312)
 * Youtube搜尋前端教學、網頁教學
     * [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
-* 如果時間允許，套件的官方網站就是很好的教程，可以跟著做一次
-* 免費互動式教學網站
+* 互動式教學網站
     * [freecodecamp](https://www.freecodecamp.org/)，完全免費，有中文
     * codecademy，部分要付費解鎖
 * 中文課程
+    * [lidemy](https://lidemy.com/)，部分免費，推薦
     * alpha camp、appworks、hahow、hiskio、六角學院
-* 英文付費課程
+* 英文課程
     * Udemy
         * [JavaScript 全攻略：克服 JS 的奇怪部分](https://www.udemy.com/course/javascriptjs/#content)
         * [[心得] Udemy 課程心得](https://www.ptt.cc/bbs/Soft_Job/M.1562604814.A.927.html)
@@ -146,6 +168,9 @@
 * 資料科學、機械學習的就業門檻高，至少要相關學系碩士，只用皮毛套件對工作幫助有限
     * 台灣的工作假AI居多，這個行業僧多粥少
 * 如果有教聊天機器人，那屬於後端工程師的範圍，建議直接學Python框架Django or Flask即可。
+* 很多轉職的人轉職都有AI夢
+    * 如果目標是為了研究可以學AI
+    * 如果目標是為了就業，還是推薦走網頁
 
 ### 我該繳錢參加資策會的課嗎？
 * 如果你是初學者，時間很多，自學能力有限，是可以考慮的選項
@@ -204,7 +229,7 @@
 * [f2etw/jobs](https://github.com/f2etw/jobs/issues)
 * FB相關社團
 
-### 前端面試的過程中不如預期嗎?
+### 前端面試的過程中不如預期?
 ###### gj
 * 如果非本科系轉職，求的是工作經驗
     * 需求的薪水可以不用太高，一兩年就跳了
@@ -233,8 +258,12 @@
 ### 關於我
 * 大家好，我是Jimmy，2015年從輔大物理跨到網頁前後端的花花世界
     * 目前能力介於junior到senior之間
-    * 會基礎前端，但JS框架不熟，目前走後端Python居多
-* 這個專案是想推朋友走前端整理出來的
+    * 第一份工作著重在前端，但JS框架不熟
+    * 第二份之後原本有前端夢，最後面試上後端，目前走Python居多
+* 目前此專案偏轉職介紹，而程式開發的挑戰入行才開始呢
+    * 我也還在摸索工程師怎麼不會中年失業 :P
+    * 期許自己以後有能力分享這塊~
+* 此專案是想推朋友走前端整理出來的
     * 歡迎跨領域的新手一起討論，如果有能力會盡量回答
 * 如果還有什麼問題可以在issue問我
     * 或是mail到`jimmatw@gmail.com`
