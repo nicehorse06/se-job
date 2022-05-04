@@ -128,7 +128,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [為你自己學 Git](https://gitbook.tw/)
 * [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
 * [Learn-Git-in-30-days](https://github.com/doggy8088/Learn-Git-in-30-days) Will 保哥 【30 天精通 Git 版本控管】
-* [Git基礎中的基礎指令](https://github.com/nicehorse06/se-job/blob/master/userful_note/git.md) 嘿嘿馬的簡易git心得
+* [Git基礎中的基礎指令](https://github.com/nicehorse06/se-job/blob/master/userful_note/git.md) Jimmy的簡易git心得
 * [Git & GitHub 教學手冊](https://w3c.hexschool.com/git/cfdbd310)
 	* [github](https://github.com/) 為軟體工作者上傳程式碼的地方、也是履歷與程式社交的一部分
 ### [Vscode](https://code.visualstudio.com/)
@@ -161,13 +161,19 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [HackMD 快速入門教學](https://hackmd.io/s/quick-start-tw)
 * [用固定網址發布筆記](https://hackmd.io/s/how-to-share-note-tw)
 * [如何與 GitHub 同步筆記](https://hackmd.io/c/tutorials-tw/%2Fs%2Flink-with-github-tw)
+
 ### node.js
 * 一個以JavaScript在後端運行的框架
 * 其提供的npm工具可管理下載CSS和JS的套件
 * [Jimmy的簡易npm心得](https://github.com/nicehorse06/se-job/blob/master/userful_note/node_and_npm.md)
+
 ### 英文
 * 非常重要，請弄好英文
-* [Jimmy的工程師英文精進筆記](https://github.com/nicehorse06/blog/issues/3)
+* 要看得懂英文文件和技術書
+* 聽的懂英文教學文件
+* 英文面試時，至少能用英文溝通
+* 工作上，至少能用英文寫Email和在open source上交流
+> 「漢語缺乏「概念」層次的表述詞彙，於是在系統軟體領域中，consistency, coherence, consensus 這三個詞彙都被(過度簡化地)翻譯為「一致性」，但本質卻是三個完全不同的概念。」 - [Jserv](https://www.facebook.com/groups/system.software2022/permalink/2036768019837931/)
 
 ### 測試工具
 * [httpbin](https://httpbin.org/)，此網站可以接收http並回傳接收到的結果，方便測試client
@@ -190,25 +196,45 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [[心得] 轉職心得分享](https://www.ptt.cc/bbs/Soft_Job/M.1563795875.A.333.html)
 
 ## 工程師應徵工作，履歷、作品集參考
-* 用PDF的一頁式履歷，排版要乾淨，可用markdown產出履歷
+* 用PDF的一頁式履歷，排版要乾淨
 	* 一頁式簡易履歷稱作resume，多頁詳細履歷稱作CV，台灣大部分工作用resume即可
 * 履歷中盡量不要提供與學經歷、工作無關的個人資訊
-	* 可不要放相片，照片會涉及年齡、性別、種族歧視問題
+	* 可不要放相片
 	* 不用寫性別，除非你是女生
+	* 直接會的技能、做過的專案、工作經驗單刀直入
 * 聯絡方式和工作相關技能最為重要
-* 在以前的專案中展現`你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？`
-* [Leon Kuo'sWorks Collection](https://iamkyc.github.io/Work-collection/)
-* [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
+* 在以前的專案中展現
+	* 你工作中具體負責什麼？
+	* 你能面對的困難是如何？
+	* 你在過程中展現了什麼才能？
+* 可考慮用英文履歷
+	* 好處是不用準備中文履歷，只要維護一份
+	* 不收、看不懂英文履歷的公司不去也罷
+
+### 面試
+* [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
+    * 履歷、刷題、系統設計、行為面試的面試指引
+* [[心得] 可以問面試官的問題整理](https://www.ptt.cc/bbs/Soft_Job/M.1651488698.A.0C1.html)，39題
 * [前端工程師 面試攻略分享 by 姚偉揚](https://www.facebook.com/hilivecode/videos/227151178021549/)
-* [前端工程師如何準備作品集 7種累積作品的方法](https://tw.alphacamp.co/blog/front-end-engineer-portfolio-web-developer-job)
-* [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
-	* 你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？
+* [[心得] 軟體工程師的薪資市場最佳化](https://www.ptt.cc/bbs/Soft_Job/M.1553065300.A.E65.html)
+	* 好文，講了很多面試心法
 * [什麽是愛情？怎麽談戀愛，才能有效的找到自己的真命天子？李永樂老師講愛情數學](https://www.youtube.com/watch?v=pelPCK22W7k)
 	* 愛情和工作亦如是，挑選伴侶和職業的文章可以互相參考，建議觀看 by Jimmy
-* [[心得] 軟體工程師的薪資市場最佳化](https://www.ptt.cc/bbs/Soft_Job/M.1553065300.A.E65.html)
+	* 多面試幾家，知道自己在市場上的標準，也能用公司比較評斷好壞
+
+### 履歷
+* [應徵大作戰，投出你的面試門票！（履歷篇）](https://blog.skymizer.com/2015/12/08/resume2015/)
+* [程式設計師的履歷撰寫要點](https://blog.m157q.tw/posts/2016/01/22/how-to-write-a-resume-for-programming-jobs/)
+* [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
+	* 你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？
+* [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
+
 ### 英文履歷
 * [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
 * [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
+
+### 刷題
+* [先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
 
 ## 開發作品集參考靈感
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
@@ -236,6 +262,10 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* [替代役公文書](https://i.imgur.com/YrtdZYu.jpg)
 	* [複雜的工作申請表](https://i.imgur.com/KHJVqR3.png)
 	* [出貨單](https://i.imgur.com/AM3nYmG.jpg)
+
+### ref
+* [Leon Kuo'sWorks Collection](https://iamkyc.github.io/Work-collection/)
+* [前端工程師如何準備作品集 7種累積作品的方法](https://tw.alphacamp.co/blog/front-end-engineer-portfolio-web-developer-job)
 
 ## 公司應徵前端工程師的共通條件
 ### 基本條件
