@@ -137,21 +137,20 @@
 * 記得，投資自己貴的永遠不是課程、書本的價錢，而是你所花下去的時間。
 
 ### 我該怎麼線上學前端?
-* 看本專案
 * 如果時間允許，套件的官方網站就是很好的教程，可以跟著做一次
 * 教學網站
     * [MDN web doc](https://developer.mozilla.org/)
     * [w3schools 英文](https://www.w3schools.com/)
     * [w3school 簡體中文](https://www.w3school.com.cn/)
-    * [廖雪峰的官方網站 JS](https://www.liaoxuefeng.com/wiki/1022910821149312)
+    * [Google web developers doc](https://developers.google.com/web)
 * Youtube搜尋前端教學、網頁教學
     * [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
 * 互動式教學網站
     * [freecodecamp](https://www.freecodecamp.org/)，完全免費，有中文
-    * codecademy，部分要付費解鎖
+    * [codecademy](https://www.codecademy.com/)，部分要付費解鎖
 * 中文課程
     * [lidemy](https://lidemy.com/)，部分免費，推薦
-    * alpha camp、appworks、hahow、hiskio、六角學院
+    * ALPHA Camp、appworks、hahow、hiskio、六角學院
 * 英文課程
     * Udemy
         * [JavaScript 全攻略：克服 JS 的奇怪部分](https://www.udemy.com/course/javascriptjs/#content)
