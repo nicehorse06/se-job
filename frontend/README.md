@@ -128,7 +128,6 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [為你自己學 Git](https://gitbook.tw/)
 * [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
 * [Learn-Git-in-30-days](https://github.com/doggy8088/Learn-Git-in-30-days) Will 保哥 【30 天精通 Git 版本控管】
-* [Git基礎中的基礎指令](https://github.com/nicehorse06/se-job/blob/master/userful_note/git.md) Jimmy的簡易git心得
 * [Git & GitHub 教學手冊](https://w3c.hexschool.com/git/cfdbd310)
 	* [github](https://github.com/) 為軟體工作者上傳程式碼的地方、也是履歷與程式社交的一部分
 ### [Vscode](https://code.visualstudio.com/)
