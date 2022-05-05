@@ -99,17 +99,18 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ### [Vanilla.js](https://medium.com/%E7%A8%8B%E5%BC%8F%E4%BA%BA%E6%9C%88%E5%88%8A/%E5%8E%9F%E7%94%9F%E7%9A%84-javascript-%E7%94%A8%E6%B3%95-vanilla-js-e53d3cdb5e8)
 * 只要使用原生JavaScript的功能，可稱作`Vanilla.js`
 * 不建議用`jQuery`套件來取代JS原生功能，應扎實了解JS，有需要再選擇所需套件
+
 ### React
 * 現階段最流行框架，由FB主導開發，
 * 自由度高，有很多社群開發的對應套件
 * 入門門檻高，需有一定JS知識
 * [React.js 小书](https://hyf.js.org/react-naive-book/)
 	* 胡立老師推薦的React免費教材
+
 ### Vue
 * 由中國社群開發，最近竄紅的框架
 * 入門門檻低，中文文文檔相對齊全
 * [重新認識 Vue.js 008 天絕對看不完的 Vue.js 3.0 指南](https://book.vue.tw/)
-* [Vue 與 React 的 template engine 設計哲學差異](https://devs.tw/post/368)
 
 ### Angular
 * 大而全、嚴謹的企業級框架
@@ -118,10 +119,12 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ### CSS框架
 * Bootstrap
 * [NES-style CSS Framework](https://github.com/nostalgic-css/NES.css?ref=devawesome)
+
 ### ref
 * [Vue 與 React 的 template engine 設計哲學差異](https://devs.tw/post/368)
 
 ## 軟體工作相關工具
+
 ### git
 * git為程式版本控管工具，現代工程師都應了解此多人協作，版本控管的方式
 * [廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
@@ -129,9 +132,10 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials GIT基本使用教學
 * [Learn-Git-in-30-days](https://github.com/doggy8088/Learn-Git-in-30-days) Will 保哥 【30 天精通 Git 版本控管】
 * [Git & GitHub 教學手冊](https://w3c.hexschool.com/git/cfdbd310)
-	* [github](https://github.com/) 為軟體工作者上傳程式碼的地方、也是履歷與程式社交的一部分
+
 ### [Vscode](https://code.visualstudio.com/)
 * 前端開發很棒的編輯器，有很多線上工具可下載使用
+
 ### Linux作業系統操作
 * 程式工作者都需要基本的Linux/Unix作業系統指令使用的認知，
 * Mac就屬於Unix，如果只在windows上開發會有其指令的不方便和限制
@@ -144,18 +148,21 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [鳥哥的 Linux 私房菜](https://linux.vbird.org/) 
 * [JSLinux](https://bellard.org/jslinux/)為用瀏覽器就可以執行linux的網站，也可以練習git
 * [The Linux Command Line 中文版](https://www.kancloud.cn/thinkphp/linux-command-line/39431?fbclid=IwAR27EjhmbXIrBBkPVXyoeQp8YsNRtM7-uZ6VEvqRQM_ppfh59Ga3jHqeVnQ)
+
 ### Chrome 瀏覽器
 * 開發時瀏覽器建議用Chrome，其中的測試工具也很好用
 * [Chrome dev tools 開發者工具](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html) 
 * [Chrome 官方文檔](https://developers.google.com/web/tools/chrome-devtools/)
 * [瀏覽器入門 - F12 開發者工具 | 開發人員工具 | DevTools](https://www.youtube.com/watch?v=u48D0aBycP8)
 * [Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
+
 ### markdown
 * git中標準寫文檔的格式，此文即用markdown書寫
 * 用標記的方式快速產生網頁式的筆記
 * 可搭配hackmd、trello做筆記
 * [基本的markdown中文文檔](https://markdown.tw/)
 * [官方Markdown文件](https://daringfireball.net/projects/markdown/)
+
 #### hackmd
 * [HackMD 快速入門教學](https://hackmd.io/s/quick-start-tw)
 * [用固定網址發布筆記](https://hackmd.io/s/how-to-share-note-tw)
@@ -211,6 +218,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 不收、看不懂英文履歷的公司不去也罷
 
 ### 面試
+* [7 Tips for the Coding Resume (for Software Engineers)](https://www.youtube.com/watch?v=xpaz7nrNmXA)
 * [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
     * 履歷、刷題、系統設計、行為面試的面試指引
 * [[心得] 可以問面試官的問題整理](https://www.ptt.cc/bbs/Soft_Job/M.1651488698.A.0C1.html)，39題
@@ -227,6 +235,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
 	* 你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？
 * [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
+* [讓我拿到FAANG面試的履歷](https://www.youtube.com/watch?v=MsbzY6QbRVA)
 
 ### 英文履歷
 * [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
@@ -267,17 +276,19 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [前端工程師如何準備作品集 7種累積作品的方法](https://tw.alphacamp.co/blog/front-end-engineer-portfolio-web-developer-job)
 
 ## 公司應徵前端工程師的共通條件
+
 ### 基本條件
 * 熟悉 JavaScript、HTML、CSS
-* 熟悉 HTML5、CSS3、RWD、SASS(SCSS) 前端設計技巧
+* 熟悉 RWD、SCSS
 * 了解 git
 * 串接 API 到網頁及其讀、寫文件能力
 * 熟悉 npm 套件管理工具
 
 ### 進階條件
 * 熟悉 Vue / Angular / React 任一框架開發
+* 熟悉PWA、SPA
 * 熟悉Node.js
-* 有能力撰寫簡潔且高效的JavaScript程式碼（Function Scope、ES6 module、Event Loop、Promise ）
+* 有能力撰寫簡潔且高效的JavaScript程式碼（Function Scope、ES6 module、Event Loop、Promise）
 * 靜態網站架構經驗 CDN 運用
 * 熟悉 Webpack
 * 對 UI / UX 設計敏感度佳 
