@@ -219,6 +219,13 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 
 ### 面試
 * [7 Tips for the Coding Resume (for Software Engineers)](https://www.youtube.com/watch?v=xpaz7nrNmXA)
+	* Make sure that you resume is easily searchable and scannable
+	* Less is more, keep to 1 page
+	* The less formatting the better
+	* Avoid exaggerating too much
+	* Make sure that for first items you can talk at length
+	* Get some feedback for your resume
+	* Do what I do
 * [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
     * 履歷、刷題、系統設計、行為面試的面試指引
 * [[心得] 可以問面試官的問題整理](https://www.ptt.cc/bbs/Soft_Job/M.1651488698.A.0C1.html)，39題
