@@ -35,7 +35,9 @@
 * 瀏覽器上的程式，使用HTML、CSS、JavaScript
 * 負責網頁的畫面、顯示後端的資料
 
-![](https://i.imgur.com/hgJjHH9.png)
+##### [photo credits (Bluecoders)](https://www.facebook.com/bluecoders/posts/frontend-vs-backend-two-side-of-the-same-coin-httpwwwbluecodersio/1808781432515661/)
+![](https://i.redd.it/ku1neu504sh01.jpg)
+
 
 ### 為什麼推薦新手入門走前端?
 * 知識單純，只須了解瀏覽器、HTML、CSS、JavaScript
