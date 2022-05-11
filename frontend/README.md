@@ -205,7 +205,9 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 用PDF的一頁式履歷，排版要乾淨
 	* 一頁式簡易履歷稱作resume
 		* 台灣大部分工作用resume即可
-	* 多頁詳細履歷稱作CV
+		* 多頁詳細履歷稱作CV
+	* 不要傳docx這種不通用的格式，請用PDF
+		* 可用google doc維護，下載成PDF
 * 履歷中盡量不要提供與學經歷、工作無關的個人資訊
 	* 可不要放相片
 	* 不用寫性別，除非你是女生
@@ -223,7 +225,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 而非精通、熟悉、70%會
 		* 免得被面試官問上去才發現很不會
 
-### 履歷參考
+### 履歷 ref
 * [應徵大作戰，投出你的面試門票！（履歷篇）](https://blog.skymizer.com/2015/12/08/resume2015/)
 * [程式設計師的履歷撰寫要點](https://blog.m157q.tw/posts/2016/01/22/how-to-write-a-resume-for-programming-jobs/)
 * [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
