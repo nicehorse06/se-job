@@ -211,6 +211,9 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 為公司的需求客製化特定履歷
 		* 比如你會React，但這家要Vue，可在履歷中特別強調有興趣
 		* 可幫履歷加浮水印，確定是哪一個版本的履歷
+	* 確保履歷被黑白影印、掃描都能清楚顯示
+		* 顏色、字體、字大小
+		* 超連結底線沒有必要，印成紙的時候也不能點
 * 履歷中盡量不要提供與學經歷、工作無關的個人資訊
 	* 可不要放相片
 	* 不用寫性別，除非你是女生
@@ -226,13 +229,15 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 你能面對的困難是如何？
 	* 你在過程中展現了什麼才能？
 	* 可以的話用數字、具體作為取代不確切的描述
+	* 有能力確切描述履歷最上方專案的每一個細節
 * 可考慮用英文履歷
 	* 好處是不用準備中文履歷，只要維護一份
 	* 不收、看不懂英文履歷的公司不去也罷
+	* 把你的履歷給其他人或母語使用者批改修正
 * 用實際的項目來證明你會的技能
 	* 如實呈現用該技術做過什麼
 	* 而非精通、熟悉、70%會
-		* 免得被面試官問上去才發現很不會
+		* 不要誇大，免得被面試官問上去才發現很不會
 	* 可以在開頭summary一下你的技能
 
 ### 履歷 ref
@@ -244,8 +249,6 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [讓我拿到FAANG面試的履歷](https://www.youtube.com/watch?v=MsbzY6QbRVA)
 * [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
 * [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
-
-## 面試
 * [7 Tips for the Coding Resume (for Software Engineers)](https://www.youtube.com/watch?v=xpaz7nrNmXA)
 	* Make sure that you resume is easily searchable and scannable
 	* Less is more, keep to 1 page
@@ -254,6 +257,8 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* Make sure that for first items you can talk at length
 	* Get some feedback for your resume
 	* Do what I do
+
+## 面試
 * [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
     * 履歷、刷題、系統設計、行為面試的面試指引
 * [[心得] 可以問面試官的問題整理](https://www.ptt.cc/bbs/Soft_Job/M.1651488698.A.0C1.html)，39題
