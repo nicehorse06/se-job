@@ -201,7 +201,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [【密技】台灣軟體業業界現況詳解、軟體工程師指南](https://forum.gamer.com.tw/C.php?bsn=60076&snA=5444020)
 * [[心得] 轉職心得分享](https://www.ptt.cc/bbs/Soft_Job/M.1563795875.A.333.html)
 
-## 工程師應徵工作，履歷、作品集參考
+## 履歷
 * 用PDF的一頁式履歷，排版要乾淨
 	* 一頁式簡易履歷稱作resume
 		* 台灣大部分工作用resume即可
@@ -221,20 +221,19 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 用實際的項目來證明你會的技能
 	* 如實呈現用該技術做過什麼
 	* 而非精通、熟悉、70%會
+		* 免得被面試官問上去才發現很不會
 
-### 履歷
+### 履歷參考
 * [應徵大作戰，投出你的面試門票！（履歷篇）](https://blog.skymizer.com/2015/12/08/resume2015/)
 * [程式設計師的履歷撰寫要點](https://blog.m157q.tw/posts/2016/01/22/how-to-write-a-resume-for-programming-jobs/)
 * [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
 	* 你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？
 * [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
 * [讓我拿到FAANG面試的履歷](https://www.youtube.com/watch?v=MsbzY6QbRVA)
-
-### 英文履歷
 * [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
 * [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
 
-### 面試
+## 面試
 * [7 Tips for the Coding Resume (for Software Engineers)](https://www.youtube.com/watch?v=xpaz7nrNmXA)
 	* Make sure that you resume is easily searchable and scannable
 	* Less is more, keep to 1 page
@@ -253,7 +252,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 愛情和工作亦如是，挑選伴侶和職業的文章可以互相參考，建議觀看 by Jimmy
 	* 多面試幾家，知道自己在市場上的標準，也能用公司比較評斷好壞
 
-### 刷題
+## 刷題
 * [先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
 
 ## 開發作品集參考靈感
