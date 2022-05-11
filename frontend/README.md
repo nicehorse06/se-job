@@ -217,6 +217,18 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 好處是不用準備中文履歷，只要維護一份
 	* 不收、看不懂英文履歷的公司不去也罷
 
+### 履歷
+* [應徵大作戰，投出你的面試門票！（履歷篇）](https://blog.skymizer.com/2015/12/08/resume2015/)
+* [程式設計師的履歷撰寫要點](https://blog.m157q.tw/posts/2016/01/22/how-to-write-a-resume-for-programming-jobs/)
+* [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
+	* 你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？
+* [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
+* [讓我拿到FAANG面試的履歷](https://www.youtube.com/watch?v=MsbzY6QbRVA)
+
+### 英文履歷
+* [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
+* [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
+
 ### 面試
 * [7 Tips for the Coding Resume (for Software Engineers)](https://www.youtube.com/watch?v=xpaz7nrNmXA)
 	* Make sure that you resume is easily searchable and scannable
@@ -235,18 +247,6 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [什麽是愛情？怎麽談戀愛，才能有效的找到自己的真命天子？李永樂老師講愛情數學](https://www.youtube.com/watch?v=pelPCK22W7k)
 	* 愛情和工作亦如是，挑選伴侶和職業的文章可以互相參考，建議觀看 by Jimmy
 	* 多面試幾家，知道自己在市場上的標準，也能用公司比較評斷好壞
-
-### 履歷
-* [應徵大作戰，投出你的面試門票！（履歷篇）](https://blog.skymizer.com/2015/12/08/resume2015/)
-* [程式設計師的履歷撰寫要點](https://blog.m157q.tw/posts/2016/01/22/how-to-write-a-resume-for-programming-jobs/)
-* [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
-	* 你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？
-* [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
-* [讓我拿到FAANG面試的履歷](https://www.youtube.com/watch?v=MsbzY6QbRVA)
-
-### 英文履歷
-* [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
-* [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
 
 ### 刷題
 * [先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
