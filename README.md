@@ -1,7 +1,7 @@
 # 軟體工作入門與求職記錄
 
 * 未解答問題可以在[issue](https://github.com/nicehorse06/se-job/issues)提出
-* 如果覺得有幫助，可以幫我按星星
+* 如果覺得有幫助，可以幫我按星星，感謝
 * 推薦用 [meet.jobs](https://meet.jobs?referral_code=jimmatw) 找工作，錄取有100美元就職金
 
 ## 光速Q&A
