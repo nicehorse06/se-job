@@ -1,9 +1,8 @@
-# 軟體工作入門與求職記錄 (Software Engineer Job Note)
+# 軟體工作入門與求職記錄
 
 * 持續建置中，有什麼學習疑問沒有解答可以提出~~
 * 如果覺得有幫助，可以幫我按星星~
-* 推薦用 [meet.jobs](https://meet.jobs?referral_code=jimmatw) 找工作
-    * 很多入門、高薪、外商缺，錄取還會有100美元就職金 :partying_face:
+* 推薦用 [meet.jobs](https://meet.jobs?referral_code=jimmatw) 找工作，錄取有100美元就職金
 
 ## 光速Q&A
 ### 這個專案是什麼?
