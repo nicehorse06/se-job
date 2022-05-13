@@ -2,6 +2,7 @@
 
 * 未解答問題可在[issue](https://github.com/nicehorse06/se-job/issues)提出
 * 如果覺得有幫助，可以幫我按星星，感謝
+* 可以用[meet.jobs](https://meet.jobs?referral_code=jimmatw)找工作，錄取有100美元就職金
 
 ## 光速Q&A
 ### 這個專案是什麼?
