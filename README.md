@@ -1,8 +1,7 @@
 # 軟體工作入門與求職記錄
 
-* 未解答問題可以在[issue](https://github.com/nicehorse06/se-job/issues)提出
+* 未解答問題可在[issue](https://github.com/nicehorse06/se-job/issues)提出
 * 如果覺得有幫助，可以幫我按星星，感謝
-* 推薦用 [meet.jobs](https://meet.jobs?referral_code=jimmatw) 找工作，錄取有100美元就職金
 
 ## 光速Q&A
 ### 這個專案是什麼?
@@ -236,7 +235,7 @@
 
 ### 常見找工作管道有哪些?
 * [meet.jobs](https://meet.jobs?referral_code=jimmatw)
-    * 如果有適合的缺，很推薦，還可以領就職金
+    * 如果有適合的缺，很推薦，錄取還可以領100美元就職金
     * 申請時歡迎在推薦人上填入`jimmatw`
 * PTT，很多特別的缺會出現在這
 * 104，通常是入門缺，大公司也會請104求職者去自己的網站投履歷
@@ -282,4 +281,5 @@
     * 期許自己以後有能力分享這塊~
 * 歡迎跨領域的新手一起討論，如果有能力會盡量回答
     * 有問題可以在issue問我
-    * 或mail到`jimmatw@gmail.com`
+    * mail: `jimmatw@gmail.com`
+    * [我的Linkedin](https://www.linkedin.com/in/jimmy-ma-1b676a122/)
