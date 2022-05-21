@@ -254,6 +254,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [FB backend版主Triton Ho對履歷的建議](https://www.facebook.com/groups/616369245163622?view=permalink&id=1717627308371138)
 	* 你工作中具體負責什麼？你能面對的困難是如何？你在過程中展現了什麼才能？
 * [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
+* [PTT [分享] 怎麼寫好履歷？](https://www.ptt.cc/bbs/Tech_Job/M.1648383757.A.6E8.html)
 * [讓我拿到FAANG面試的履歷](https://www.youtube.com/watch?v=MsbzY6QbRVA)
 * [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
 * [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
@@ -281,11 +282,13 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
 
 ## 開發作品集參考靈感
+* [50 Cool Web And Mobile Project Ideas for 2022](https://dev.to/andrewbaisden/50-cool-web-and-mobile-project-ideas-for-2022-1flj)
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
 * [The Star Wars API](https://swapi.co/)
 * [Dog API](https://dog.ceo/dog-api/)
 * 用網頁製作履歷如[範例](https://nicehorse06.github.io/se-job/)，或是用markdown製作也可以
 * twitch API
+* [pokeapi](https://pokeapi.co/)
 * 即時爬蟲API，如即時爬股票、匯率、天氣
 * [hsiangfeng/APIList](https://github.com/hsiangfeng/APIList)
 * 線上小工具
