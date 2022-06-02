@@ -288,6 +288,8 @@
 * 你的作品夠強嗎? 還是看起來像玩具或照抄課程的project?
     * 務必了解作品的每一個細節
     * 試著加入JS框架、API使用、RWD頁面並佈署在github page
+    * 增加作品README文檔、範例顯示(如GIF、影片)、優化CSS來行銷作品
+        * 回應[PTT [請益] 前端無經驗轉職請益](https://www.ptt.cc/bbs/Soft_Job/M.1654162444.A.1F5.html)
 * 每天練習的時間夠嗎? 是否一天練習時間不到一個小時?
 * 經營技術blog，寫上學習的心得也好，一定有東西可以寫
     * 從github issue blog開始寫很簡單，參考[aszx87410/blog](https://github.com/aszx87410/blog/issues)
