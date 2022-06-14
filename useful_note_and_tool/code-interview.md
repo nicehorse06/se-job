@@ -2,7 +2,7 @@
 
 ## 推薦刷題順序方法
 1. 對資料結構、演算法有基礎了解
-    * 了解基本複雜度、知道array和linkedlist的優點、看到關鍵字時該去Google
+    * 了解基本複雜度、知道array和linkedlist的優點、看到關鍵字時能知道去Google
 2. 做[Leetcode Blind 75](https://leetcode.com/list/xoqag3yj/)
     * 做完可以熟悉面試語言，建議用高階語言縮短面試答題時間
     * 如果有障礙可以看課程，[[ALG101] 先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
