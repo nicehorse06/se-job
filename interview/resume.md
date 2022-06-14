@@ -1,4 +1,4 @@
-# 履歷
+# 履歷準備
 
 * 用PDF的一頁式履歷，排版要乾淨
 	* 一頁式簡易履歷稱作resume
@@ -54,6 +54,7 @@
 * [如何設計吸引人的前端履歷](https://ithelp.ithome.com.tw/articles/10191600?sc=iThelpR)
 * [PTT [分享] 怎麼寫好履歷？](https://www.ptt.cc/bbs/Tech_Job/M.1648383757.A.6E8.html)
 * [讓我拿到FAANG面試的履歷](https://www.youtube.com/watch?v=MsbzY6QbRVA)
+	* 有提供履歷範本
 * [一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)
 * [Chih-Kai Chuang (Dez)履歷](https://www.cakeresume.com/dezchuang?locale=zh-TW)
 * [7 Tips for the Coding Resume (for Software Engineers)](https://www.youtube.com/watch?v=xpaz7nrNmXA)

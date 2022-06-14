@@ -1,7 +1,7 @@
 # 軟體工作入門與求職記錄
 
 * 未解答問題可在[issue](https://github.com/nicehorse06/se-job/issues)提出。
-* 如果覺得有幫助，可以幫我按星星或轉發給需要的朋友，感謝。
+* 如果覺得有幫助，可以幫我按星星、轉發給需要的朋友，感謝。
 * 可以用[meet.jobs](https://meet.jobs?referral_code=jimmatw)找工作，錄取有100美元就職金。
 
 ## 光速Q&A
@@ -18,6 +18,7 @@
     * 裡面有很多前端學習資源建議
 * [前端自學路線建議](https://github.com/nicehorse06/se-job/blob/master/frontend/learning_path.md)
 * [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/interview/coding.md)
+* [履歷準備](https://github.com/nicehorse06/se-job/blob/master/interview/resume.md)
 * 持續整理中...
 
 ### 軟體開發的優點?
