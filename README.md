@@ -5,6 +5,7 @@
 * 可以用[meet.jobs](https://meet.jobs?referral_code=jimmatw)找工作，錄取有100美元就職金。
 
 ## 光速Q&A
+
 ### 這個專案是什麼?
 * 網頁前後端引導專案，讓新手可以快速進入狀況
 * 收集很多學習連結，加上我自己的少量教學分享
@@ -16,7 +17,7 @@
 * [網頁前端程式入門筆記](https://github.com/nicehorse06/se-job/tree/master/frontend/README.md)
     * 裡面有很多前端學習資源建議
 * [前端自學路線建議](https://github.com/nicehorse06/se-job/blob/master/frontend/learning_path.md)
-* [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/useful_note_and_tool/code-interview.md)
+* [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/interview/coding.md)
 * 持續整理中...
 
 ### 軟體開發的優點?
@@ -97,77 +98,20 @@
 * 近期太多程式培訓班的學生拉高了就職門檻
     * 現在至少要會一個JS框架(React/Vue/Angular)比較好找工作
 
-### 我要準備什麼樣的能力可以開始面試前端?
-* 有作品，裡面至少用到
-    * RWD切版
-    * 後端API呼叫
-    * 使用JS框架(React/Vue/Angular)
+### 前端工程師待遇如何? 如何才能百萬年薪?
+###### 514
+* 初級職缺: HTML + CSS + JavaScript和框架，0到1年經驗，月薪3到6萬
+    * [TITANSOFT 新加坡商鈦坦科技](https://meet.jobs/zh-TW/jobs/29447-software-engineer%EF%BC%8Fprogrammer-%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%98%E9%9B%84?referral_code=jimmatw)
+    * [愛卡拉 iKala](https://meet.jobs/zh-TW/jobs/32022-ikala-commerce%E7%B6%B2%E9%A0%81%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-web-frontend-engineer?referral_code=jimmatw)
+* 中級職缺: HTML + CSS + JavaScript和框架，3年以上經驗，年薪約100
+    * [均一平台教育基金會](https://meet.jobs/zh-TW/jobs/27698-%E8%B3%87%E6%B7%B1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
+    * [Tomofun友愉](https://meet.jobs/zh-TW/jobs/26971-sr-frontend-engineer-%E8%B3%87%E6%B7%B1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
+* 高級職缺: HTML + CSS + JavaScript和框架 + Node後端經驗，3年以上經驗，年薪約120~200+
+    * [GoFreight](https://meet.jobs/zh-TW/jobs/29544-senior-frontend-engineer?referral_code=jimmatw)
+    * [Omlet Inc.](https://meet.jobs/zh-TW/jobs/30370-web-frontend-engineer?referral_code=jimmatw)
 
-### 非本科系沒學歷會有差嗎?
-* 一定有些許影響，但對前端來說努力可以克服
-* 資工系學得比較有系統，會知道很多功能不是黑魔法，知道要去哪裡找資料
-    * 其實很多資工系畢業都不會寫程式
-    * 甚至資料結構、演算法、作業系統都半吊子，只要比這些人努力就夠了
-    * 資工系的知識會影響的是整個職涯30年，前端框架只會影響5年以內
-        * 當入行穩定了，還是要找時間補
-* 很多工作只要資工資管畢業，就願意給機會，面試很多只要去聊聊天就好
-    * 非本科系需要證明自己值得被訓練
-    * 而好的第一份工作會影響到下一個份工作
-    * 因為資工資管不太教前端，影響不大，但如果是面竹科工程師大概真的無緣了
-    * 如果還年輕，補個資工所，很划算
-* 前端框架更新速度很快，當框架知識能寫成書時，就已經快過期
-    * 努力在前端衝刺個三年，即可成為這方面的領先者
-* 做一些事證明自己，來克服學歷限制，學歷只是了解一個人最快的方法
-    * 有內容的作品
-    * 扎實的軟體知識
-    * 有開放原始碼的貢獻
-    * 當某個軟體會議上的講者
-* ref
-    * [[討論] 軟體工作，bootcamp與大學學歷，何者重要](https://www.ptt.cc/bbs/Soft_Job/M.1647136662.A.D7F.html)
 
-### 學前端也可以賺大錢，那還念大學做什麼?
-* 的確做前端的能力不用資工本科系，甚至高中畢業就可以做了
-* 大學資訊工程的知識，是讓人有更多可能性可以站上不同舞台
-    * 資工系是把學生訓練成建築師的
-    * 而前端就是油漆工，但是養家活口也就夠了
-    * 引用 [Vgod 的blog](https://blog.vgod.tw/2012/10/27/premature-optimization/):
-> 「如果以蓋大樓來形容這個概念，把砌磚作為一種技能，把蓋大樓作為一種知識，我想可以這麼講 如果你早就知道你喜歡砌磚，很會砌磚，就直接去砌磚吧。如果你的夢想是蓋大樓，你要學的東西還很多，那讀大學是你最好的途徑。 不是每個人都要蓋大樓，靠砌磚就可以賺錢了，砌的好還可以賺很多錢，大家搶著要。」 - Vgod's blog
-    
-
-### 資工本科系都不屑走前端嗎?
-* 資工系的訓練不是為前端而生
-    * 所以頂尖的資工畢業生不會以前端為目標
-    * 會去做門檻更高、更吃資工知識、待遇更高的工作
-* 一部分畢業生還是會基於興趣或現實的考量選擇前端
-    * 可以想像成美國人來台灣念外文系虐人
-* ref
-    * [[請益] 本科在前端(應該有)的優勢?](https://www.ptt.cc/bbs/Soft_Job/M.1647160345.A.D92.html)
-
-### 我該去補個研究所嗎?
-* 如果你很年輕，補一年能考中字輩以上資工/資管/電機就去吧。
-    * 其他間也可以，其實只要掛上資工所，一定對第一份程式工作有幫助。
-    * 在大資工時代，只要有相關碩士，畢業很有機會上竹科的高薪公司。
-* 如果你已經就業，可以考慮在職專班
-    * 全職念書，對社會人士機會成本是很高的 
-    * 要考慮能否畢業的風險，上班又上課很累
-    * 學費貴是小問題，要考慮的是花在上面的時間跟這個學歷有沒有用。
-* 在軟體業就業多年，後面幾年多看經歷會大於學歷。
-    * 如果這個學歷強度沒有工作經歷好，要評估。
-* 我部份認同以下PTT文章
-    * 強大的公司和同事可以讓技術的增強事半功倍
-    * 我雖然工作多年，但因為沒有大流量的經驗，面試大流量的公司是有困難的，而那裏正是高待遇所在
-> 「你沒碩士，打從一開始你就不知道那些幾乎只招碩士的缺的工作內容與環境，有人畢業去了一些大流量與好軟體工程的公司，技術有深度有實戰，同事討論技術的深度可以到廣又深，工作時間上也允許深入研究，此外還有容易被忽略的同儕互動，當你跟一群高手共識那成長速度與眼界也會不同。」 - alihue@PTT
-* 我是30+的工程師，沒去唸研究所，計畫用以下方式取代
-    * 計畫刷題、看資料結構、演算法，增加面試強度
-    * 上Jserv的Linux課程，做出一個高強度的project證明自己
-    * 計畫貢獻開放原始碼
-    * 練好英文
-    * 考AWS相關證照
-* 我沒念的原因
-    * 不再年輕，機會成本有點高，這個才是主要原因 囧
-    * 如果專做網頁，研究所幫助有限
-    * 準備考試對我有點難，在職距離上班的地方有距離
-    * 可能以後多升遷有影響，但現在還沒遇到
+## 學習程式Q&A
 
 ### 我該花錢買課程上課嗎?
 * 記得，投資自己貴的永遠不是課程、書本的價錢，而是你所花下去的時間。
@@ -243,24 +187,14 @@
 * 會學Angular通常是就業導向，確定想要去某一間用Angular的公司
     * 然後你React/Vue很熟的話，Angular的公司也會收你
 
-### 前端工程師待遇如何? 如何才能百萬年薪?
-###### 514
-* 初級職缺: HTML + CSS + JavaScript和框架，0到1年經驗，月薪3到6萬
-    * [類星體數位](https://meet.jobs/zh-TW/jobs/31130-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-junior-front-end-engineer?referral_code=jimmatw)
-    * [統智科技](https://meet.jobs/zh-TW/jobs/32017-%E7%B6%B2%E9%A0%81%E7%B3%BB%E7%B5%B1%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
-    * [Dr.Right](https://meet.jobs/zh-TW/jobs/29982-%E5%89%8D%E7%AB%AF%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC%E5%B7%A5%E7%A8%8B%E5%B8%AB-front-end-developer?referral_code=jimmatw)
-    * [麟數據科技](https://meet.jobs/zh-TW/jobs/28962-web%E5%85%A8%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E6%AD%A1%E8%BF%8E%E6%96%B0%E9%AE%AE%E4%BA%BA?referral_code=jimmatw)
-    * [TITANSOFT 新加坡商鈦坦科技](https://meet.jobs/zh-TW/jobs/29447-software-engineer%EF%BC%8Fprogrammer-%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%98%E9%9B%84?referral_code=jimmatw)
-    * [愛卡拉 iKala](https://meet.jobs/zh-TW/jobs/32022-ikala-commerce%E7%B6%B2%E9%A0%81%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-web-frontend-engineer?referral_code=jimmatw)
-* 中級職缺: HTML + CSS + JavaScript和框架，3年以上經驗，年薪約100
-    * [端傳媒](https://meet.jobs/zh-TW/jobs/32025-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-frontend-developer?referral_code=jimmatw)
-    * [瑞嘉軟體](https://meet.jobs/zh-TW/jobs/30647-%E6%96%B0%E7%AB%B9full-stackfrontend-engineer-%E5%85%A8%E7%AB%AF%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A6%AC%E5%81%95%E9%86%AB%E9%99%A2%E6%97%81?referral_code=jimmatw)
-    * [均一平台教育基金會](https://meet.jobs/zh-TW/jobs/27698-%E8%B3%87%E6%B7%B1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
-    * [BitoEX (幣託) ](https://meet.jobs/zh-TW/jobs/31078-senior-frontend-developer-%E6%AF%8F%E6%9C%88%E6%9C%89%E9%81%A0%E7%AB%AF%E6%97%A5?referral_code=jimmatw)
-    * [Tomofun友愉](https://meet.jobs/zh-TW/jobs/26971-sr-frontend-engineer-%E8%B3%87%E6%B7%B1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
-* 高級職缺: HTML + CSS + JavaScript和框架 + Node後端經驗，3年以上經驗，年薪約120~200+
-    * [GoFreight](https://meet.jobs/zh-TW/jobs/29544-senior-frontend-engineer?referral_code=jimmatw)
-    * [Omlet Inc.](https://meet.jobs/zh-TW/jobs/30370-web-frontend-engineer?referral_code=jimmatw)
+
+## 面試中Q&A
+
+### 我要準備什麼樣的能力可以開始面試前端?
+* 有作品，裡面至少用到
+    * RWD切版
+    * 後端API呼叫
+    * 使用JS框架(React/Vue/Angular)
 
 ### 常見找工作管道有哪些?
 * [meet.jobs](https://meet.jobs?referral_code=jimmatw)
@@ -272,7 +206,7 @@
 * [f2etw/jobs](https://github.com/f2etw/jobs/issues)
 * FB相關社團
 
-### 前端面試的過程中不如預期?
+### 面試的過程中不如預期?
 ###### gj
 * 如果非本科系轉職，求的是工作經驗
     * 需求的薪水可以不用太高，一兩年就跳了
@@ -301,7 +235,74 @@
 * 如果會前端以外的技能如操作Linux指令、Git指令、Node後端就太棒了
 * 如果還有困難那就深入React，把React技術和周邊框架都摸爛，offer就在不遠處
 
-### 關於我
+## 軟體工作與資工學歷、研究所的關係
+
+### 非本科系沒學歷會有差嗎?
+* 一定有些許影響，但對前端來說努力可以克服
+* 資工系學得比較有系統，會知道很多功能不是黑魔法，知道要去哪裡找資料
+    * 其實很多資工系畢業都不會寫程式
+    * 甚至資料結構、演算法、作業系統都半吊子，只要比這些人努力就夠了
+    * 資工系的知識會影響的是整個職涯30年，前端框架只會影響5年以內
+        * 當入行穩定了，還是要找時間補
+* 很多工作只要資工資管畢業，就願意給機會，面試很多只要去聊聊天就好
+    * 非本科系需要證明自己值得被訓練
+    * 而好的第一份工作會影響到下一個份工作
+    * 因為資工資管不太教前端，影響不大，但如果是面竹科工程師大概真的無緣了
+    * 如果還年輕，補個資工所，很划算
+* 前端框架更新速度很快，當框架知識能寫成書時，就已經快過期
+    * 努力在前端衝刺個三年，即可成為這方面的領先者
+* 做一些事證明自己，來克服學歷限制，學歷只是了解一個人最快的方法
+    * 有內容的作品
+    * 扎實的軟體知識
+    * 有開放原始碼的貢獻
+    * 當某個軟體會議上的講者
+* ref
+    * [[討論] 軟體工作，bootcamp與大學學歷，何者重要](https://www.ptt.cc/bbs/Soft_Job/M.1647136662.A.D7F.html)
+
+### 學前端也可以賺大錢，那還念大學做什麼?
+* 的確做前端的能力不用資工本科系，甚至高中畢業就可以做了
+* 大學資訊工程的知識，是讓人有更多可能性可以站上不同舞台
+    * 資工系是把學生訓練成建築師的
+    * 而前端就是油漆工，但是養家活口也就夠了
+    * 引用 [Vgod 的blog](https://blog.vgod.tw/2012/10/27/premature-optimization/):
+> 「如果以蓋大樓來形容這個概念，把砌磚作為一種技能，把蓋大樓作為一種知識，我想可以這麼講 如果你早就知道你喜歡砌磚，很會砌磚，就直接去砌磚吧。如果你的夢想是蓋大樓，你要學的東西還很多，那讀大學是你最好的途徑。 不是每個人都要蓋大樓，靠砌磚就可以賺錢了，砌的好還可以賺很多錢，大家搶著要。」 - Vgod's blog
+    
+### 資工本科系都不屑走前端嗎?
+* 資工系的訓練不是為前端而生
+    * 所以頂尖的資工畢業生不會以前端為目標
+    * 會去做門檻更高、更吃資工知識、待遇更高的工作
+* 一部分畢業生還是會基於興趣或現實的考量選擇前端
+    * 可以想像成美國人來台灣念外文系虐人
+* ref
+    * [[請益] 本科在前端(應該有)的優勢?](https://www.ptt.cc/bbs/Soft_Job/M.1647160345.A.D92.html)
+
+### 我該去補個研究所嗎?
+* 如果你很年輕，補一年能考中字輩以上資工/資管/電機就去吧。
+    * 其他間也可以，其實只要掛上資工所，一定對第一份程式工作有幫助。
+    * 在大資工時代，只要有相關碩士，畢業很有機會上竹科的高薪公司。
+* 如果你已經就業，可以考慮在職專班
+    * 全職念書，對社會人士機會成本是很高的 
+    * 要考慮能否畢業的風險，上班又上課很累
+    * 學費貴是小問題，要考慮的是花在上面的時間跟這個學歷有沒有用。
+* 在軟體業就業多年，後面幾年多看經歷會大於學歷。
+    * 如果這個學歷強度沒有工作經歷好，要評估。
+* 我部份認同以下PTT文章
+    * 強大的公司和同事可以讓技術的增強事半功倍
+    * 我雖然工作多年，但因為沒有大流量的經驗，面試大流量的公司是有困難的，而那裏正是高待遇所在
+> 「你沒碩士，打從一開始你就不知道那些幾乎只招碩士的缺的工作內容與環境，有人畢業去了一些大流量與好軟體工程的公司，技術有深度有實戰，同事討論技術的深度可以到廣又深，工作時間上也允許深入研究，此外還有容易被忽略的同儕互動，當你跟一群高手共識那成長速度與眼界也會不同。」 - alihue@PTT
+* 我是30+的工程師，沒去唸研究所，計畫用以下方式取代
+    * 計畫刷題、看資料結構、演算法，增加面試強度
+    * 上Jserv的Linux課程，做出一個高強度的project證明自己
+    * 計畫貢獻開放原始碼
+    * 練好英文
+    * 考AWS相關證照
+* 我沒念的原因
+    * 不再年輕，機會成本有點高，這個才是主要原因 囧
+    * 如果專做網頁，研究所幫助有限
+    * 準備考試對我有點難，在職距離上班的地方有距離
+    * 可能以後多升遷有影響，但現在還沒遇到
+
+## 關於我
 * 大家好，我是Jimmy
     * 2013輔大物理系畢業
     * 2015年跨到網頁前後端的花花世界
