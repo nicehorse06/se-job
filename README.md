@@ -16,6 +16,7 @@
 * [網頁前端程式入門筆記](https://github.com/nicehorse06/se-job/tree/master/frontend/README.md)
     * 裡面有很多前端學習資源建議
 * [前端自學路線建議](https://github.com/nicehorse06/se-job/blob/master/frontend/learning_path.md)
+* [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/useful_note_and_tool/code-interview.md)
 * 持續整理中...
 
 ### 軟體開發的優點?
@@ -285,6 +286,7 @@
     * [初心者的計概與 coding 火球術](https://lidemy.com/p/cs101-coding)
 * 你刷題了嗎? 技術高的公司很難不考白板題
     * [先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
+    * [我的程式面試準備](https://github.com/nicehorse06/se-job/blob/master/useful_note_and_tool/code-interview.md)
 * 你的作品夠強嗎? 還是看起來像玩具或照抄課程的project?
     * 務必了解作品的每一個細節
     * 試著加入JS框架、API使用、RWD頁面並佈署在github page

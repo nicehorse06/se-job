@@ -277,6 +277,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * [什麽是愛情？怎麽談戀愛，才能有效的找到自己的真命天子？李永樂老師講愛情數學](https://www.youtube.com/watch?v=pelPCK22W7k)
 	* 愛情和工作亦如是，挑選伴侶和職業的文章可以互相參考，建議觀看 by Jimmy
 	* 多面試幾家，知道自己在市場上的標準，也能用公司比較評斷好壞
+* [我的程式面試準備](https://github.com/nicehorse06/se-job/blob/master/useful_note_and_tool/code-interview.md)
 
 ## 開發作品集參考靈感
 * [50 Cool Web And Mobile Project Ideas for 2022](https://dev.to/andrewbaisden/50-cool-web-and-mobile-project-ideas-for-2022-1flj)
