@@ -3,6 +3,7 @@
 * 未解答問題可在[issue](https://github.com/nicehorse06/se-job/issues)提出。
 * 如果覺得有幫助，可以幫我按星星、轉發給需要的朋友，感謝。
 * 可以用[meet.jobs](https://meet.jobs?referral_code=jimmatw)找工作，錄取有100美元就職金。
+* [關於我](https://github.com/nicehorse06/se-job#%E9%97%9C%E6%96%BC%E6%88%91)
 
 ## 光速Q&A
 
