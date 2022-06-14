@@ -1,11 +1,5 @@
 # 程式面試準備
 
-## [資料結構、演算法關鍵字](https://www.youtube.com/watch?v=ucTL2ZdcyOs)
-### data structure
-* array(重點)、linkedlist、string、stack/queue、heap、hashmap(重點)、matrix、tree(重點)、graph
-### algorithms
-* recursion(DFS)、BFS、Dynamic Programming、Binary Search、Sorting
-
 ## 推薦刷題順序方法
 1. 對資料結構、演算法有基礎了解
     * 了解基本複雜度、知道array和linkedlist的優點、看到關鍵字時該去Google
@@ -28,6 +22,9 @@
 6. 補完該知道的資料結構、演算法知識
 
 ## ref
+* [資料結構、演算法關鍵字](https://www.youtube.com/watch?v=ucTL2ZdcyOs)
+    * 資料結構: array(重點)、linkedlist、string、stack/queue、heap、hashmap(重點)、matrix、tree(重點)、graph
+    * 演算法: recursion(DFS)、BFS、Dynamic Programming、Binary Search、Sorting
 * [先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
 * [演算法筆記作者 整理的刷題資源網站](http://web.ntnu.edu.tw/~algo/Activity.html)
 * [[請益] Leetcode常卡住求解](https://www.ptt.cc/bbs/Soft_Job/M.1632651710.A.E2B.html)，網友建議:
