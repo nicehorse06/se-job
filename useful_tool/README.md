@@ -10,7 +10,6 @@
 * docker
 * 瀏覽器 dev tool
 * 英文
-* interview
 
 ## 英文名詞 columns 和 rows 方向的記憶方法
 

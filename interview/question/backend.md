@@ -17,3 +17,5 @@
 * 系統設計
 * OS
 * network
+* public cloud
+    * AWS
