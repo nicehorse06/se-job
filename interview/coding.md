@@ -21,6 +21,17 @@
     * 依據題型刷
 6. 補完該知道的資料結構、演算法知識
 
+## 可執行的讀書會方式參考
+* 挑選題庫，並討論一天寫幾題
+    * 如可選[Blind 75](https://leetcode.com/list/xoqag3yj/)，一天練習一題
+*  一個禮拜約一天，團員們從上禮拜進度，隨機抽取一題考對方
+    * 模擬面試，包含面試官、面試者對題目的講解、優化討論
+    * 可以用Google doc來寫code，模擬最克難的寫code環境
+* 再從題庫中選一題沒做過的，同時開始完成
+    * 依照難易度限定完成時間
+    * 從完程度較低的團員依序講解自己的解法
+    * 一起討論有無優化可能、時間複雜度探討
+
 ## ref
 * [資料結構、演算法關鍵字](https://www.youtube.com/watch?v=ucTL2ZdcyOs)
     * 資料結構: array(重點)、linkedlist、string、stack/queue、heap、hashmap(重點)、matrix、tree(重點)、graph
