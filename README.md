@@ -20,7 +20,7 @@
 * [前端自學路線建議](https://github.com/nicehorse06/se-job/blob/master/frontend/learning_path.md)
 * [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/interview/coding.md)
 * [履歷準備](https://github.com/nicehorse06/se-job/blob/master/interview/resume.md)
-* 持續整理中...
+* [git基礎介紹](https://github.com/nicehorse06/se-job/blob/master/useful_tool/git.md)
 
 ### 軟體開發的優點?
 * 國際化的技能，不被綁在單一國家，甚至可以remote工作
