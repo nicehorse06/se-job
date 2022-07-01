@@ -206,6 +206,7 @@
 * 104，通常是入門缺，大公司也會請104求職者去自己的網站投履歷
 * Linkedin，常常經營跟更新，獵人頭會幫你找
 * [f2etw/jobs](https://github.com/f2etw/jobs/issues)
+* [cakeresume](https://www.cakeresume.com/jobs)
 * FB相關社團
 
 ### 面試的過程中不如預期?
