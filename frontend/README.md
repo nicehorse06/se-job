@@ -106,11 +106,14 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 入門門檻高，需有一定JS知識
 * [React.js 小书](https://hyf.js.org/react-naive-book/)
 	* 胡立老師推薦的React免費教材
+* [尚硅谷 2021 React全家桶 React17](https://www.youtube.com/watch?v=Uz_EhDwUnRg&list=PLmOn9nNkQxJFJXLvkNsGsoCUxJLqyLGxu)
 
 ### Vue
 * 由中國社群開發，最近竄紅的框架
 * 入門門檻低，中文文文檔相對齊全
 * [重新認識 Vue.js 008 天絕對看不完的 Vue.js 3.0 指南](https://book.vue.tw/)
+* [【尚硅谷】2021最新Vue技术全家桶丨一套搞定vuejs技术栈](https://www.youtube.com/c/%E5%B0%9A%E7%A1%85%E8%B0%B7IT%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1/search?query=vue)
+* [【硅谷外卖】01 尚硅谷 Vue项目 项目功能演示](https://www.youtube.com/watch?v=Tc9FOGNB2bo&list=PLmOn9nNkQxJFI2BHGAfzO4UPw7tEoFv8k)
 
 ### Angular
 * 大而全、嚴謹的企業級框架
