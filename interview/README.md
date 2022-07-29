@@ -8,3 +8,5 @@
 * [[心得] 軟體工程師的薪資市場最佳化](https://www.ptt.cc/bbs/Soft_Job/M.1553065300.A.E65.html)
 	* 好文，講了很多面試心法
 * [資訊科技產業專案設計](https://www.youtube.com/watch?v=bqKNpbaELaE&list=PL6S9AqLQkFprzHmOiQxwRIrOOesp11a20&index=2)，Jserv的面試課程
+* [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university#what-is-it)
+    * A complete computer science study plan to become a software engineer.
