@@ -20,7 +20,7 @@
 * [前端自學路線建議](https://github.com/nicehorse06/se-job/blob/master/frontend/learning_path.md)
 * [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/interview/coding.md)
 * [履歷準備](https://github.com/nicehorse06/se-job/blob/master/interview/resume.md)
-* [git基礎介紹](https://github.com/nicehorse06/se-job/blob/master/useful_tool/git.md)
+* [git基礎介紹](https://github.com/nicehorse06/se-job/blob/master/tool_and_note/git.md)
 * Q&A
     * [程式學習Q&A](https://github.com/nicehorse06/se-job#%E7%A8%8B%E5%BC%8F%E5%AD%B8%E7%BF%92qa)
     * [面試工作Q&A](https://github.com/nicehorse06/se-job#%E9%9D%A2%E8%A9%A6%E5%B7%A5%E4%BD%9Cqa)
