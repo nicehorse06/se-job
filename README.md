@@ -11,8 +11,7 @@
     * [面試工作Q&A](https://github.com/nicehorse06/se-job#%E9%9D%A2%E8%A9%A6%E5%B7%A5%E4%BD%9Cqa)
     * [軟體工作與資工學歷、研究所的關係](https://github.com/nicehorse06/se-job#%E8%BB%9F%E9%AB%94%E5%B7%A5%E4%BD%9C%E8%88%87%E8%B3%87%E5%B7%A5%E5%AD%B8%E6%AD%B7%E7%A0%94%E7%A9%B6%E6%89%80%E7%9A%84%E9%97%9C%E4%BF%82)
 * 前端
-    * [網頁前端程式入門筆記](https://github.com/nicehorse06/se-job/tree/master/frontend/README.md)
-        * 裡面有很多前端學習資源建議
+    * [網頁前端程式入門筆記與學習資源](https://github.com/nicehorse06/se-job/tree/master/frontend/README.md)
     * [前端自學路線建議](https://github.com/nicehorse06/se-job/blob/master/frontend/learning_path.md)
 * 後端
     * [後端語言介紹](https://github.com/nicehorse06/se-job/tree/master/backend)
