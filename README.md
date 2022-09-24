@@ -24,7 +24,7 @@
 * 學習心法
     * [如何開始學一種新的程式語言](https://github.com/nicehorse06/se-job/blob/master/tool_and_note/how_to_learn_new_language.md)
 
-## 🐴簡介此專案Q&A 
+## 🐴簡介軟體開發Q&A 
 
 ### 這個專案是什麼?
 * 網頁前後端引導專案，讓新手可以快速進入狀況
