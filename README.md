@@ -7,7 +7,7 @@
 
 ## 🐴索引
 * Q&A，了解何謂軟體開發、如何學前端找工作、非本科系有差嗎?
-    * [簡介此專案Q&A]()
+    * [簡介此專案Q&A](https://github.com/nicehorse06/se-job#%E7%B0%A1%E4%BB%8B%E6%AD%A4%E5%B0%88%E6%A1%88qa)
     * [程式學習Q&A](https://github.com/nicehorse06/se-job#%E7%A8%8B%E5%BC%8F%E5%AD%B8%E7%BF%92qa)
     * [面試工作Q&A](https://github.com/nicehorse06/se-job#%E9%9D%A2%E8%A9%A6%E5%B7%A5%E4%BD%9Cqa)
     * [軟體工作與資工學歷、研究所的關係](https://github.com/nicehorse06/se-job#%E8%BB%9F%E9%AB%94%E5%B7%A5%E4%BD%9C%E8%88%87%E8%B3%87%E5%B7%A5%E5%AD%B8%E6%AD%B7%E7%A0%94%E7%A9%B6%E6%89%80%E7%9A%84%E9%97%9C%E4%BF%82)
