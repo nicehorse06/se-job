@@ -3,7 +3,9 @@
 * 未解答問題可在[issue](https://github.com/nicehorse06/se-job/issues)提出。
 * 如果覺得有幫助，可以幫我按星星、轉發給需要的朋友，感謝。
 
-* [關於我](https://github.com/nicehorse06/se-job#%E9%97%9C%E6%96%BC%E6%88%91)
+## 🐴簡介
+* 這是網頁開發引導專案，讓想加入網頁開發的新手快速進入狀況
+* 收集一些學習連結，加上自己的少量教學分享
 
 ## 🐴索引
 * Q&A，了解何謂軟體開發、如何學前端找工作、非本科系有差嗎?
@@ -23,15 +25,9 @@
     * [git基礎介紹](https://github.com/nicehorse06/se-job/blob/master/tool_and_note/git.md)
 * 學習心法
     * [如何開始學一種新的程式語言](https://github.com/nicehorse06/se-job/blob/master/tool_and_note/how_to_learn_new_language.md)
+* [關於我](https://github.com/nicehorse06/se-job#%E9%97%9C%E6%96%BC%E6%88%91)
 
 ## 🐴簡介軟體開發Q&A 
-
-### 這個專案是什麼?
-* 網頁前後端引導專案，讓新手可以快速進入狀況
-* 收集很多學習連結，加上我自己的少量教學分享
-
-### 這個專案目標客群是?
-* 想跨足網頁開發的人，以找到第一份工作為目標
 
 ### 軟體開發的優點?
 * 國際化的技能，不被綁在單一國家，甚至可以remote工作
