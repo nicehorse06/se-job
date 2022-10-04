@@ -207,6 +207,8 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ## 開發作品集參考靈感
 * [50 Cool Web And Mobile Project Ideas for 2022](https://dev.to/andrewbaisden/50-cool-web-and-mobile-project-ideas-for-2022-1flj)
 * [Want to build something fun? Here’s a list of sample web app ideas.](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
+* [public-apis/public-apis](https://github.com/public-apis/public-apis)
+	* A collective list of free APIs
 * [The Star Wars API](https://swapi.co/)
 * [Dog API](https://dog.ceo/dog-api/)
 * 用網頁製作履歷如[範例](https://nicehorse06.github.io/se-job/)，或是用markdown製作也可以
