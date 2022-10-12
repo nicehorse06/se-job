@@ -10,3 +10,8 @@
 * [資訊科技產業專案設計](https://www.youtube.com/watch?v=bqKNpbaELaE&list=PL6S9AqLQkFprzHmOiQxwRIrOOesp11a20&index=2)，Jserv的面試課程
 * [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university#what-is-it)
     * A complete computer science study plan to become a software engineer.
+* [Interviewbit 英文](https://www.interviewbit.com/)
+    * 有面試、系統設計、語言等學習資源
+* [軟體職缺準備心得](https://www.ptt.cc/bbs/Soft_Job/M.1657873542.A.6AB.html)
+    * Grokking the System Design
+    * Grind 75
