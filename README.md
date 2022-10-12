@@ -132,6 +132,7 @@
     * [MDN web doc](https://developer.mozilla.org/)
     * [w3schools 英文](https://www.w3schools.com/)
     * [w3school 簡體中文](https://www.w3school.com.cn/)
+    * [Interviewbit 英语](https://www.interviewbit.com/)
     * [Google web developers doc](https://developers.google.com/web)
 * Youtube搜尋前端教學、網頁教學
     * [彭彭的課程 網頁前端工程入門](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp)
