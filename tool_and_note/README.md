@@ -11,6 +11,10 @@
 * 瀏覽器 dev tool
 * 英文
 
+## 實用網站
+* [CIDR.xyz](https://cidr.xyz/)，IP規則學習網站
+* [regex101](https://regex101.com/)，正則表達式驗證網站
+
 ## 英文名詞 columns 和 rows 方向的記憶方法
 
 * rows 就是水平的方向欄位(horizontal)
