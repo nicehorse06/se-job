@@ -15,3 +15,4 @@
 * [軟體職缺準備心得](https://www.ptt.cc/bbs/Soft_Job/M.1657873542.A.6AB.html)
     * Grokking the System Design
     * Grind 75
+* [0到100的軟體工程師面試之路](https://ithelp.ithome.com.tw/users/20152262/ironman/5615)
