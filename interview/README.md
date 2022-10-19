@@ -16,3 +16,6 @@
     * Grokking the System Design
     * Grind 75
 * [0到100的軟體工程師面試之路](https://ithelp.ithome.com.tw/users/20152262/ironman/5615)
+    * 很詳細，推薦
+* [yongxinz/backend-interview](https://github.com/yongxinz/backend-interview)
+    * About后端面试题汇总（Python、Redis、MySQL、PostgreSQL、Kafka、数据结构、算法、编程、网络）
