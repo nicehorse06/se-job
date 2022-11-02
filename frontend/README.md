@@ -184,9 +184,6 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * 工作上，至少能用英文寫Email和在open source上交流
 > 「漢語缺乏「概念」層次的表述詞彙，於是在系統軟體領域中，consistency, coherence, consensus 這三個詞彙都被(過度簡化地)翻譯為「一致性」，但本質卻是三個完全不同的概念。」 - [Jserv](https://www.facebook.com/groups/system.software2022/permalink/2036768019837931/)
 
-### 測試工具
-* [httpbin](https://httpbin.org/)，此網站可以接收http並回傳接收到的結果，方便測試client
-
 ## 前端工程介紹、就職、轉職、心得文章
 * [五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！](https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/)
 * [前端工程師養成手冊](https://mrliao.gitbooks.io/f2ebook/content/)
