@@ -13,10 +13,19 @@
 * 新增API rate limiter，限制API使用次數
 * 為API建立cache，應付短時間重複請求
 * 為DB建立replica，讀寫分離
+* 為API紀錄log
+* 把API server包到container中，方便部屬
+* 為API新增備援機制
 * 串接金流，讓API可以收費
+* 用非同步任務執行通知發信，像Celery
 * 為API做load balance
 * 用容器包API，建立一套部屬流程
-* 完善的文檔可以參考
+* 完善的文檔可以參考，為API新增官網
+* 新增測試
+* CI/CD流程
+
+## 其他
+* 縮網址
 
 ### ref
 * Java
