@@ -163,8 +163,9 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 * git中標準寫文檔的格式，此文即用markdown書寫
 * 用標記的方式快速產生網頁式的筆記
 * 可搭配hackmd、trello做筆記
-* [基本的markdown中文文檔](https://markdown.tw/)
-* [官方Markdown文件](https://daringfireball.net/projects/markdown/)
+* [中文文檔](https://markdown.tw/)
+* [官方文件](https://daringfireball.net/projects/markdown/)
+* [Github 文檔](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 #### hackmd
 * [HackMD 快速入門教學](https://hackmd.io/s/quick-start-tw)
