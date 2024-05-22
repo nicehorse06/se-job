@@ -117,7 +117,7 @@
     * [Tomofun友愉](https://meet.jobs/zh-TW/jobs/26971-sr-frontend-engineer-%E8%B3%87%E6%B7%B1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
 * 高級職缺: HTML + CSS + JavaScript和框架 + Node後端經驗，3年以上經驗，年薪約120~200+
     * [GoFreight](https://meet.jobs/zh-TW/jobs/29544-senior-frontend-engineer?referral_code=jimmatw)
-    * [Omlet Inc.](https://meet.jobs/zh-TW/jobs/30370-web-frontend-engineer?referral_code=jimmatw)
+    * [[月薪 10 萬起] [年薪 200 萬] 聯發科技前端工程師 (Senior and Junior)](https://github.com/f2etw/jobs/issues/1105)
 
 
 ## 🐴程式學習Q&A
@@ -243,6 +243,7 @@
 * 可以考慮使用正式英文履歷，把附有大頭照的花花綠綠履歷換掉
     * [讓我拿到FAANG面試的履歷 by HackBear 泰瑞](https://www.youtube.com/watch?v=MsbzY6QbRVA&t=304s)
     * [程式設計師的履歷撰寫要點](https://blog.m157q.tw/posts/2016/01/22/how-to-write-a-resume-for-programming-jobs/)
+    * [Reddit r/resumes](https://www.reddit.com/r/resumes/)
 * 如果會前端以外的技能如操作Linux指令、Git指令、Node後端就太棒了
 * 如果還有困難那就深入React，把React技術和周邊框架都摸爛，offer就在不遠處
 
