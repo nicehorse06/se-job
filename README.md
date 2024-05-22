@@ -109,15 +109,16 @@
 
 ### 前端工程師待遇如何? 如何才能百萬年薪?
 ###### 514
-* 初級職缺: HTML + CSS + JavaScript和框架，0到1年經驗，月薪3到6萬
-    * [TITANSOFT 新加坡商鈦坦科技](https://meet.jobs/zh-TW/jobs/29447-software-engineer%EF%BC%8Fprogrammer-%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%98%E9%9B%84?referral_code=jimmatw)
-    * [愛卡拉 iKala](https://meet.jobs/zh-TW/jobs/32022-ikala-commerce%E7%B6%B2%E9%A0%81%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-web-frontend-engineer?referral_code=jimmatw)
+* 初級職缺: HTML + CSS + JavaScript和框架，0到3經驗，月薪3到6萬
+    * [科林集團徵軟體前端工程師 可部分遠端](https://github.com/f2etw/jobs/issues/1112)
+    * [DigiSalad [徵才][台北] UI/UX 前端工程師](https://github.com/f2etw/jobs/issues/1102)
+    * [【徵才】SYSTEX 軟體精英學程 - 前端工程師](https://github.com/f2etw/jobs/issues/1091)
 * 中級職缺: HTML + CSS + JavaScript和框架，3年以上經驗，年薪約100
-    * [均一平台教育基金會](https://meet.jobs/zh-TW/jobs/27698-%E8%B3%87%E6%B7%B1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
-    * [Tomofun友愉](https://meet.jobs/zh-TW/jobs/26971-sr-frontend-engineer-%E8%B3%87%E6%B7%B1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB?referral_code=jimmatw)
+    * [[徵才] Quickroom 徵 Vue資深前端工程師（React 亦可）](https://github.com/f2etw/jobs/issues/1096)
+    * [[徵才] Coolbe 徵 Vue資深前端工程師](https://github.com/f2etw/jobs/issues/1086)
 * 高級職缺: HTML + CSS + JavaScript和框架 + Node後端經驗，3年以上經驗，年薪約120~200+
-    * [GoFreight](https://meet.jobs/zh-TW/jobs/29544-senior-frontend-engineer?referral_code=jimmatw)
     * [[月薪 10 萬起] [年薪 200 萬] 聯發科技前端工程師 (Senior and Junior)](https://github.com/f2etw/jobs/issues/1105)
+    * [MEXC React前端工程師 (Hybrid)](https://github.com/f2etw/jobs/issues/1094)
 
 
 ## 🐴程式學習Q&A
