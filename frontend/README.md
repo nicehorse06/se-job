@@ -60,6 +60,7 @@
 	* 有中文
 	* Youtube上有更多免費教學影片
 * [the odin project](https://www.theodinproject.com/)
+* [清大 吳尚鴻教授 Web Programming, Technologies, and Applications](https://www.youtube.com/watch?v=rubxoIKF3gk&list=PLS0SUwlYe8cw25rA4J7dTz4Hg7H23Bk84&index=1)
 
 ## 前端學習與作品產出資源
 * [Bootstrap教學 - 利用HTML + CSS，完整編寫網站外觀示範](https://www.youtube.com/watch?v=9X1graZtuPs)
