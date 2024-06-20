@@ -1,4 +1,4 @@
-# 後端程式入門、工作文章整理
+# 後端程式入門、面試整理
 
 ## Client Server 架構
 * Client(前端)
@@ -82,17 +82,6 @@
 ## API Design
 * [API Design design](https://roadmap.sh/api-design)
 
-## 刷題
-> 通常刷題用C++/Java/Python，推薦使用Python
-* [blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
-  * 面試基本搞懂這75題
-* [Grind 75](https://www.techinterviewhandbook.org/grind75)
-  * 可以做刷題時間規劃的安排表
-* [Neetcode](https://neetcode.io/)
-  * 基於blind 75到150題
-  * 有影片講解跟自己的刷題系統
-  * 可以刷到Leetcode中的付費題目
-
 ## OS
 * deadlock
 * process thread
@@ -149,7 +138,15 @@
 ## DevOps
 
 ## Cloud
+* AWS
 
 ## SRE
 
-## kubernetes
+## Kubernetes
+
+## DB
+* 各種index
+* SQL
+* RDBMS vs noSQL
+* PostgrSQL/MySQL的特性
+* Redis/MongoDB 應用場景

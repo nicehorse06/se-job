@@ -1,5 +1,15 @@
 # 程式面試準備
 
+> 通常刷題用C++/Java/Python，推薦使用Python
+* [blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
+  * 面試基本搞懂這75題
+* [Grind 75](https://www.techinterviewhandbook.org/grind75)
+  * 可以做刷題時間規劃的安排表
+* [Neetcode](https://neetcode.io/)
+  * 基於blind 75到150題
+  * 有影片講解跟自己的刷題系統
+  * 可以刷到Leetcode中的付費題目
+
 ## 推薦刷題順序方法
 1. 對資料結構、演算法有基礎了解
     * 了解基本複雜度、知道array和linkedlist的優點、看到關鍵字時能知道去Google
