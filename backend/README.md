@@ -1,11 +1,5 @@
 # 後端程式入門、工作文章整理
 
-## TODO
-* flask
-* django
-* more node.js
-* SQL
-
 ## Client Server 架構
 * Client(前端)
     * 為使用者端如網頁、app，使用者身邊的裝置
@@ -51,7 +45,7 @@
     * 有點冷門，開發快速，某些特定公司會用，如果以那些公司為目標可以學
     * 除非到職的公司會帶，不然可以不用學
 
-## 其他語言
+### 其他語言
 * C
     * 軟體界最經典的語言    
         * 常見用在工作的語言90%都是參考C的語法
@@ -60,11 +54,102 @@
         * 要了解資工的資料結構、作業系統、編譯器從C開始不會錯
     * 通常C的工作都跟了解硬體、作業系統的domain綁在一起，所以門檻比較高
 * C++
-    * TODO
+    * 通常做需要高效能的事情如遊戲引擎 交易系統 EDA
+    * 需要的工作通常要求高學歷理工背景
+    * 學生刷題比賽愛用
 * Rust
-    * TODO
+    * 在台灣非主流，在Linux開發 韌體開發 後端開發 前端開發領域持續成長
+    * 簡單來說是記憶體管理更安全的C/C++
+    * 很難寫，語法對機器友善，編譯器很嚴格
+    * 難學易精，跟JavaScript反過來
 
-## python 學習資源
-* [django](https://www.djangoproject.com/)
-* [flask](https://flask.palletsprojects.com/en/2.0.x/)
-    * [flask入門教程](https://read.helloflask.com/)
+
+## System Design
+* [Design Gurus](https://www.designgurus.io/)
+  * 要付費
+* [system-design-primer](https://github.com/donnemartin/system-design-primer?tab=readme-ov-file#system-design-topics-start-here)
+* [System Design Interview – An insider's guide](https://www.books.com.tw/products/0010903454)
+  * 大部分都會推這個
+* [System Design roadmap](https://roadmap.sh/system-design)
+* [Youtuber 土妹土妹](https://www.youtube.com/@user-im1sg1zx1j)
+* [Youtuber 古城算法](https://www.youtube.com/@user-my5in2fq5c)
+* [Youtuber 花花醬](https://www.youtube.com/@HuaHuaLeetCode)
+
+## Distributed Systems
+* Designing Data-Intensive Application
+  * [DDIA中文翻译](https://github.com/Vonng/ddia)
+
+## API Design
+* [API Design design](https://roadmap.sh/api-design)
+
+## 刷題
+> 通常刷題用C++/Java/Python，推薦使用Python
+* [blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
+  * 面試基本搞懂這75題
+* [Grind 75](https://www.techinterviewhandbook.org/grind75)
+  * 可以做刷題時間規劃的安排表
+* [Neetcode](https://neetcode.io/)
+  * 基於blind 75到150題
+  * 有影片講解跟自己的刷題系統
+  * 可以刷到Leetcode中的付費題目
+
+## OS
+* deadlock
+* process thread
+
+## Networking
+* OSI的7層架構
+* HTTPS
+* HTTP code
+
+## Python
+### 面試常見問題
+1. **dict 安全取值**
+   - 使用 `get()` 方法，可以在鍵不存在時返回一個預設值，避免 `KeyError`。
+
+2. **裝飾器 (Decorator)**
+   - 函數或類別，用於在不修改原始函數代碼的情況下，添加新的功能。
+
+3. **Context Manager (`with` 語句)**
+   - 用於管理資源，例如檔案操作，確保資源被正確處理（如自動關閉）。
+
+4. **Generator**
+   - 使用 `yield` 產生一系列的值，可以逐一產生值而不需要一次性將所有值載入內存。
+
+5. **GIL鎖 (Global Interpreter Lock)**
+   - Python 中的機制，用於限制一個 Python 解釋器在多執行緒環境中同時執行多個原生執行緒。
+
+6. **Multi-process/thread/task 的模組**
+   - 如 `multiprocessing`, `threading`, `asyncio`。
+   - **非同步與同步的區別**：非同步操作允許程式在等待外部事件（如 I/O）完成時繼續執行，同步操作則需等待操作完成。
+
+7. **單元測試/功能測試**
+   - 使用 `unittest` 或 `pytest` 模組來進行測試確保程式碼的可靠性。
+
+8. **Python Debugger**
+   - 如 `pdb`，用於逐步執行代碼以找出錯誤和問題。
+
+9. **異常處理**
+   - `try`, `except`, `finally`, `raise` 用於處理和拋出異常。
+
+10. **import 原理**
+    - Python 加載和初始化模組的過程，包括尋找模組路徑、編譯成位元組碼、執行模組代碼。
+
+11. **List Comprehension**
+    - 簡潔的語法結構，用於從其他列表創建列表，表達式既直觀又高效。
+
+12. **變數的「引用」與「複製」**
+    - 包括對變數的直接賦值（引用）和通過淺複製或深複製創建獨立副本的概念。
+
+13. **標準庫模組（collections, itertools, functools）**
+    - `collections` 提供多種資料結構，`itertools` 用於創建有效的迭代器，`functools` 提供函數式編程支持。
+
+## Linux
+
+## DevOps
+
+## Cloud
+
+## SRE
+
+## kubernetes
