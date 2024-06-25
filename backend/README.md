@@ -90,6 +90,8 @@
 * OSI的7層架構
 * HTTPS
 * HTTP code
+* session cookie
+* TCP/UDP
 
 ## Python
 ### 面試常見問題
@@ -150,3 +152,6 @@
 * RDBMS vs noSQL
 * PostgrSQL/MySQL的特性
 * Redis/MongoDB 應用場景
+* ACID
+* CAP
+* B-Tree
