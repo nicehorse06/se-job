@@ -135,6 +135,8 @@
 13. **標準庫模組（collections, itertools, functools）**
     - `collections` 提供多種資料結構，`itertools` 用於創建有效的迭代器，`functools` 提供函數式編程支持。
 
+14. WSGI (Web Server Gateway Interface) 和 ASGI (Asynchronous Server Gateway Interface)
+
 ## Linux
 
 ## DevOps
