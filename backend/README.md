@@ -63,22 +63,12 @@
     * 很難寫，語法對機器友善，編譯器很嚴格
     * 難學易精，跟JavaScript反過來
 
-
-## System Design
-* [Design Gurus](https://www.designgurus.io/)
-  * 要付費
-* [system-design-primer](https://github.com/donnemartin/system-design-primer?tab=readme-ov-file#system-design-topics-start-here)
-* [System Design Interview – An insider's guide](https://www.books.com.tw/products/0010903454)
-  * 大部分都會推這個
-* [System Design roadmap](https://roadmap.sh/system-design)
-* [Youtuber 土妹土妹](https://www.youtube.com/@user-im1sg1zx1j)
-* [Youtuber 古城算法](https://www.youtube.com/@user-my5in2fq5c)
-* [Youtuber 花花醬](https://www.youtube.com/@HuaHuaLeetCode)
-
-## Distributed Systems
-* Designing Data-Intensive Application
-  * [DDIA中文翻译](https://github.com/Vonng/ddia)
-## Linux
-## DevOps
-## SRE
-## Kubernetes
+## todo
+* Distributed Systems
+  * Designing Data-Intensive Application
+    * [DDIA中文翻译](https://github.com/Vonng/ddia)
+* Linux
+* DevOps
+* SRE
+* Kubernetes
+* docker
