@@ -94,9 +94,10 @@
   * 釋放資源
 
 ### deadlock滿足的四個條件
+* todo
 
 ## virtual memory
-
+* todo
 
 ## System Call
 * 是 process 與作業系統之間的介面。
