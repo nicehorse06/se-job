@@ -1,7 +1,10 @@
 # OS
+
+## 優先
 ## 需要準備
 
-* deadlock
+* deadlock, livelock形成原因和解決辦法
+* 同步問題
 * program, process, thread
 * Muti-thread
 * race condition
