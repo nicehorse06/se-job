@@ -87,6 +87,26 @@
   * 無所謂切換的問題。
   * 真正的同時運行，需要多核CPU或多處理器系統
 
+## deadlock
+* process利用資源的三種階段
+  * 要求資源
+  * 使用資源
+  * 釋放資源
+
+### deadlock滿足的四個條件
+
+## virtual memory
+
+
+## System Call
+* 是 process 與作業系統之間的介面。
+
+## user mode & kernel mode
+
+## Process Control
+
+
+
 ## ref
 * https://www.explainthis.io/zh-hant/swe-questions/backend
 * https://hackmd.io/@SupremeEJ/SkcsCUGh8

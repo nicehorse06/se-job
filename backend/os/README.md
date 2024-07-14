@@ -1,18 +1,14 @@
 # OS
 ## 需要準備
 
-* deadlock
-* program, process, thread
 * Muti-thread
-* race condition
-* Concurrency 和 Parallel 
 * virtual memory
 * user mode & kernel mode
 * system call
 * pipeline hazard
 * DMA
 * Process Starvation
-* Interrupt
+* CPU Interrupt
 * Signal
 
 

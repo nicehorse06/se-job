@@ -82,6 +82,8 @@
   * 定義的是網路服務之間的資料格式的轉換， 包括資料的加解密。
 * Layer 7 應用層 Application Layer
   * 定義應用程式如何進入此層的溝通介面
+    * 一些通訊協定
+  * HTTP，HTTPS，FTP，TELNET，SSH，SMTP，POP3
 
 ## TCP/IP 四層模型
 * 應用層
