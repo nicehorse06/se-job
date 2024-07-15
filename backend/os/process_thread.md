@@ -184,7 +184,7 @@
   * 切換到內核模式：CPU切換到內核模式，以便操作系統能夠訪問特權指令和資源。
   * 中斷處理：操作系統根據中斷向量表（Interrupt Vector Table）找到對應的中斷處理程序，並執行。
   * 恢復上下文：中斷處理完成後，操作系統恢復被中斷的程序的上下文，使其繼續執行。
-  
+
 ## ref
 * https://www.explainthis.io/zh-hant/swe-questions/backend
 * https://hackmd.io/@SupremeEJ/SkcsCUGh8
