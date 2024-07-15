@@ -27,3 +27,5 @@
 * sort
 * grep
 * mount
+* top有哪些資訊
+* swap

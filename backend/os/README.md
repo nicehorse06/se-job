@@ -1,14 +1,9 @@
 # OS
 ## 需要準備
-
 * Muti-thread
-* virtual memory
-* user mode & kernel mode
-* system call
 * pipeline hazard
 * DMA
-* Process Starvation
-* CPU Interrupt
+
 * Signal
 
 
