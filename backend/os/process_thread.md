@@ -99,6 +99,9 @@
 ## virtual memory
 * todo
 
+### ref
+* [從作業系統的角度來談為什麼需要「虛擬記憶體」](https://medium.com/starbugs/why-do-os-need-virtual-memory-b47d6eeecbce)
+
 ## System Call
 * 是 process 與作業系統之間的介面。
 
