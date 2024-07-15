@@ -2,7 +2,6 @@
 
 
 ## todo
-*  OSI 七層協定 (Open System Interconnection)
 * HTTPS
 * HTTP code
 * TCP/UDP
