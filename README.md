@@ -17,7 +17,7 @@
     * [網頁前端程式入門筆記與學習資源](https://github.com/nicehorse06/se-job/tree/master/frontend/README.md)
     * [前端自學路線建議](https://github.com/nicehorse06/se-job/blob/master/frontend/learning_path.md)
 * 後端
-    * [後端語言介紹](https://github.com/nicehorse06/se-job/tree/master/backend)
+    * [後端語言介紹](https://github.com/nicehorse06/se-job/blob/master/interview/backend_intro.md)
 * 面試
     * [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/interview/coding.md)
     * [履歷準備](https://github.com/nicehorse06/se-job/blob/master/interview/resume.md)
@@ -87,7 +87,7 @@
 * 小公司的後端也是要懂前端，希望你有全端的能力
 * 建議可以先熟悉前端再跨入後端
     * 尤其JavaScript前後端都可寫
-* [更多後端介紹](https://github.com/nicehorse06/se-job/blob/master/backend/README.md)
+* [更多後端介紹](https://github.com/nicehorse06/se-job/blob/master/interview/backend_intro.md)
 
 ### 為什麼不推薦新手走APP?
 * 執行環境是各式各樣不同尺寸的手機，比瀏覽器複雜
