@@ -1,4 +1,8 @@
-# 面試相關筆記
+# 面試筆記
+
+* 紀錄軟體開發面試常問問題
+* 寫下簡一筆計供面試複習
+* 真的要認真學習還是要去找對應資源 !
 
 ## ref
 * [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
