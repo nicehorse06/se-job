@@ -22,7 +22,7 @@
     * [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/interview/coding.md)
     * [履歷準備](https://github.com/nicehorse06/se-job/blob/master/interview/resume.md)
 * 工具
-    * [git基礎介紹](https://github.com/nicehorse06/se-job/blob/master/tool_and_note/git.md)
+    * [git基礎介紹](https://github.com/nicehorse06/se-job/blob/master/interview/git/basic_intro.md)
 * 學習心法
     * [如何開始學一種新的程式語言](https://github.com/nicehorse06/software-learning-step/tree/main/language)
 * [關於我](https://github.com/nicehorse06/se-job#%E9%97%9C%E6%96%BC%E6%88%91)
