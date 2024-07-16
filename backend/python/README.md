@@ -8,7 +8,7 @@
    - 使用 `get()` 方法，可以在鍵不存在時返回一個預設值，避免 `KeyError`。
 
 2. **裝飾器 (Decorator)**
-   - 函數或類別，用於在不修改原始函數代碼的情況下，添加新的功能。
+   - 函數或類別，用於在不修改原始函數代碼的情況下，添加新的功能。.
 
 3. **Context Manager (`with` 語句)**
    - 用於管理資源，例如檔案操作，確保資源被正確處理（如自動關閉）。
@@ -47,7 +47,7 @@
 14. WSGI (Web Server Gateway Interface) 和 ASGI (Asynchronous Server Gateway Interface)
 
 15. *args 與 **kwargs
-
+16. is == 差別
 
 ## ref
 * [码农高天](https://www.youtube.com/@minkoder)
