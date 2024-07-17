@@ -67,4 +67,9 @@
 * 請說明 iostat 和 vmstat 命令的用途。
   * iostat: 報告 CPU 和 I/O 設備的使用情況。
   * vmstat: 報告虛擬內存、進程、CPU 活動等系統性能指標。
+* stat [filename]
+* iptables -L 
+* route -n 查看路由表
 
+## ref
+* [常用Linux Shell指令](https://hackmd.io/@a110605/S1NuXFEjG?type=view)
