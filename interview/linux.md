@@ -34,6 +34,10 @@
 * top有哪些資訊
 * swap
 * find
+* how if TCP port 8000 is occupied
+* process ID (PID), PPID, PGID and SID
+* sigkill and sigterm
+* What is PID 1
 * process管理
   * ps aux: 顯示所有用戶的所有進程
   * top: 實時顯示系統進程
@@ -70,6 +74,23 @@
 * stat [filename]
 * iptables -L 
 * route -n 查看路由表
+* ubuntu
+  * Ubuntu init daemon
+  * How to check init and service log within Ubuntu
+  * apt install
+  * apt-cache search
+  * apt-get remove
+  * apt-get build-dep
+  * add-apt-repository
+  * /etc/apt/sources.list
+* Kernel版本
+* Linux Distro版本
+* dmesg
+  *  dump Linux Kernel messages
+* insmod module.ko
+* modprobe module
+* grep "pattern" file.txt > output.txt 2>&1
+* find / -name "*.log" > /dev/null 2>&1
 
 ## ref
 * [常用Linux Shell指令](https://hackmd.io/@a110605/S1NuXFEjG?type=view)
