@@ -1,14 +1,12 @@
 # 程式面試準備
 
 > 通常刷題用C++/Java/Python，推薦使用Python
+
+## 時間有限的刷題準備
 * [blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
   * 面試基本搞懂這75題
-* [Grind 75](https://www.techinterviewhandbook.org/grind75)
-  * 可以做刷題時間規劃的安排表
-* [Neetcode](https://neetcode.io/)
-  * 基於blind 75到150題
-  * 有影片講解跟自己的刷題系統
-  * 可以刷到Leetcode中的付費題目
+  * [neetcode](https://neetcode.io/practice) 有所有題目跟講解
+
 
 ## 推薦刷題順序方法
 1. 對資料結構、演算法有基礎了解
@@ -43,6 +41,12 @@
     * 一起討論有無優化可能、時間複雜度探討
 
 ## ref
+* [Grind 75](https://www.techinterviewhandbook.org/grind75)
+  * 可以做刷題時間規劃的安排表
+* [Neetcode](https://neetcode.io/)
+  * 基於blind 75到150題
+  * 有影片講解跟自己的刷題系統
+  * 可以刷到Leetcode中的付費題目
 * [資料結構、演算法關鍵字](https://www.youtube.com/watch?v=ucTL2ZdcyOs)
     * 資料結構: array(重點)、linkedlist、string、stack/queue、heap、hashmap(重點)、matrix、tree(重點)、graph
     * 演算法: recursion(DFS)、BFS、Dynamic Programming、Binary Search、Sorting
