@@ -6,6 +6,11 @@
 * [blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
   * 面試基本搞懂這75題
   * [neetcode](https://neetcode.io/practice) 有所有題目跟講解
+### blind 75 所需要的知識
+* graph
+  * Union-Find
+  * BFS
+  * DFS
 
 
 ## 推薦刷題順序方法
