@@ -3,17 +3,16 @@
 * 紀錄軟體開發面試常問問題
 * 寫下簡一筆計供面試複習
 * 真的要認真學習還是要去找對應資源 !
+* 很多內容參考GPT，拿關鍵字去問GPT持續詢問會進步
 
 ## TODO
-* 打字
-* Linux
-    * WSL
-    * Vim
-* markdown
-* 瀏覽器 dev tool
-* 英文
 * 測試
   * TDD、BDD
+  * 斷點
+  * 單元測試
+  * 整合測試
+  * 各種測試方法論
+* browser devtool
 
 ## 實用網站
 * [CIDR.xyz](https://cidr.xyz/)，IP規則學習網站

@@ -3,6 +3,7 @@
 
 ## todo
 * 多 process on cpu, 多thread, asyncio
+* meta class
 ## 面試常見問題
 1. **dict 安全取值**
    - 使用 `get()` 方法，可以在鍵不存在時返回一個預設值，避免 `KeyError`。
