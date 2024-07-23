@@ -424,3 +424,5 @@ if __name__ == "__main__":
 
 ```
 
+## ref
+* [軟體工程師為什麼要學 Design Pattern? | 物件導向 | SOLID | 工程師 Nic](https://www.youtube.com/watch?v=pkm5jQfnKGs)
