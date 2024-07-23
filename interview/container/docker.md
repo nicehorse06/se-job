@@ -60,8 +60,44 @@ docker network ls [OPTIONS]
 ```
 ## Dockerfile
 * ENTRYPOINT
-* RUN
+  * 指令用於設定容器啟動時執行的主命令。與 CMD 不同的是，ENTRYPOINT 是固定的，不能被容器運行時的參數所覆蓋。
+  * ENTRYPOINT ["echo", "Hello, World!"]
 * CMD
+  * 指令用於設定容器啟動時的默認命令或參數，可以被容器運行時提供的參數覆蓋。
+  * CMD ["echo", "Hello, World!"]
+* RUN
+  * 指令用於在構建映像檔時執行命令，通常用於安裝軟件包或配置環境。
+  * RUN apt-get update && apt-get install -y nginx
+
+``` Dockerfile
+# 使用官方的 Python 基礎映像檔
+FROM python:3.9-slim
+
+# 設定工作目錄
+WORKDIR /app
+
+# 複製當前目錄的內容到容器中的 /app 目錄
+COPY . /app
+
+# 安裝依賴
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 設定 ENTRYPOINT
+ENTRYPOINT ["python", "app.py"]
+
+# 設定 CMD
+CMD ["--help"]
+
+```
+
+``` sh
+# 當你運行容器時，會執行 python app.py --help。
+docker run my-python-app
+
+# 覆蓋默認參數
+docker run my-python-app --version
+```
+
 ## 容器網路
 * Docker 中的網路模式（Bridge, Host, None, Overlay 等）
 * 容器之間如何進行通信
