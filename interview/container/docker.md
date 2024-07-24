@@ -161,7 +161,37 @@ docker run my-python-app --version
 * Docker Compose 的使用
 * 紀錄和監控 Docker 容器
 
+## container底層實現
+> cgroup Namespace 都是linux kernel提供的功能
+### cgroup（control group）
+> cgroup 提供資源限制
+* cgroup 可以管理process的以下資源
+  * CPU、內存、磁盤 I/O 和網絡
+* 資源限制：限制 CPU、內存等資源的使用量。
+* 資源隔離：確保進程組之間的資源使用互不影響。
+* 統計信息：收集資源使用的統計信息。
+* 優先級控制：設定不同進程組的優先級。
+* Docker 利用了 cgroup 來實現容器的資源限制和隔離。
+### Namespace
+> namespace 提供環境隔離
+* PID namespace：進程 ID 隔離。
+* Network namespace：網絡資源隔離。
+* Mount namespace：文件系統掛載點隔離。
+* UTS（UNIX Timesharing System）namespace：主機名和域名隔離。
+* IPC（Inter-Process Communication） namespace：進程間通信隔離。
+* User namespace：用戶和組 ID 隔離。
 
+### Union File System
+> Union file system 讓container可以共享重複資源
+* Union file system（如 OverlayFS）允許將多個文件系統層疊在一起，使得容器可以共享基礎文件系統，同時又可以在自己的層上進行修改而不影響其他容器。
+
+### Linux 容器實現過程
+* 創建 cgroup
+* 設置 namespace
+* 配置 root 文件系統，使用 union file system 為容器設置 root 文件系統
+* 啟動process
+* 網絡配置
+* 
 ## ref
 * [twtrubiks/docker-tutorial](https://github.com/twtrubiks/docker-tutorial)
 * [Play with Docker](https://www.docker.com/play-with-docker/)

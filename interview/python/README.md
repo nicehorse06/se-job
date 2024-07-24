@@ -51,6 +51,9 @@
 16. is == 差別
 17. 迭代器（iterator）
 18. 淺複製(shallow copy)與深複製(deep copy)
+19. lambdas
+20. pakage managers，PyPI pip
+21. Python Paradigms， OO FP
 
 ## ref
 * [码农高天](https://www.youtube.com/@minkoder)
