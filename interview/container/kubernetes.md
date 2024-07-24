@@ -37,3 +37,6 @@
 * 自動縮放（Horizontal Pod Autoscaler, Vertical Pod Autoscaler）
 * 記錄和監控（如 Prometheus, Grafana）
 
+
+## ref
+* [Kubernetes k8s 十分钟快速入门](https://www.youtube.com/watch?v=ubz3cFgxeJA&t=449s)
