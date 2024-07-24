@@ -56,7 +56,8 @@ docker exec -it <Container ID> bash
 # todo
 docker volume
 docker network ls [OPTIONS]
-
+docker pull
+docker cp 
 ```
 ## Dockerfile
 * ENTRYPOINT

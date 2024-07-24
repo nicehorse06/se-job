@@ -1,5 +1,6 @@
 # behavior question
 
+
 ## 請描述一個你在工作中面臨重大挑戰的情況。你是如何解決的？
 * 目的是了解候選人如何處理困難和壓力。
 
@@ -29,3 +30,8 @@
 
 ## 你如何處理跨部門的協作和溝通？
 * 測試候選人的跨部門合作能力和溝通技巧。
+
+
+## ref
+* GPT
+* [面試國外工程師超詳細超過 100 道題目蒐集、分類歸納與準備](https://yschen25.blogspot.com/2021/01/programmer-interview-question-collection-preparation.html)
