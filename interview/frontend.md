@@ -3,10 +3,6 @@
 ## todo
 * HTML
 * CSS
-* Browser
-* security
-* network
-* SEO
 
 ## JavaScript
 * 函數差別
