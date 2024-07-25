@@ -1,4 +1,16 @@
-# Session / Cookie 驗證的原理與流程
+# web client server驗證
+
+## todo
+* cookie 和 session的關係
+  * 怎麼保護cookie
+    * http有哪些狀態  
+  * session id
+* JWT解決什麼問題
+* 有什麼資安問題
+  * CSRF
+* api token
+  * 放在header什麼地方
+* 結合Oauth 2.0
 
 當用戶使用帳號密碼登入時，最陽春的驗證模式通常使用 Session 和 Cookie 來維持用戶的登入狀態。以下是這種驗證模式的原理與流程，以及其缺點：
 
