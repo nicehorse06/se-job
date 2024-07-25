@@ -6,6 +6,77 @@
 
 資料庫索引是一種用來加速資料查詢的資料結構，類似於書本的目錄。透過建立索引，資料庫能夠更快地定位和存取所需的資料，而不需要遍歷整個表。常見的索引結構包括哈希索引和樹型索引，其中 B-Tree 和 B+ Tree 是最常用的樹型索引。
 
+## 使用index會增加查詢效率的查詢
+``` sql
+/*
+1.篩選查詢（SELECT ... WHERE）：
+如果 department_id 列有索引，資料庫可以通過索引快速找到對應的記錄
+當查詢包含篩選條件時，索引可以快速定位滿足條件的記錄
+*/
+SELECT * FROM employees WHERE department_id = 10;
+
+
+/*
+2.排序查詢（ORDER BY）：
+如果查詢結果需要排序，索引可以加速排序操作。
+如果 last_name 列有索引，資料庫可以利用索引中的排序順序直接生成有序結果。
+*/
+SELECT * FROM employees ORDER BY last_name;
+
+
+/*
+3. 範圍查詢（BETWEEN, >, <, >=, <=）：
+對於範圍查詢，索引可以快速定位範圍內的記錄。
+如果 sale_date 列有索引，資料庫可以快速找到範圍內的記錄。
+*/
+SELECT * FROM sales WHERE sale_date BETWEEN '2023-01-01' AND '2023-06-30';
+
+
+/*
+4. 聚合查詢（GROUP BY）：
+索引可以加速基於某列的分組操作。
+如果 department_id 列有索引，資料庫可以更高效地分組和計數。
+*/
+SELECT department_id, COUNT(*) FROM employees GROUP BY department_id;
+
+
+/*
+5. 聯合查詢（JOIN）
+在多表聯合查詢中，索引可以加速匹配鍵值的查找。
+如果 employees.department_id 和 departments.department_id 列有索引，資料庫可以更快地執行聯合操作。
+*/
+SELECT e.*, d.department_name 
+FROM employees e
+JOIN departments d ON e.department_id = d.department_id;
+
+
+/*
+唯一查詢（UNIQUE, DISTINCT）：
+當查詢需要查找唯一值或消除重複值時，索引可以提高效率。
+如果 last_name 列有索引，資料庫可以更快地查找唯一值。
+*/
+SELECT DISTINCT last_name FROM employees;
+
+```
+
+## 有index還是掃描整張的可能
+* 查詢條件不適用索引，如 `SELECT * FROM employees WHERE UPPER(first_name) = 'JOHN';`
+  * UPPER不使用索引
+* 當表非常小時，資料庫可能會選擇直接掃描整個表，而不是使用索引，因為這樣反而更高效。
+* 查詢大部分行
+  * 當查詢結果包含表中的大部分行時，使用索引的優勢不明顯
+  * 如 `SELECT * FROM employees WHERE salary > 1000;`
+
+
+## index的缺點
+* 增加存儲空間需求
+* 插入、更新、刪除操作性能降低
+* 複雜性增加
+* 索引失效問題
+* 建索引和重建索引的開銷
+* 選擇不當的索引可能導致性能問題
+  * 如欄位值的可能太少，如性別
+
 ## B-Tree
 
 B-Tree 是一種自平衡的樹形結構，用於維持有序資料，允許高效的插入、刪除和查找操作。B-Tree 的特點如下：

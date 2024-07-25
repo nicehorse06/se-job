@@ -7,6 +7,7 @@
 * 資料庫正規化
 * 什麼是transaction? Transaction失敗了怎麼辦？
 * db Sharding ？
+* db partition
 * 資料庫cache會遇到什麼問題？
 * composite index?
 * 為什麼一般來說不建議使用 SELECT * ?

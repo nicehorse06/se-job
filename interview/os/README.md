@@ -35,3 +35,5 @@
 * https://hackmd.io/@SupremeEJ/SkcsCUGh8
 * https://hackmd.io/@g9tdU4gDSTiEZrerd0g7-w/SyCXEfsSE?type=view
 * [內容很充實的面試整理](https://hackmd.io/@g9tdU4gDSTiEZrerd0g7-w/SyCXEfsSE?type=view)
+* [作業系統 Operating System 筆記](https://hackmd.io/@Chang-Chia-Chi/OS/https%3A%2F%2Fhackmd.io%2F%40Chang-Chia-Chi%2FOS-CH3)
+* [OS作業系統學習](https://ithelp.ithome.com.tw/users/20112132/ironman/1884)
