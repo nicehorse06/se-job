@@ -419,3 +419,34 @@ Test_demo.is_integer(1)
 Test_demo.plus(1,3)
 Test_demo.plus_by_staticmethod(1,3)
 ```
+
+
+## class實做Decorator
+* class 來實現裝飾器通常適用於需要處理更複雜邏輯的情況，有以下優點
+  * 狀態管理，Class 裝飾器可以方便地管理狀態。如計數、緩存結果
+  * 多方法支持，不只是__call__，有更多輔助函數，讓程式更可讀
+  * 繼承和多態
+  * 初始化配置，__init__會在實例化時進行初始化配置
+
+``` python
+class CallCountDecorator:
+    def __init__(self, func):
+        self.func = func
+        self.call_count = 0
+
+    def __call__(self, *args, **kwargs):
+        self.call_count += 1
+        print(f"Function '{self.func.__name__}' has been called {self.call_count} times")
+        return self.func(*args, **kwargs)
+
+# 使用裝飾器
+@CallCountDecorator
+def my_function(x):
+    return x * 2
+
+# 測試函數
+print(my_function(2))
+print(my_function(3))
+print(my_function(4))
+
+```
