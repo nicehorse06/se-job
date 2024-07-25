@@ -56,6 +56,7 @@
 21. Python Paradigms， OO FP
 22. tuple和list的區別
    - 如果tuple建立了，裡面的值就不可變
+23. python3以後的新功能
 
 ## ref
 * [码农高天](https://www.youtube.com/@minkoder)

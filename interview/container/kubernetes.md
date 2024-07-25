@@ -1,5 +1,9 @@
 # Kubernetes (K8s)
 
+
+## todo
+* service的target Port vs Service port vs node port
+
 ## 基本概念
 * Kubernetes 是什麼以及它的用途
 * K8s 的架構（Master 和 Node 節點）

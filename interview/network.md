@@ -11,6 +11,17 @@
 * LAN/WAN
 * 全雙工/半雙工(full-duplex, half-duplex)
 * loopback IP
+* 通訊協定
+  * websocket
+  * SMTP
+  * POP3/IMAP
+  * ping 使用的是 ICMP (Internet Control Message Protocol)
+  * HTTP/HTTPS
+    * 加密
+    * 身份驗證
+  * REST/GraphQL
+  * gRPC (Google Remote Procedure Call)
+  
 
 ## ipv4
 * Net_ID 與 Host_ID 的限制
@@ -94,6 +105,9 @@
 * 連結層
   * Layer 1 實體層 Physical Layer
   * Layer 2 資料鏈結層 Data-Link Layer
+
+
+## protocol
 
 ## ref
 * [不錯的面試資料整理](https://hackmd.io/@g9tdU4gDSTiEZrerd0g7-w/SyCXEfsSE?type=view)

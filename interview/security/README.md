@@ -1,4 +1,7 @@
 
 
 ## TODO
-* 中間人攻擊
+* CSRF
+* SQL injection
+* 加密算法（如 AES
+* hash
