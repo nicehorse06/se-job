@@ -63,5 +63,48 @@ Context Manager 的基本工作原理：上下文管理器需要實現兩個方�
 
 通過使用 Context Manager 和 `with` 語句，可以確保資源在使用後被自動釋放，這不僅使代碼更簡潔，也提高了代碼的可靠性和可讀性。
 
+``` python
+# 使用 class 來實現 context manager
+class MyContextManager:
+    def __enter__(self):
+        print("Entering the context")
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        print("Exiting the context")
+        if exc_type:
+            print(f"An exception occurred: {exc_value}")
+        return False  # 讓異常傳遞出去，如果設置為 True 則會抑制異常
+
+# 使用 context manager
+with MyContextManager() as manager:
+    print("Inside the context")
+    # 模擬異常
+    raise ValueError("Something went wrong")
+
+
+
+# 使用 Generator 函數搭配 contextlib 模組 來實現 context manager
+from contextlib import contextmanager
+
+@contextmanager
+def my_context_manager():
+    print("Entering the context")
+    try:
+        yield
+    except Exception as e:
+        print(f"An exception occurred: {e}")
+        raise
+    finally:
+        print("Exiting the context")
+
+# 使用 context manager
+with my_context_manager():
+    print("Inside the context")
+    # 模擬異常
+    raise ValueError("Something went wrong")
+
+```
+
 ## ref
 * 參考GPT
