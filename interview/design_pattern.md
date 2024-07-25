@@ -154,7 +154,7 @@ if __name__ == "__main__":
 
 ```
 
-### 觀察者模式 （Observer Pattern
+## 觀察者模式 （Observer Pattern
 * 定義了一種一對多的依賴關係，使得一個對象的狀態發生改變時，所有依賴於它的對象都會得到通知並自動更新。
 * 這種模式常用於實現事件處理系統，例如 GUI 事件處理、訂閱-發布系統等。
 * 觀察者模式的結構，包括以下主要角色
@@ -231,7 +231,7 @@ if __name__ == "__main__":
     subject.state = "Another state change"  # Only Observer 2 will be notified
 
 ```
-### 策略模式（Strategy Pattern
+## 策略模式（Strategy Pattern
 * 策略模式（Strategy Pattern）是一種行為設計模式，它定義了一系列算法，並將每個算法封裝起來，使它們可以互換。
 * 策略模式讓算法的變化不會影響到使用算法的客戶端，使得算法可以獨立於使用它的客戶端而變化。
 * 策略模式的優點
@@ -295,7 +295,7 @@ if __name__ == "__main__":
     print("Descending Sort:", context.execute_strategy(data))  # [9, 6, 5, 5, 2, 1]
 
 ```
-### 裝飾者模式 （Decorator Pattern）
+## 裝飾者模式 （Decorator Pattern）
 * 裝飾者模式（Decorator Pattern）是一種結構型設計模式，它允許向一個對象動態地添加新的行為，而不改變其原有的結構。
 * 裝飾者模式提供了一個靈活的替代繼承的方法，通過使用對象組合來實現功能擴展。
 * 裝飾者模式的優點 
@@ -424,5 +424,34 @@ if __name__ == "__main__":
 
 ```
 
+## Event-Driven（事件驅動）
+* 程序的執行由事件觸發
+* 事件可以是用戶輸入、消息、信號等。
+* 事件驅動編程廣泛應用於 GUI 應用、網絡服務器和異步 I/O 操作中。
+* python中搭配even loop才能實現
+* 特點
+  * 基於回調：事件發生時執行回調函數。
+  * 非阻塞：事件驅動系統通常是非阻塞的，可以處理大量並發事件。
+
+``` python
+import asyncio
+
+# 請求來handle_connection才會執行，這就是Event-Driven
+async def handle_connection(reader, writer):
+    data = await reader.read(100)
+    message = data.decode()
+    print(f"Received {message}")
+    writer.close()
+
+async def main():
+    server = await asyncio.start_server(handle_connection, '127.0.0.1', 8888)
+    async with server:
+        await server.serve_forever()
+
+asyncio.run(main())
+```
+* 與傳統同步模型的區別
+    * 在傳統的同步模型中，程序會依次執行每個任務，並且在等待 I/O 操作時會阻塞。這在處理高併發連接時效率較低。
+    * 事件驅動模型則通過非阻塞的方式來等待事件，並在事件發生時調用相應的回調函數處理，這樣能夠同時處理大量的並發連接，提高效率。
 ## ref
 * [軟體工程師為什麼要學 Design Pattern? | 物件導向 | SOLID | 工程師 Nic](https://www.youtube.com/watch?v=pkm5jQfnKGs)
