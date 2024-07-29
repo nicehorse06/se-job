@@ -80,3 +80,4 @@
   * 持之以恆
   * [作者提供覺得重要的400題，整理成excel](https://docs.google.com/spreadsheets/d/1WHaV7BPU7twLBHEgQAEEjQcIR6gKB9R1/edit?usp=sharing&ouid=115099400812371905104&rtpof=true&sd=true)
 * [資訊科技公司面試演練: LeetCode 和台灣 IC 設計公司軟體職缺常見題目](https://www.youtube.com/watch?v=81h38ZSSnOM)，Jserv的面試課程
+* [資料結構&演算法筆記](https://clu.gitbook.io/data-structure-note)
