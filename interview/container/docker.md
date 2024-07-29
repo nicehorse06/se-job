@@ -45,6 +45,10 @@
 * 統計信息：收集資源使用的統計信息。
 * 優先級控制：設定不同進程組的優先級。
 
+### Union Filesystems
+> Union file system 讓container可以共享重複資源
+* Union file system（如 OverlayFS）允許將多個文件系統層疊在一起，使得容器可以共享基礎文件系統，同時又可以在自己的層上進行修改而不影響其他容器。
+
 
 ## docker Image
 * 基底OS:僅包含各Linux distributing的目錄結構、依賴庫、套件管理系統、shell
@@ -53,6 +57,7 @@
 
 
 ## Docker 基本操作
+* todo 再整理
 * docker 命令簡介
 ``` sh
 # 查看所有images
@@ -75,6 +80,11 @@ docker restart [OPTIONS] CONTAINER [CONTAINER...]
 docker rm [OPTIONS] CONTAINER [CONTAINER...]
 # 進入 Container
 docker exec -it <Container ID> bash
+# 建立image by dockerfile
+docker build
+
+# 可以把一個修改過的container變成image
+docker commit
 
 # todo
 docker volume
@@ -92,7 +102,8 @@ docker cp
 * RUN
   * 指令用於在構建映像檔時執行命令，通常用於安裝軟件包或配置環境。
   * RUN apt-get update && apt-get install -y nginx
-
+* EXPOSE
+  * 設定要開放的PORT
 ``` Dockerfile
 # 使用官方的 Python 基礎映像檔
 FROM python:3.9-slim
@@ -122,23 +133,41 @@ docker run my-python-app
 docker run my-python-app --version
 ```
 
+## image layer
+* 每個dockerfile指令都會產生一層 image layer
+* image layer 可以存在cache中供image共用
+* todo 待查
+
+
+## Docker Compose
+* docker run 指令太多時可以寫在docker compsoe的設定檔
+  * 並且可以一次啟動多個容器
+
+
 ## 容器網路
 * Docker 中的網路模式（Bridge, Host, None, Overlay 等）
 * 容器之間如何進行通信
 * 暴露容器端口和端口映射
+
+```sh
+docker network ls
+## 用來查詢內部docker ip
+docker inspect
+```
 ### Bridge Network
 * Docker 預設的網路模式
-* Docker 會自動將其連接到一個 bridge 網路，該網路由 Docker daemon 管理。
+* Docker 會自動將其連接到一個 bridge 網路。
+  * Docker daemon 會建立一個 docker0網路界面
 * 優點
   * 容器之間可以互相通信。
   * 提供網路隔離，保障安全。
   * 支援容器和外部網路的通信
+* 特點
+  * 內部通信：自動分配的內部ip只有docker之間可以使用
+  * 端口映射：外部要訪問docker，必須使用端口映射（-p 選項）才能讓服務暴露在主機指定端口
 * 應用場景
   * 適用於大多數容器之間需要互相通信的情況。
   * 需要隔離容器網路的情境。
-* 關鍵角色
-  * Bridge：虛擬網橋，連接所有加入該網路的容器。
-  * Containers：連接到 bridge 網路的容器。
 ### Host Network
 * 容器將不會擁有獨立的網路命名空間，而是直接共享主機的網路命名空間。
 * 優點
@@ -147,9 +176,10 @@ docker run my-python-app --version
 * 應用場景
   * 需要高性能網路通信的應用。
   * 容器需要直接訪問主機網路資源的場景。
-* 關鍵角色
-  * Host Network：共享主機的網路命名空間。
-  * Containers：使用 host 網路模式的容器。
+* 特點
+  * 無需端口映射：容器直接使用主機的網路堆疊，沒有內部 IP 地址的隔離。容器內的服務直接暴露在主機的網絡上。
+  * 無內部 IP 地址：容器與主機共享相同的 IP 地址。
+  * 性能：由於沒有網路橋接的開銷，Host Network 可能具有更好的網路性能，但缺乏網路隔離性。
 ### None Network
 * 容器將不會被連接到任何網路，這意味著容器不會有網路接口。
 * 優點
@@ -158,9 +188,6 @@ docker run my-python-app --version
 * 應用場景
   * 需要完全隔離的應用或進行測試。
   * 容器不需要網路功能的情境。
-* 關鍵角色
-  * None Network：無網路連接。
-  * Containers：使用 none 網路模式的容器。
 ### Overlay Network
 * 用於跨多主機實現容器通信的網路模式。依賴於 Docker Swarm 或其他容器編排工具。
 * 優點
@@ -170,22 +197,30 @@ docker run my-python-app --version
 * 應用場景
   * 分佈式應用，如微服務架構。
   * 需要跨多主機進行通信的容器集群。
-* 關鍵角色
-  * Overlay Network：跨多主機的虛擬網絡。
-  * Swarm Manager：管理 Docker Swarm 集群的節點。
-  * Containers：運行在多主機上的容器，連接到 overlay 網絡。
 
-## 容器數據管理
-* 卷（Volumes）和綁定掛載（Bind Mounts
-* 資料持久化的方式
+## Docker Volume
+### 特點
+* 持久化數據：
+  * 容器的數據存儲在主機的文件系統中，即使容器被刪除，數據依然存在。
+* 數據共享
+  * 多個容器可以共享同一個 Volume，這使得它們能夠訪問相同的數據。
+* 簡化備份和恢復
+  * 由於 Volume 存儲在主機文件系統中，備份和恢復數據變得更簡單。
+* 分離應用和數據
+  * 將數據與容器的生命周期分離，使得應用更新或重啟時不影響數據。
+
+## Bind Mount
+* 直接將主機上的某個目錄掛載到容器內。
+* 需要指定完整的主機目錄路徑。
+* 可能更適合開發環境下的臨時使用
 
 ## 進階操作
 * 多階段構建（Multi-stage builds）
-* Docker Compose 的使用
 * 紀錄和監控 Docker 容器
-
 
 ## ref
 * [twtrubiks/docker-tutorial](https://github.com/twtrubiks/docker-tutorial)
 * [Play with Docker](https://www.docker.com/play-with-docker/)
 * [Jennifer的Docker筆記本](https://cutejaneii.gitbook.io/docker)
+* [docker的故事和原理](https://joshhu.gitbooks.io/docker_theory_install/content/index.html)
+* [Docker Roadmap](https://roadmap.sh/docker)

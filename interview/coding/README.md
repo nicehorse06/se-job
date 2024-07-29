@@ -8,9 +8,11 @@
   * [neetcode](https://neetcode.io/practice) 有所有題目跟講解
 ### blind 75 所需要的知識
 * graph
-  * Union-Find
   * BFS
   * DFS
+### 其他重點題
+* 大數問題
+* 質數問題
 
 
 ## 推薦刷題順序方法
