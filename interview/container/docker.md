@@ -3,31 +3,54 @@
 * Docker Image 和 Docker Container 的區別
 * 為什麼要使用docker
 
-## Container
-* 什麼是 Container
-  * 容器技術在作業系統層進行虛擬化，將所需要的執行環境打包，方便應用程式在不同平台上移動
-  * 不同Container之間共享Linux kernel，所以啟動速度很快
-* Container vs VM
-  * Container
-    * 虛擬化層次：Docker 使用的是操作系統層級的虛擬化技術。
-    * 虛擬化內容：Docker 容器虛擬化的是操作系統上的應用環境，包括目錄結構、文件系統、系統庫和應用程序，但共享宿主操作系統的內核。
-    * 運行層：容器運行在宿主操作系統的內核上，共享相同的內核，但擁有各自的應用層和系統庫。
-    * 隔離性：使用操作系統級的虛擬化技術（如 Docker），每個容器運行在獨立的進程中，彼此隔離，但它們共用同一個操作系統內核。
-    * 啟動速度：由於沒有啟動完整的操作系統，容器的啟動速度非常快，通常在秒級
-  * VM
-    * 虛擬化層次：虛擬機使用的是硬體層級的虛擬化技術。
-    * 虛擬化內容：虛擬機虛擬的是整個硬體資源，包括 CPU、內存、硬碟、網絡設備等。每個虛擬機都運行一個完整的操作系統。
-    * 運行層：VM 在 Hypervisor（如 VMware、Hyper-V 或 KVM）上運行，每個 VM 都有自己的操作系統內核和應用層。
-    * 隔離性：使用硬體級的虛擬化技術，每個 VM 都是完全獨立的，擁有完整的操作系統。
-    * 啟動速度：由於需要啟動完整的操作系統，VM 的啟動速度較慢，通常在分鐘級。
+## 什麼是 Container
+* 容器技術在作業系統層進行虛擬化，將執行環境打包，方便應用程式在不同平台上移動
+* 不同Container之間共享Linux kernel，所以啟動速度很快
+  * docker間用`uname -r`查閱會一樣
+
+## Container vs VM
+* Container
+  * 虛擬化層次：Docker 使用的是操作系統層級的虛擬化技術。
+  * 虛擬化內容：Docker 容器虛擬化的是操作系統上的應用環境，包括目錄結構、文件系統、系統庫和應用程序
+  * 運行層：容器運行在宿主操作系統的內核上，共享相同的內核
+  * 隔離性：使用操作系統級的虛擬化技術（如 Docker），每個容器運行在獨立的進程中，彼此隔離
+  * 啟動速度：由於沒有啟動完整的操作系統，容器的啟動速度非常快，通常在秒級
+* VM
+  * 虛擬化層次：虛擬機使用的是硬體層級的虛擬化技術。
+  * 虛擬化內容：虛擬機虛擬的是整個硬體資源，包括 CPU、內存、硬碟、網絡設備等。每個虛擬機都運行一個完整的操作系統。
+  * 運行層：VM 在 Hypervisor（如 VMware、Hyper-V 或 KVM）上運行，每個 VM 都有自己的操作系統內核和應用層。
+  * 隔離性：使用硬體級的虛擬化技術，每個 VM 都是完全獨立的，擁有完整的操作系統。
+  * 啟動速度：由於需要啟動完整的操作系統，VM 的啟動速度較慢，通常在分鐘級。
 * 為什麼要使用Container
   * Docker 容器虛擬化應用程序環境，共享宿主操作系統內核，具有輕量級、高效能的特點。
   * 而 VM 虛擬化整個硬體環境，每個 VM 運行一個完整的操作系統，隔離性強，但資源開銷較大。
     * 重要且機密的資料可以放VM如DB
-## 基本名詞
-* Image
-* Container，image的實例化
-* Registry，存放image的地方
+
+## container 原理
+> 使用linux kernel的cgroup Namespace去模擬一個獨立隔離的process形成虛擬環境
+### Namespace
+> namespace 提供環境隔離
+* PID namespace：進程 ID 隔離。
+* Network namespace：網絡資源隔離。
+* Mount namespace：文件系統掛載點隔離。
+* UTS（UNIX Timesharing System）namespace：主機名和域名隔離。
+* IPC（Inter-Process Communication） namespace：進程間通信隔離。
+* User namespace：用戶和組 ID 隔離。
+### cgroup（control group）
+> cgroup 分配硬體資源
+* cgroup 可以管理process的以下資源
+  * CPU、內存、磁盤 I/O 和網絡
+* 資源限制：限制 CPU、內存等資源的使用量。
+* 資源隔離：確保進程組之間的資源使用互不影響。
+* 統計信息：收集資源使用的統計信息。
+* 優先級控制：設定不同進程組的優先級。
+
+
+## docker Image
+* 基底OS:僅包含各Linux distributing的目錄結構、依賴庫、套件管理系統、shell
+## docker Container
+## docker Registry
+
 
 ## Docker 基本操作
 * docker 命令簡介
@@ -161,37 +184,8 @@ docker run my-python-app --version
 * Docker Compose 的使用
 * 紀錄和監控 Docker 容器
 
-## container底層實現
-> cgroup Namespace 都是linux kernel提供的功能
-### cgroup（control group）
-> cgroup 提供資源限制
-* cgroup 可以管理process的以下資源
-  * CPU、內存、磁盤 I/O 和網絡
-* 資源限制：限制 CPU、內存等資源的使用量。
-* 資源隔離：確保進程組之間的資源使用互不影響。
-* 統計信息：收集資源使用的統計信息。
-* 優先級控制：設定不同進程組的優先級。
-* Docker 利用了 cgroup 來實現容器的資源限制和隔離。
-### Namespace
-> namespace 提供環境隔離
-* PID namespace：進程 ID 隔離。
-* Network namespace：網絡資源隔離。
-* Mount namespace：文件系統掛載點隔離。
-* UTS（UNIX Timesharing System）namespace：主機名和域名隔離。
-* IPC（Inter-Process Communication） namespace：進程間通信隔離。
-* User namespace：用戶和組 ID 隔離。
 
-### Union File System
-> Union file system 讓container可以共享重複資源
-* Union file system（如 OverlayFS）允許將多個文件系統層疊在一起，使得容器可以共享基礎文件系統，同時又可以在自己的層上進行修改而不影響其他容器。
-
-### Linux 容器實現過程
-* 創建 cgroup
-* 設置 namespace
-* 配置 root 文件系統，使用 union file system 為容器設置 root 文件系統
-* 啟動process
-* 網絡配置
-* 
 ## ref
 * [twtrubiks/docker-tutorial](https://github.com/twtrubiks/docker-tutorial)
 * [Play with Docker](https://www.docker.com/play-with-docker/)
+* [Jennifer的Docker筆記本](https://cutejaneii.gitbook.io/docker)
