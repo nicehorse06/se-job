@@ -14,6 +14,9 @@
 * 結合Oauth 2.0
 
 
+## cookie
+
+
 ## session cookie
 > 當用戶使用帳號密碼登入時，最陽春的驗證模式通常使用 Session 和 Cookie 來維持用戶的登入狀態。
 
@@ -94,7 +97,7 @@ Session / Cookie 驗證模式簡單易用，適合小型應用。但隨著應用
 * 限制 Cookie 的跨站傳輸，防止跨站請求偽造（CSRF）攻擊。
 * SameSite 屬性有三個值：Strict、Lax 和 None。
   * Strict：Cookie 只在同站點請求時發送，不包括跨站點的情況，即使是來自不同站點的鏈接。
-  * Lax：Cookie 在同站點請求以及部分跨站點情況下（如從第三方站點鏈接到自己站點）發送。
+  * Lax：允許GET跨站，其他不行，適度防止大多數 CSRF 攻擊，同時保持用戶體驗。
   * None：允許跨站傳輸 Cookie，但必須與 Secure 屬性一起使用。
 
 ## Session Hijacking 防範

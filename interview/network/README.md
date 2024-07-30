@@ -10,6 +10,18 @@
 * LAN/WAN
 * 全雙工/半雙工(full-duplex, half-duplex)
 * loopback IP
+* CDN
+  * 緩存策略
+    * Cache-Control標頭：了解如何設置緩存策略（如public、private、no-cache等）。
+    * ETag和Last-Modified：了解如何使用這些標頭來實現內容的條件請求和緩存更新。
+    * TTL（Time-to-Live）：設定緩存內容的有效時間。
+    * 緩存策略：包括緩存命中、緩存失效、緩存更新等策略。
+  * 負載均衡
+    * DNS負載均衡：了解如何通過DNS分配請求。
+    * 反向代理：了解反向代理伺服器的作用以及常見工具（如Nginx）的配置。
+  * 邊緣計算
+  * DDoS防護：了解如何通過CDN防止分佈式拒絕服務攻擊。
+  * WAF（Web應用防火牆）：了解如何保護應用程式免受常見的Web攻擊（如SQL注入、XSS攻擊等）。
 * 通訊協定
   * websocket
   * SMTP
