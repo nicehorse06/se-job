@@ -1,27 +1,7 @@
 # web client server驗證
 
-## todo
-* cookie 和 session的關係
-  * 怎麼保護cookie
-    * http有哪些狀態  
-  * session id
-* JWT解決什麼問題
-* 有什麼資安問題
-  * XSS`
-* api token
-  * 放在header什麼地方
-* 結合Oauth 2.0
-* CORS
-
-### todo
-* sessionid也寫在裡面
-* 資料存放在客戶端，不會造成伺服器端的過載
-* 主要是記錄著，在 web server 上的使用者訊息（一個SessionID對應一筆SessionID）。
-* Session 機制會在一個用戶完成身分認證後，存下所需的用戶資料，接著產生一組對應的對應的id，存入 cookie 後傳回用戶端。
-* 
 ## HTTP
 * 無狀態協議，每次請求都是獨立，需要使用cookie/session
-* 
 
 ## cookie
 * Cookie 是由伺服器發送並儲存在用戶端的文本文件，用來儲存用戶的相關資訊。
@@ -68,7 +48,10 @@
   * 多頁面交互中的狀態保持。
 * 主要屬性
   * Session ID: 用戶端與伺服器之間的唯一標識符。
+    * 放到cookie中
+    * 實際資料存放在客戶端，不會造成伺服器端的過載
   * session data: 儲存在伺服器端的數據。
+
 
 ## cookie session比較
 * 存儲位置：Cookie 儲存在用戶端，Session 儲存在伺服器端。
@@ -147,10 +130,16 @@ Session / Cookie 驗證模式簡單易用，適合小型應用。但隨著應用
 ## HTTP cookie屬性
 
 ### domain
+* 指定了 Cookie 的作用域，即 Cookie 所屬的域名。
+* 瀏覽器只會將 Cookie 發送給指定域名及其子域的請求。
 
 ### path
+* 指定了 Cookie 所屬的 URL 路徑
+* 只有該路徑及其子路徑下的請求才會包含這個 Cookie。
 
 ### Max-Age
+* 指定了 Cookie 的有效期，以秒為單位。
+* 當 Max-Age 為負數或未指定時，Cookie 是session Cookie，瀏覽器關閉後即失效。
 
 ### HttpOnly
 * 防止 Cookie 被客戶端腳本（JavaScript）讀取，從而減少跨站腳本攻擊（XSS）的風險。
@@ -352,6 +341,33 @@ Session：
 
 JWT：
 - 優點在於無狀態、擴展性好和跨域支持，但需要注意安全性管理和令牌失效管理。
+
+
+# API Authentication
+* Token-based Authentication
+  * Token 通常放在 Authorization Header 中，並使用 Bearer 認證方案。
+* OAuth 2.0
+  * 適合於需要第三方應用授權的場景，如社交網絡應用。
+* Basic Authentication
+* Digest Authentication
+* HMAC（Hash-based Message Authentication Code）
+  * 適合於需要高安全性的 API 請求簽名和驗證的應用。
+* API Key
+
+## API Key 和 Token 的區別
+### API Key
+* 固定值：API Key 通常是一個固定的字符串，分配給應用或用戶，用於識別和授權。
+* 簡單易用：API Key 的生成和驗證相對簡單，常用於第三方應用訪問 API。
+* 安全性較低：由於 API Key 通常不包含過期時間和簽名機制，一旦洩露，很容易被濫用。
+* 使用場景: 簡單易用，適合不太敏感的應用和內部系統。
+### Token（尤其是 JWT）
+* 動態生成：Token 通常是動態生成的，包含用戶信息和其他聲明（claims）。
+* 簽名和過期時間：Token 可以包含簽名和過期時間，提供更高的安全性。
+* 無狀態：如 JWT 是無狀態的，伺服器不需要存儲 Token 信息，適合分佈式系統和微服務架構。
+* 使用場景
+  * JWT：提供更高的安全性和靈活性，適合分佈式系統和需要無狀態認證的應用。
+  * 自定義 Token：可根據具體需求定制 Token 的生成和驗證邏輯，適合特定的業務場景。
+
 
 
 ## ref
