@@ -1,4 +1,4 @@
-# https
+# TLS和https 介紹
 
 ## HTTP 握手
 * client ---隨機數(random1) + 支援的加密方式 ---> server

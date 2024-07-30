@@ -1,4 +1,4 @@
-.# web client server驗證
+# web client server驗證
 
 ## todo
 * cookie 和 session的關係
@@ -7,17 +7,78 @@
   * session id
 * JWT解決什麼問題
 * 有什麼資安問題
-  * CSRF
   * XSS`
 * api token
   * 放在header什麼地方
 * 結合Oauth 2.0
+* CORS
 
+### todo
+* sessionid也寫在裡面
+* 資料存放在客戶端，不會造成伺服器端的過載
+* 主要是記錄著，在 web server 上的使用者訊息（一個SessionID對應一筆SessionID）。
+* Session 機制會在一個用戶完成身分認證後，存下所需的用戶資料，接著產生一組對應的對應的id，存入 cookie 後傳回用戶端。
+* 
+## HTTP
+* 無狀態協議，每次請求都是獨立，需要使用cookie/session
+* 
 
 ## cookie
+* Cookie 是由伺服器發送並儲存在用戶端的文本文件，用來儲存用戶的相關資訊。
+* 每次用戶發送請求時，瀏覽器會自動帶上相應的 Cookie。
+  * 只會針對原本網域
+* 優點
+  * 能夠在用戶端儲存數據。
+  * 支持跨多個請求持續存儲數據。
+  * 可以設定過期時間。
+* 應用場景
+  * 用戶身份識別
+  * 記住用戶偏好設置（如語言選擇）
+  * 追蹤用戶行為（如購物車功能）
+* 主要屬性
+  * name: Cookie 的名稱。
+  * value: Cookie 的值。
+  * domain: Cookie 的適用域。
+  * path: Cookie 的適用路徑。
+  * expires: Cookie 的過期時間。
+  * secure: 只有在 HTTPS 協議下才傳輸 Cookie。
+
+### 缺點
+* 伺服器端可修改cookie，無法確保真實性
+
+### 防止串改
+* 使用簽章 (Signed Cookies)
+  * 簽章是將 Cookie 的內容和密鑰結合生成的哈希值，每次讀取都可以用這個哈希值來驗證 Cookie 是否被竄改過。
+* 使用 HTTPS
+  * 防止 Cookie 在傳輸過程中被竄改或截取。
+  * secure=True, httponly=True
+*  設置 HttpOnly 和 Secure 屬性
+*  設置過期時間
 
 
-## session cookie
+## Session
+* Session 是伺服器端用來存儲用戶數據的機制。
+  * 如果cookie存的資料太多影響傳輸，可以放在session
+* Session 的數據儲存在伺服器端，而client只會持有一個 Session ID。
+* 優點
+  * 安全性較高，數據儲存在伺服器端。
+  * 適合存儲較大的數據。
+* 應用場景
+  * 用戶登入狀態管理。
+  * 多頁面交互中的狀態保持。
+* 主要屬性
+  * Session ID: 用戶端與伺服器之間的唯一標識符。
+  * session data: 儲存在伺服器端的數據。
+
+## cookie session比較
+* 存儲位置：Cookie 儲存在用戶端，Session 儲存在伺服器端。
+* 安全性：Session 比 Cookie 更安全，因為數據不直接暴露在用戶端。
+* 容量限制：Cookie 容量有限（約 4KB），Session 沒有此限制。
+* 生命周期：Cookie 可以設置過期時間，Session 在伺服器端並不會自動失效，除非session已經超過設置的失效時間。
+
+
+
+## session cookie 驗證流程
 > 當用戶使用帳號密碼登入時，最陽春的驗證模式通常使用 Session 和 Cookie 來維持用戶的登入狀態。
 
 ### 原理與流程
@@ -85,6 +146,12 @@ Session / Cookie 驗證模式簡單易用，適合小型應用。但隨著應用
 
 ## HTTP cookie屬性
 
+### domain
+
+### path
+
+### Max-Age
+
 ### HttpOnly
 * 防止 Cookie 被客戶端腳本（JavaScript）讀取，從而減少跨站腳本攻擊（XSS）的風險。
 * 當 Cookie 設置了 HttpOnly 屬性後，它不能被 JavaScript 的 document.cookie 訪問或修改，只能通過 HTTP 請求和回應傳輸。
@@ -111,6 +178,7 @@ Session / Cookie 驗證模式簡單易用，適合小型應用。但隨著應用
 *  Session 超時和重新認證
    *  設置 Session 的有效期，定期過期
    *  長時間不活動的用戶需要重新登錄。
+   *  每次身份驗證成功就重新生成id
 *  Session 固定攻擊防護
    *  在用戶成功登入後，重新生成一個新的 Session ID。
    *  使用JWT（JSON Web Token）
@@ -128,7 +196,9 @@ Session / Cookie 驗證模式簡單易用，適合小型應用。但隨著應用
 
 # JWT（JSON Web Token）簡介
 
-JWT（JSON Web Token）是一種基於 JSON 的開放標準（RFC 7519），用於在各方之間傳遞請求時進行身份驗證和信息交換。與傳統的 Session/Cookie 驗證不同，JWT 是無狀態的，不需要在伺服器端存儲會話信息。
+JWT（JSON Web Token）用於在各方之間傳遞請求時進行身份驗證和信息交換。
+與傳統的 Session/Cookie 驗證不同，JWT 是無狀態的，不需要在伺服器端存儲會話信息。
+JWT 中儲存的資訊是經過數字簽名的，因此可以被信任和理解。
 
 ## 原理與流程
 
@@ -166,19 +236,18 @@ JWT 由三部分組成，這三部分用點（`.`）分隔：
 
 1. 無狀態（Stateless）：
    - JWT 是無狀態的，不需要在伺服器端存儲會話信息，這使得應用更容易橫向擴展。
-   - 伺服器只需要驗證 JWT 的真實性和完整性，而不需要查詢會話存儲。
+   - 簡化伺服器：伺服器只需驗證 JWT，而不需要儲存和管理會話數據。
+   - 跨域使用：JWT 可以在不同域之間傳遞，適合微服務架構和單頁應用（SPA）。
 
 2. 減少伺服器負擔（Reduced Server Load）：
    - 由於伺服器不需要維護會話狀態，減少了伺服器的存儲和計算負擔。
+   - 所有的信息都包含在 Token 中。當用戶每次請求時，伺服器只需要驗證 JWT 的簽名和有效性，而不需要每次都查詢資料庫來驗證用戶身份。
 
-3. 跨域支持（Cross-domain Support）：
-   - JWT 可以輕鬆在不同域名間傳遞，適合用於 SPA（單頁應用）和行動應用。
-
-4. 安全性（Security）：
+3. 安全性（Security）：
    - JWT 使用簽名技術來確保令牌的真實性和完整性。
    - 支持多種簽名算法（如 HMAC 和 RSA），可以根據需求選擇合適的安全強度。
 
-5. 自包含（Self-contained）：
+4. 自包含（Self-contained）：
    - JWT 自包含必要的用戶信息和權限數據，伺服器可以直接從令牌中提取相關信息，減少了數據庫查詢。
 
 ## 缺點與挑戰
@@ -192,6 +261,8 @@ JWT 由三部分組成，這三部分用點（`.`）分隔：
 3. 安全性管理（Security Management）：
    - 必須妥善管理簽名密鑰，防止密鑰洩露。
    - 使用 HTTPS 傳輸 JWT，以防止令牌被攔截。
+  
+4. 信息暴露：JWT 的 Payload 是 Base64 編碼的，任何人都可以解碼並查看其中的信息，因此不要在 JWT 中存儲敏感信息。
 
 
 # 防止 JWT 被竊取的措施
@@ -251,7 +322,7 @@ JWT 由三部分組成，這三部分用點（`.`）分隔：
 
 ## 優缺點比較
 
-### Session
+### Session 優缺點
 
 優點：
 - 簡單易用：適合小型應用，容易實現。
@@ -260,8 +331,9 @@ JWT 由三部分組成，這三部分用點（`.`）分隔：
 缺點：
 - 擴展性差：會話數據存儲在伺服器，當用戶數量增加時，伺服器負擔也會增加。多伺服器部署時，需要共享會話數據，增加了複雜性。
 - 伺服器負擔重：每個會話都佔用伺服器資源，對於高並發應用來說負擔較大。
+- 
 
-### JWT
+### JWT 優缺點
 
 優點：
 - 無狀態：伺服器不需要存儲會話數據，所有信息都在令牌中，自包含（self-contained）。
@@ -273,7 +345,7 @@ JWT 由三部分組成，這三部分用點（`.`）分隔：
 - 令牌大小：JWT 包含較多信息，令牌較大，可能增加網路傳輸負擔。
 - 令牌失效管理：JWT 一旦簽發，除非過期，否則無法輕易使其失效。需要設計額外的機制來處理令牌失效（如黑名單）。
 
-## 總結
+### 總結
 
 Session：
 - 優點在於簡單易用和安全性較高，但擴展性差且伺服器負擔重。
@@ -284,3 +356,6 @@ JWT：
 
 ## ref
 * GPT
+* [淺談面試考題之一：Cookie 與 Session 的差異](https://guiblogs.com/cookie-session/)
+* [Cookie 和 Session 究竟是什麼？有什麼差別？](https://tw.alphacamp.co/blog/cookie-session-difference)
+* [白話 Session 與 Cookie：從經營雜貨店開始](https://hulitw.medium.com/session-and-cookie-15e47ed838bc)
