@@ -60,5 +60,14 @@
     - 真除法 (/)，不論數字類型如何都會返回float，4/2返回2.0
     - 整除 (//)，整除會忽略除法結果的小數部分，只返回結果的整數部分
     - 取模 (%)，取模運算符返回除法操作的餘數。
+
+
+## Python 編譯/直譯
+* .py file被執行時會被編譯成Bytecode，存在.pyc file中
+  * Bytecode 是一種中間表示形式，它比高級語言的源碼更接近機器碼，但無法直接在平台上跑
+  * .pyc file 存在 __pycache__中，如果下次又執行一樣的.py，可直接使用編譯好的 .pyc
+* Python虛擬機（PVM，Python Virtual Machine）負責解釋Bytecode並將其執行
+  * 讓python可以在不同平台上執行，不用再次編譯
+  * PVM 有運行時優化（Runtime Optimization），提高執行效率
 ## ref
 * [码农高天](https://www.youtube.com/@minkoder)
