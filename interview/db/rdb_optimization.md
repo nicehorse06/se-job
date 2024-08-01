@@ -87,14 +87,19 @@ FOR VALUES FROM (start_value) TO (end_value);
   * 需要提升查詢性能和簡化數據管理的應用。
 
 
+### 新增 cache
+* 如redis減少DB壓力
+
 ### 系統調整
 
 1. **配置參數優化**：
    - 調整 `shared_buffers`、`work_mem`、`maintenance_work_mem` 等參數。
 
-2. **硬體升級**：
-   - 增加內存、使用更快的磁碟。
-  * 根據需要增加硬件資源，如CPU、記憶體和硬碟空間。
+
+## 硬體升級
+
+* 增加內存、使用更快的磁碟。
+* 根據需要增加硬件資源，如CPU、記憶體和硬碟空間。
 * 考慮實施高效的存儲解決方案，例如SSD。
 
 ### 監控和診斷工具
@@ -109,59 +114,6 @@ FOR VALUES FROM (start_value) TO (end_value);
 ### 讀寫分離和負載均衡
 * 實施負載均衡，將讀取操作分配到一個或多個從屬資料庫（replica）。
 * 設置專用的資料庫伺服器處理報表或分析型查詢。
-
-## MySQL為例
-
-### 找出慢查詢
-
-1. **啟用慢查詢日誌**：
-   - 編輯 `my.cnf` 或 `my.ini` 文件，設置以下參數：
-     slow_query_log = 1
-     slow_query_log_file = /var/log/mysql/mysql-slow.log  # 日誌文件路徑
-     long_query_time = 1  # 記錄超過1秒的查詢
-   - 重啟 MySQL 服務使配置生效。
-
-2. **查詢日誌文件**：
-   - 檢查慢查詢日誌文件，找到執行時間較長的查詢。
-
-### 分析慢查詢
-
-1. **使用 `EXPLAIN` 分析查詢計劃**：
-   EXPLAIN SELECT * FROM your_table WHERE conditions;
-
-### 優化查詢
-
-1. **索引優化**：
-   CREATE INDEX idx_your_table_column ON your_table(column);
-
-2. **查詢改寫**：
-   - 只選取需要的欄位，避免使用 `SELECT *`。
-
-3. **統計信息更新**：
-   ANALYZE TABLE your_table;
-
-4. **分區表**：
-   ALTER TABLE your_table PARTITION BY RANGE (column) (
-       PARTITION p0 VALUES LESS THAN (1991),
-       PARTITION p1 VALUES LESS THAN (1992),
-       ...
-   );
-
-### 系統調整
-
-1. **配置參數優化**：
-   - 調整 `innodb_buffer_pool_size`、`query_cache_size`、`tmp_table_size` 等參數。
-
-2. **硬體升級**：
-   - 增加內存、使用更快的磁碟。
-
-### 監控和診斷工具
-
-1. **Performance Schema**：
-   UPDATE performance_schema.setup_instruments SET ENABLED = 'YES', TIMED = 'YES';
-
-2. **第三方監控工具**：
-   - 使用 MySQL Enterprise Monitor、Percona Toolkit、phpMyAdmin 等。
 
 
 # 觸發器（Triggers）
@@ -241,5 +193,83 @@ FOR VALUES FROM (start_value) TO (end_value);
 
 總之，觸發器（Triggers）是資料庫中強大且靈活的工具，用於自動執行重要的業務邏輯和數據檢查，確保數據的一致性和完整性。
 
+
+# N + 1 Problem
+* N+1問題是指在使用ORM（對象關係映射）查詢數據庫時，因為未能有效地使用聯合查詢（JOIN），導致系統發出N+1次查詢。
+* N+1問題是在查詢關聯對象時，未能有效地使用聯合查詢，導致大量的數據庫查詢，從而影響性能
+### 範例
+* django ORM使用 select_related和prefetch_related是 避免N + 1 Problem
+
+#### select_related
+* select_related：使用SQL JOIN語句在一個查詢中獲取相關對象
+  * 適用於“一對一”和“多對一”關係。它通過JOIN操作將多表數據一次性加載到內存中。
+
+```python
+# models.py
+class Author(models.Model):
+    name = models.CharField(max_length=100)
+
+class Book(models.Model):
+    title = models.CharField(max_length=100)
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+
+
+books = Book.objects.select_related('author').all()
+```
+* 上面這段產生以下查詢
+```SQL
+SELECT book.id, book.title, author.id, author.name
+FROM book
+JOIN author ON book.author_id = author.id;
+```
+
+#### prefetch_related
+* prefetch_related：發出兩個獨立的查詢，然後在內存中將結果關聯起來，
+  * 適用於“一對多”和“多對多”關係。它通過預取關聯對象的數據，避免在每次訪問關聯對象時發出新的查詢。
+```python
+class User(models.Model):
+    name = models.CharField(max_length=100)
+
+class Post(models.Model):
+    title = models.CharField(max_length=100)
+    user = models.ForeignKey(User, related_name='posts', on_delete=models.CASCADE)
+
+
+users = User.objects.prefetch_related('posts').all()
+```
+* 上面這段產生以下查詢，Django會在內存中將這兩個查詢的結果關聯起，
+```SQL
+SELECT * FROM user;
+SELECT * FROM post WHERE user_id IN (1, 2, 3, ...);
+
+```
+
+# ORDER BY RAND()
+* 是用來隨機排列結果集的一種方式，通常用於選擇隨機記錄。
+* 然而，這種方法會對資料庫效能造成嚴重影響，特別是在處理大型資料集時。其主要原因是：
+  * 全表掃描 (Full Table Scan): 資料庫需要讀取所有記錄以計算隨機排序。
+  * 排序成本 (Sorting Cost): 每個記錄都會被賦予一個隨機值，然後進行排序。這個排序過程在大型資料集上會非常耗時。
+* 改善方式
+  * 使用主鍵範圍隨機選擇
+    * 先取得主鍵的最大值和最小值，然後在此範圍內生成隨機數，選取記錄。
+  * 預先計算隨機排序 (Precomputed Random Order):
+    * 建立一個額外的隨機索引欄位，在插入或更新記錄時進行隨機排序。查詢時直接使用此欄位進行排序，避免即時計算。
+
+
+# LIMIT N, 20
+* LIMIT N, 20 用來從查詢結果的第 N+1 條記錄開始，返回 20 條記錄。
+* 這種方法在處理大量數據時也會有性能問題，特別是當 N 很大時。
+* 其主要原因是：
+  * 偏移量 (Offset) 過大: 資料庫需要掃描並跳過前 N 條記錄，這會浪費大量資源。
+  * 無效掃描 (Inefficient Scanning): 即使只需要後面的記錄，資料庫仍必須處理所有之前的記錄。
+* 改善方式
+  * 基於索引的分頁查詢 (Pagination Using Index):
+  * Cursor-Based Pagination: 使用游標進行分頁查詢，每次查詢使用上次結果的最後一條記錄作為起點。
+
 # ref
 * GPT
+* [Data Partitioning 資料分區是什麼？ – 系統設計 10](https://hogantechs.com/zh_tw/data-partition-system-design-database-interview/)
+* [[架構設計] 高性能 DB 架構設計(RDBMS / NoSQL / Cache)](https://godleon.github.io/blog/Architecture_Design/Architecture-Design-High-Performance-db-nosql-cache/)
+* [SQL指令優化SQL Tuning](https://www.cc.ntu.edu.tw/chinese/epaper/0031/20141220_3109.html)
+* [20條Tips：高性能SQL查詢，優化取數速度方案](https://ithelp.ithome.com.tw/articles/10213001)
+* [如何避免分析兩分鐘，運行兩小時？這是一份SQL優化大全](https://allaboutdataanalysis.medium.com/%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E5%88%86%E6%9E%90%E5%85%A9%E5%88%86%E9%90%98-%E9%81%8B%E8%A1%8C%E5%85%A9%E5%B0%8F%E6%99%82-%E9%80%99%E6%98%AF%E4%B8%80%E4%BB%BDsql%E5%84%AA%E5%8C%96%E5%A4%A7%E5%85%A8-49e6c36f2b5f)
