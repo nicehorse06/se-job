@@ -51,12 +51,31 @@ if i - num >= 0:
   * 搶劫當前房屋，則最大金額為 dp[i-2] + nums[i]。
 
 ### [213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)
+* 先寫一個完整的198. House Robber
+* 再回傳 max(normal_rob(nums[1:]), normal_rob(nums[:-1])) 就是答案
+  * 把兩個連續的點拿出來討論，一次只選一個，都去算198. House Robber，看哪邊大
+  * 此處是一種不搶最後一筆，一種不搶第一筆
 
 ### [91. Decode Ways](https://leetcode.com/problems/decode-ways/description/)
 
 ### [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/)
 
 ### [55. Jump Game](https://leetcode.com/problems/jump-game/description/)
-* TODO
-  * 貪心策略
+* 兩種作法
+  * Greedy
   * DP
+#### DP
+* 一維dp列表，每個i代表在dp[i]是否可以到達
+* 狀態轉移方程:
+``` python
+# 如果dp[i]可以到達，就取出nums[i]的點從dp的 i＋1到i+nums[i]設為可以到達
+for i in range(n):
+    if dp[i]:
+        for j in range(1, nums[i] + 1):
+            if i + j >= n:
+                break
+            dp[i + j] = True
+```
+#### Greedy
+* 藉由對nums跑for，計算max_arrive最後能否超出nums的長度
+  * max_arrive = max(max_arrive, nums[i] + i)
