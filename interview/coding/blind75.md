@@ -25,7 +25,9 @@
   * 因為是乘法，所以要維護最大值和最小值
   * 最小值乘了負號就會變最大值
 
-## [153. Find Minimum in Rotated Sorted Array]()
+## [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+* 用二分搜尋法
+* 藉由探查中間比右邊小的可能，去替換左右位置
 
 ## [217.Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 * 用map或set去記錄每個值，for有重複到就回傳
