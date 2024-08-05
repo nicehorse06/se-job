@@ -7,7 +7,13 @@
 
 ## [11. Container With Most Water]()
 
-## [15. 3Sum]()
+## [15. 3Sum](https://leetcode.com/problems/3sum/description/)
+* 排序後，使用two point
+* 對nums做迴圈，每個i代表左邊界，由i+1代表左指標left，n-1代表右指標right
+  * 三個指標的值相加sum為零就儲存結果
+  * 大於零就right -= 1 讓sum接近零，繼續跑迴圈 
+  * 小於零就left += 1 讓sum接近零，繼續跑迴圈 
+* 剩下的細節就是排序後要跳過重複項增加效率
 
 ## [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
 * 二分搜尋的變體
