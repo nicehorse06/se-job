@@ -9,7 +9,26 @@
 
 ## [15. 3Sum]()
 
-## [33. Search in Rotated Sorted Array]()
+## [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+* 二分搜尋的變體
+* 可以先寫出二分搜尋再修改
+* 這題的訣竅是nums雖然旋轉，但左右側至少有一邊順序是對的，就只在順序對的那側寫判斷式
+``` python
+if nums[mid] == target:
+    return mid
+# 確定nums右側順序是對的
+elif nums[mid] <= nums[right]:
+    # 確定target在右半邊
+    if nums[mid] < target <= nums[right]:
+        left = mid + 1
+    else:
+        right = mid - 1
+else:
+    if nums[left] <= target < nums[mid]:
+        right = mid - 1
+    else:
+        left = mid + 1
+```
 
 ## [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 * Kadane演算法: 
