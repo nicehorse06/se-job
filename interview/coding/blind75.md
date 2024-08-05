@@ -5,10 +5,15 @@
 ## [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
 * 用一個for把nums裡面取出num_1並藉由target推算num2，把這個值和index關係存到dict，如果nums存在num_2就知道答案
 
-## [11. Container With Most Water]()
+## [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
+* 使用two pointer
+  * left, right 表示x軸的位置，height[left], height[right]表示y軸的高
+* 有x軸跟y軸的長高就知道容器的體積，算體積的高取 min(height[left], height[right])
+  * 然後依據比較矮的高移動 pointer
+
 
 ## [15. 3Sum](https://leetcode.com/problems/3sum/description/)
-* 排序後，使用two point
+* 排序後，使用two pointer
 * 對nums做迴圈，每個i代表左邊界，由i+1代表左指標left，n-1代表右指標right
   * 三個指標的值相加sum為零就儲存結果
   * 大於零就right -= 1 讓sum接近零，繼續跑迴圈 
@@ -67,20 +72,64 @@ else:
 * 要建立DP表
 * 要有狀態轉移方程
 
+## [55. Jump Game](https://leetcode.com/problems/jump-game/description/)
+* 兩種作法
+  * Greedy
+  * DP
+### DP
+* 一維dp列表，每個i代表在dp[i]是否可以到達
+* 狀態轉移方程:
+``` python
+# 如果dp[i]可以到達，就取出nums[i]的點從dp的 i＋1到i+nums[i]設為可以到達
+for i in range(n):
+    if dp[i]:
+        for j in range(1, nums[i] + 1):
+            if i + j >= n:
+                break
+            dp[i + j] = True
+```
+### Greedy
+* 藉由對nums跑for，計算max_arrive最後能否超出nums的長度
+  * max_arrive = max(max_arrive, nums[i] + i)
+
+## [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/)
+* 建立二維dp，dp[i][j]代表長寬到i,j的所有可能數
+* 二維dp表的建立要類似  `dp = [[0] * n for _ in range(m)]`
+  * 錯誤的使用 `dp = [[0] * n] * m` 會讓每個row都是同一個引用，修改一個值所有list都會變化
+* 要把i=0和j=0的所有步數設為1，因為真的只有一種可能
+``` python
+# 從dp[1][1]開始填充動態規劃表
+for i in range(1, m):
+    for j in range(1, n):
+        dp[i][j] = dp[i-1][j] + dp[i][j-1]
+
+# 返回右下角的值
+return dp[m-1][n-1]
+```
+
 ## [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 * 費波納切數列
 
-## [322. Coin Change](https://leetcode.com/problems/coin-change/)
-* 一維的DP表去存i為某個amount時的硬幣可能數，要處理dp[0] = 1
-* 狀態轉移方程: `dp[i] = min(dp[i], dp[i - coin] + 1)`
-  * dp[ i - coin ] + 1 這個代表小的表+1枚硬幣
+## [91. Decode Ways](https://leetcode.com/problems/decode-ways/description/)
+* 題目是想要計算編碼可能數量
+* 見一個一維DP表，此表每個i代表，s長度到i時的編碼可能
 
-## [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
-* 一維的DP表去存位置i的最長Subsequence
-* 用兩個for，外面的for 是定位 dp[i] 時候的可能，裡面的for是計算 dp[i]  最長的Subsequence
-  * 因為無法用dp[i-x]直接求得dp[i]，所以要用裡面的for重算
-* 狀態轉移方程: dp[i] = max(dp[i], dp[j] + 1)
-   * Subsequence的現象是只要 nums[i] > nums[j] 就至少多出現一組小到大的數列，所以直接+1
+``` python
+# 查看前一位數是否符合編碼規則
+if 0 < int(s[i - 1]) <= 9:
+    dp[i] += dp[i-1]
+
+# 查看前兩位數是否符合編碼規則
+if 9 < int(s[i-2:i]) <= 26:
+    dp[i] += dp[i-2]
+```
+
+## 198. House Robber
+* 一維的DP表去存第i個房子搶劫的最大值
+* 狀態轉移方程: ` dp[i] = max(dp[i-1], dp[i-2] + nums[i])`
+  * 不搶劫當前房屋，則最大金額為 dp[i-1]
+  * 搶劫當前房屋，則最大金額為 dp[i-2] + nums[i]。
+
 
 ## [139. Word Break](https://leetcode.com/problems/word-break/)
 * 一維的dp表去存長度為i時的s是否可Word Break，要處理dp[0] = True
@@ -91,6 +140,24 @@ if dp[j] and s[j:i] in wordDict_set:
     dp[i] = True
     break
 ```
+
+## [213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)
+* 先寫一個完整的198. House Robber
+* 再回傳 max(normal_rob(nums[1:]), normal_rob(nums[:-1])) 就是答案
+  * 把兩個連續的點拿出來討論，一次只選一個，都去算198. House Robber，看哪邊大
+  * 此處是一種不搶最後一筆，一種不搶第一筆
+
+## [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
+* 一維的DP表去存位置i的最長Subsequence
+* 用兩個for，外面的for 是定位 dp[i] 時候的可能，裡面的for是計算 dp[i]  最長的Subsequence
+  * 因為無法用dp[i-x]直接求得dp[i]，所以要用裡面的for重算
+* 狀態轉移方程: dp[i] = max(dp[i], dp[j] + 1)
+   * Subsequence的現象是只要 nums[i] > nums[j] 就至少多出現一組小到大的數列，所以直接+1
+
+## [322. Coin Change](https://leetcode.com/problems/coin-change/)
+* 一維的DP表去存i為某個amount時的硬幣可能數，要處理dp[0] = 1
+* 狀態轉移方程: `dp[i] = min(dp[i], dp[i - coin] + 1)`
+  * dp[ i - coin ] + 1 這個代表小的表+1枚硬幣
 
 ## [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 * 可重複拿錢版本的零錢問題 322. Coin Change
@@ -104,40 +171,5 @@ if i - num >= 0:
 ```
 
 ## [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+* todo
 
-
-## 198. House Robber
-* 一維的DP表去存第i個房子搶劫的最大值
-* 狀態轉移方程: ` dp[i] = max(dp[i-1], dp[i-2] + nums[i])`
-  * 不搶劫當前房屋，則最大金額為 dp[i-1]
-  * 搶劫當前房屋，則最大金額為 dp[i-2] + nums[i]。
-
-## [213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)
-* 先寫一個完整的198. House Robber
-* 再回傳 max(normal_rob(nums[1:]), normal_rob(nums[:-1])) 就是答案
-  * 把兩個連續的點拿出來討論，一次只選一個，都去算198. House Robber，看哪邊大
-  * 此處是一種不搶最後一筆，一種不搶第一筆
-
-## [91. Decode Ways](https://leetcode.com/problems/decode-ways/description/)
-
-## [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/)
-
-## [55. Jump Game](https://leetcode.com/problems/jump-game/description/)
-* 兩種作法
-  * Greedy
-  * DP
-## DP
-* 一維dp列表，每個i代表在dp[i]是否可以到達
-* 狀態轉移方程:
-``` python
-# 如果dp[i]可以到達，就取出nums[i]的點從dp的 i＋1到i+nums[i]設為可以到達
-for i in range(n):
-    if dp[i]:
-        for j in range(1, nums[i] + 1):
-            if i + j >= n:
-                break
-            dp[i + j] = True
-```
-## Greedy
-* 藉由對nums跑for，計算max_arrive最後能否超出nums的長度
-  * max_arrive = max(max_arrive, nums[i] + i)
