@@ -58,6 +58,16 @@ else:
 ## [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 * 用二分搜尋法
 * 藉由探查中間比右邊小的可能，去替換左右位置
+* 使用 `if nums[mid] > nums[right]:` 去偵測旋轉點是關鍵，這樣就知道做小值在哪裡
+
+``` python
+# 如果 mid 的值大於 right 的值，說明最小值在 mid 右側
+if nums[mid] > nums[right]:
+    left = mid + 1
+else:
+    # 否則，最小值在 mid 左側或就是 mid
+    right = mid
+```
 
 ## [217.Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 * 用map或set去記錄每個值，for有重複到就回傳
@@ -67,6 +77,22 @@ else:
 * 建立left list，每個i存左邊所有數的乘積
 * 建立right list，每個i存右邊所有數的乘積
 * 再把left和right相乘的list就是答案，每個i為除了自己的所有數的乘積
+
+# String
+
+## [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+* 先建立一個list，模擬Stack
+* 用for
+  * 如果是 `({[` 就append 進去 stack
+  * 如果是`]})`就 pop stack，看值有沒有跟符號做對應
+* 最後檢查空Stack，才是 Valid Parentheses
+
+
+## [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
+* 先建立一個dict
+* for第一個string，把每個值出現的次數存進去dict
+* 再for第二個string扣掉出現的次數
+* 只要dict完美變成空的場景，才是合格Valid Anagram
 
 # dynamic program
 * 要建立DP表
