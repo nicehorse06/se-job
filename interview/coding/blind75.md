@@ -87,6 +87,10 @@ else:
   * 如果是`]})`就 pop stack，看值有沒有跟符號做對應
 * 最後檢查空Stack，才是 Valid Parentheses
 
+## [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
+* 用for跑每個str，每個都變成list再排序存在一個dict
+  * dict的key是排序過後的str，value是原本的str
+* 最後回傳dict的value即可
 
 ## [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 * 先建立一個dict
