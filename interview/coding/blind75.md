@@ -80,6 +80,22 @@ else:
 
 # String
 
+## [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+* sliding window
+  * 滑動區間為 `i - left + 1`
+* 要定一個last_dict，存上一次字元出現的位置
+* 每個for都是檢查跟更新last_dict，還有依據邏輯更新left狀態紀錄最大長度
+
+``` python
+for i in range(n):
+    # last_dict[s[i]] >= left 表示left只會往右移動，不會往左
+    if s[i] in last_dict and last_dict[s[i]] >= left:
+        left = last_dict[s[i]] + 1
+
+    last_dict[s[i]] = i
+    max_len = max(max_len, i - left + 1)
+```
+
 ## [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 * 先建立一個list，模擬Stack
 * 用for
