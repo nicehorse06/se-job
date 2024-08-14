@@ -3,6 +3,9 @@
 # [Sorting algorithm demo note](https://github.com/nicehorse06/sort_demo_note)
 * 方便sorting測試的專案
 
+# 氣泡排序法(Bubble sort)
+* todo
+
 # 插入排序 (Insertion Sort)
 * 插入排序是一種簡單直觀的排序算法，適合於小型數據集。
 * 它的平均和最壞情況的時間複雜度是`O(n^2)` ，但在近乎排序好的數據集上效率非常高。
@@ -26,6 +29,15 @@
 * 平均和最壞都 `O(nlog2n)`
 * 空間複雜度 `O(1)`
 
+# 希爾排序法(Shell sort)
+* todo
+
+# 快速排序法(Quick sort)
+* todo
+  
+# 基數排序法(Radix sort)
+* todo
 
 # ref
 * [排序(sorting)](http://spaces.isu.edu.tw/upload/18833/3/web/sorting.htm)
+* [coherent17/sort-algorithm](https://github.com/coherent17/sort-algorithm/tree/main)
