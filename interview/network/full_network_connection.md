@@ -1,5 +1,7 @@
 # 網絡連接的完整過程 note
 
+* todo 加上infra的部份
+
 ## 從輸入網址列到渲染畫面，過程經歷了什麼事？
 * 域名解析 (DNS Lookup)
   * 瀏覽器cache有沒有
@@ -55,3 +57,5 @@
   * 這篇有英文回應
 * [30. [WEB] 從輸入網址列到渲染畫面，過程經歷了什麼事情？](https://ithelp.ithome.com.tw/articles/10228442)
 * [經典前端面試題：從瀏覽器網址列輸入 URL 按下 enter 發生了什麼？](https://www.shubo.io/what-happens-when-you-type-a-url-in-the-browser-and-press-enter/)
+* [【前端技術考 — 7】網路與 HTTP](https://medium.com/@johnnyfang_11536/frontend-interview-questions-series-7-8bb3fff5b8b9)
+  * HTTP（從輸入網址到顯示網頁）
