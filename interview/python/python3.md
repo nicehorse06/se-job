@@ -56,3 +56,4 @@
 
 ## ref
 * GPT promp: `現在面試有一問題是 python3帶來什麼變化，請講從python3.0到python3.11 新增了什麼`
+* [What’s New in Python](https://docs.python.org/3/whatsnew/index.html)
