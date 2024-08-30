@@ -1,7 +1,7 @@
 # golang 面試筆記
 
 
-# 可能的問題
+# 粗淺的note
 ##  var and := 的差異
 * := 只能在函數裡面
 * inferred代表編譯器判斷
@@ -96,3 +96,112 @@ func main() {
 # copy()
 * 如果只想使用一小部份的slice 建議用copy
 *  底層數組都是指array  array都是最完整狀態的slice  slice只包含部份array的引用
+
+# naked return
+``` go
+package main
+import ("fmt")
+
+func myFunction(x int, y int) (result int) {
+  result = x + y
+  // 此處會回傳result
+  return
+}
+
+func main() {
+  fmt.Println(myFunction(1, 2))
+}
+```
+
+# struct
+* Go 使用大小寫來控制 struct 字段的可見性。以大寫字母開頭的字段是導出的（public），而以小寫字母開頭的字段是未導出的（private）：
+* ## 函數綁定到 struct
+* 就是幫struct加一個method
+``` go
+type Person struct {
+    Name   string
+    Age    int
+    Job    string
+    Salary int
+}
+
+func (p Person) Print() {
+    fmt.Println("Name: ", p.Name)
+    fmt.Println("Age: ", p.Age)
+    fmt.Println("Job: ", p.Job)
+    fmt.Println("Salary: ", p.Salary)
+}
+
+func main() {
+    pers := Person{Name: "Alice", Age: 30, Job: "Engineer", Salary: 5000}
+    pers.Print()  // 直接通過 `Person` 的實例調用方法
+}
+
+```
+
+
+# map
+* 是 hash table
+* map 必須要初始化
+  * 給定初始值
+  * 或用make建立空map
+``` go
+// Create Maps Using var and :=
+var a = map[KeyType]ValueType{key1:value1, key2:value2,...}
+b := map[KeyType]ValueType{key1:value1, key2:value2,...}
+
+
+// Create Maps Using make()Function:
+var a = make(map[KeyType]ValueType)
+b := make(map[KeyType]ValueType)
+```
+
+## Allowed Key Types
+> The map key can be of any data type for which the equality operator (==) is defined. These include:
+
+Booleans
+Numbers
+Strings
+Arrays
+Pointers
+Structs
+Interfaces (as long as the dynamic type supports equality)
+
+>Invalid key types are:
+
+Slices
+Maps
+Functions
+
+These types are invalid because the equality operator (==) is not defined for them.
+
+## Check For Specific Elements in a Map
+* val, ok :=map_name[key]
+* ok為 true代表有值
+
+## Iterate Over Maps
+* 如果要對map Iterate有順序必須先定義一個slice裡面放key的順序，再去for他
+``` go
+package main
+import ("fmt")
+
+func main() {
+  a := map[string]int{"one": 1, "two": 2, "three": 3, "four": 4}
+
+  for k, v := range a {
+    fmt.Printf("%v : %v, ", k, v)
+  }
+}
+```
+
+# Pointers
+* todo
+
+# Interfaces
+* todo
+
+# goroutine
+
+
+# ref
+* [w3schools](https://www.w3schools.com/go/)
