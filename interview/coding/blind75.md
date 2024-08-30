@@ -96,6 +96,25 @@ for i in range(n):
     max_len = max(max_len, i - left + 1)
 ```
 
+## [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/description/)
+* sliding window
+   * 滑動區間為 `i - left + 1`
+``` python
+for i in range(n):
+    # count用來紀錄曾經的次數
+    count[s[i]] = count.get(s[i], 0) + 1
+    # max_count用來紀錄區間內出現最多的次數，不用是連續
+    max_count = max(max_count, count[s[i]])
+
+    # 只要 i - left + 1 - max_count <= k代表是有效滑動區間，可紀錄max_len，故要特別處理 > k的情形
+    # 當前窗口的長度 - 窗口內出現最多次數的字符的次數 > k，說明需要移動左指針
+    if i - left + 1 - max_count > k:
+        count[s[left]] -= 1
+        left += 1
+
+    max_len = max(max_len, i - left + 1)
+```
+
 ## [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 * 先建立一個list，模擬Stack
 * 用for
