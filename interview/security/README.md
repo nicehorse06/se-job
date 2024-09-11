@@ -1,7 +1,6 @@
 
 
 ## TODO
-* SQL injection
 * 加密算法（如 AES
 * Base64URL
 * rsa
