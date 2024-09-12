@@ -89,3 +89,4 @@
 * [不錯的面試資料整理](https://hackmd.io/@g9tdU4gDSTiEZrerd0g7-w/SyCXEfsSE?type=view)
 * [鳥哥 基礎網路概念](https://linux.vbird.org/linux_server/centos6/0110network_basic.php)
 * [交换机和路由器有什么区别？网关和路由又是什么意思？简单说网络](https://www.youtube.com/watch?v=HmscVF3vKQs)
+* [後端工程師面試考什麼 — Load Balancer vs. Reverse Proxy vs. API Gateway vs. HAProxy](https://www.myapollo.com.tw/blog/backend-load-balancer-reverse-proxy-api-gateway/)
