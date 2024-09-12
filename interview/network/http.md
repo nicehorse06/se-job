@@ -93,6 +93,7 @@ Content-Length: 123
   * 回應中包含了相關資源的連結，使得客戶端可以根據連結來導航和操作資源。
 
 ## RESTful API 的 HTTP Methods 和 URI 設計
+* todo 此處可能重複
 ### GET
 讀取資源。
 範例：GET /users 取得所有用戶，GET /users/123 取得 ID 為 123 的用戶。
