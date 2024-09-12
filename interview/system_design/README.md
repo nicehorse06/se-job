@@ -234,3 +234,4 @@
 * [Youtuber 土妹土妹](https://www.youtube.com/@user-im1sg1zx1j)
 * [Youtuber 古城算法](https://www.youtube.com/@user-my5in2fq5c)
 * [Youtuber 花花醬](https://www.youtube.com/@HuaHuaLeetCode)
+* [後端工程師面試考什麼 - 系統設計(system design)心法篇](https://myapollo.com.tw/blog/interview-question-system-design-introduction/)

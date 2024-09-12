@@ -11,6 +11,7 @@
   * 整合測試
   * 各種測試方法論
 * browser devtool
+* rabbitMQ
 
 ## 實用網站
 * [CIDR.xyz](https://cidr.xyz/)，IP規則學習網站
