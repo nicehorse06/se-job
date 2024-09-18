@@ -84,6 +84,7 @@
   * add-apt-repository
   * /etc/apt/sources.list
 * Kernel版本
+  * uname -r
 * Linux Distro版本
 * dmesg
   *  dump Linux Kernel messages
