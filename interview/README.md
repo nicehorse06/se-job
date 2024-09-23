@@ -12,7 +12,13 @@
   * 整合測試
   * 各種測試方法論
 * browser devtool
-* rabbitMQ
+* queue
+  * rabbitMQ
+  * Kafka
+* Web3
+  * 區塊鏈相關應用或撰寫過智能合約
+  * solidity
+  * web3.js
 
 ## 實用網站
 * [CIDR.xyz](https://cidr.xyz/)，IP規則學習網站
