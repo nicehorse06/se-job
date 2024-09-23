@@ -133,6 +133,44 @@ for i in range(n):
 * 再for第二個string扣掉出現的次數
 * 只要dict完美變成空的場景，才是合格Valid Anagram
 
+## [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+* 中心擴展法
+* 另外定義一個中心擴展函數 expand_around_center
+* 要帶入偶數跟奇數的可能到 expand_around_center中
+``` python
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        if not s:
+            return ""
+        max_len = 0
+        start = 0
+
+        for i in range(len(s)):
+            len1 = self.expand_around_center(s, i, i)       # 奇数长度回文
+            len2 = self.expand_around_center(s, i, i + 1)   # 偶数长度回文
+            curr_len = max(len1, len2)
+
+            if curr_len > max_len:
+                max_len = curr_len
+                start = i - (curr_len - 1) // 2             # 更新起始索引
+
+        return s[start:start + max_len]
+
+    def expand_around_center(self, s: str, left: int, right: int) -> int:
+        # 从中心向两边扩展，寻找最大回文长度
+        while left >= 0 and right < len(s) and s[left] == s[right]:
+            left -= 1
+            right += 1
+        # 返回找到的回文子串的长度
+        # 此處-1是因為長度計算為 right - left + 1，但上面的while最後一次失敗中left跟right的差距多了2
+        # 故要把2減回來 right - left + 1 - 2 => right - left - 1
+        return right - left - 1
+```
+
+## [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)
+
+## [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+
 # dynamic program
 * 要建立DP表
 * 要有狀態轉移方程
