@@ -19,3 +19,5 @@
   * integration test
 * release
   * ship image to registry
+*  CI/CD tools 
+   *  (e.g., Jenkins, GitLab CI, Travis CI, CircleCI)

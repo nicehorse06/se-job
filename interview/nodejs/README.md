@@ -18,3 +18,4 @@
   * Node.js 中的流 (Streams) 是什麼？如何使用流來處理大文件？
   * 如何優化 Node.js 應用的性能？
   * 包括事件迴圈、異步操作、Cluster 模式、使用緩存（如 Redis）等。
+* GC, memory leak

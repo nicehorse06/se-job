@@ -22,4 +22,5 @@
 * interface的意義
 *  go的型別，或使用上，舉兩個可能造成的效能問題
    *  slice 每次都用append自動擴張，會有效能問題
+*  gRPC
 

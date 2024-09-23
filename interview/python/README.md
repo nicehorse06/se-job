@@ -3,6 +3,7 @@
 
 ## todo
 * meta class
+* Python build and packaging systems
 
 ## 面試常見問題
 1. dict 安全取值
