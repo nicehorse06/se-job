@@ -1,5 +1,77 @@
 # Python 3 的主要變化 (3.0 到 3.11)
 
+## python 2 vs python3
+### 1. Syntax and Print Statement
+- **Python 2**: `print` is a statement, and parentheses are optional.
+    ```python
+    print "Hello, World!"
+    ```
+- **Python 3**: `print` is a function, and parentheses are required.
+    ```python
+    print("Hello, World!")
+    ```
+
+### 2. Integer Division
+- **Python 2**: Dividing two integers performs floor division, returning an integer result. 
+    ```python
+    5 / 2  # Output: 2
+    ```
+- **Python 3**: Dividing two integers returns a float. Use `//` for floor division.
+    ```python
+    5 / 2  # Output: 2.5
+    5 // 2  # Output: 2
+    ```
+
+### 3. Unicode Support
+- **Python 2**: Strings are ASCII by default, and Unicode strings require a `u` prefix.
+    ```python
+    u"Hello"
+    ```
+- **Python 3**: Strings are Unicode by default, so no prefix is needed.
+
+### 4. `xrange()` vs `range()`
+- **Python 2**: `range()` returns a list, and `xrange()` returns an iterator.
+- **Python 3**: `range()` returns an iterator, equivalent to Python 2's `xrange()`.
+
+### 5. `input()` Function
+- **Python 2**: `input()` evaluates input as a Python expression, use `raw_input()` to read strings safely.
+    ```python
+    raw_input("Enter: ")  # Safely reads strings
+    ```
+- **Python 3**: `input()` always returns a string.
+
+### 6. Exception Handling
+- **Python 2**: Uses `except Exception, e` syntax.
+    ```python
+    except Exception, e:
+        print e
+    ```
+- **Python 3**: Requires `as` keyword for exceptions.
+    ```python
+    except Exception as e:
+        print(e)
+    ```
+
+### 7. Built-in Functions
+- In **Python 2**, `zip()`, `map()`, and `filter()` return lists.
+- In **Python 3**, they return iterators, improving memory efficiency.
+
+### 8. Modules and Libraries
+- Some modules have been reorganized or renamed in **Python 3**. For example, `urllib` and `urllib2` in Python 2 are combined into `urllib` in Python 3.
+
+### 9. Community Support
+- **Python 2**: Official support ended in January 2020. No more security updates.
+- **Python 3**: Actively maintained with ongoing improvements and features.
+
+### 10. `__future__` Module
+- In **Python 2**, you can use `from __future__ import` to enable some Python 3 features.
+
+---
+
+### Summary
+Python 3 is the current standard, offering better syntax consistency, performance, memory handling, and Unicode support.
+
+
 ## Python 3.0 (2008年)
 - **除法運算符**：`/` 進行浮點除法，`//` 進行整數除法。
 - **`print` 函數**：`print` 由語句變為函數，要求使用括號，例如 `print("Hello World")`。
@@ -53,6 +125,7 @@
 - **顯著的性能提升**：通過 PEP 659，引入了自適應的解釋器，提升了執行速度。
 - **異常鏈改進**：改進了異常處理鏈，使調試時更加直觀。
 - **類型注解改進**：進一步增強了 `typing` 模塊，使其更易用。
+
 
 ## ref
 * GPT promp: `現在面試有一問題是 python3帶來什麼變化，請講從python3.0到python3.11 新增了什麼`

@@ -19,6 +19,8 @@
   * 區塊鏈相關應用或撰寫過智能合約
   * solidity
   * web3.js
+* python sentry
+* python celery
 
 ## 實用網站
 * [CIDR.xyz](https://cidr.xyz/)，IP規則學習網站
