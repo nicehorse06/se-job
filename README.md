@@ -349,4 +349,4 @@
 * 歡迎跨領域的新手一起討論，如果有能力會盡量回答
     * 有問題可以在issue問我
     * mail: `jimmatw@gmail.com`
-    * [我的Linkedin](https://www.linkedin.com/in/jimmy-ma-1b676a122/)
+    * [我的Linkedin](https://www.linkedin.com/in/jimmy-ma-tw/)
