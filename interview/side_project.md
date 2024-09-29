@@ -24,9 +24,54 @@
 * 新增測試
 * CI/CD流程
 
-## 其他
-* 縮網址
+
+
+## Backend
+
+### API Development
+- Build an API
+- Expense tracker API
+- User Authentication System
+- Personal Blogging Platform API
+- To-Do List API
+- URL Shortening Service
+- Weather API Wrapper Service
+- Real-time Polling App
+- Simple E-commerce API
+- Fitness workout tracker
+- Recipe Sharing Platform
+- Movie Reservation System
+- Restaurant Review Platform (API)
+- Multiplayer Battleship Game Server
+- Database Backup CLI utility
+- Online Code Compiler API
+- Messaging Platform Backend
+- Content Delivery Network (CDN) Simulator
+- Time-tracking CLI for Freelancers
+- Chat application
+- Task management system
+- Blogging platform
+- Chatbot project
+- Data visualization dashboard
+- Social media application
+- Job board
+- Online learning management system
+
+### File Handling & Storage
+- File uploader
+- Content delivery network (CDN) based service
+- Content management system (CMS)
+- Inventory management
+
+### Web Infrastructure
+- Simple web servers
+- Web crawler application
+- Build a landing page
+
+### Core Programming Concepts
+- Core Programming Concepts
 
 ### ref
 * Java
     * [Day 17 - Spring Boot Todo List RESTful API 實作](https://ithelp.ithome.com.tw/articles/10244715)
+* [20 Backend Project Ideas to take you from Beginner to Pro](https://roadmap.sh/backend/project-ideas)
