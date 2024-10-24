@@ -1,9 +1,8 @@
 # blind75筆記
 
-# Array
+* 此處筆記會慢慢轉移到 [neetcode 150專案](https://github.com/nicehorse06/neetcode150-note)
 
-## [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
-* 用一個for把nums裡面取出num_1並藉由target推算num2，把這個值和index關係存到dict，如果nums存在num_2就知道答案
+# Array
 
 ## [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 * 使用two pointer
