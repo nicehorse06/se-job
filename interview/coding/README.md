@@ -82,4 +82,3 @@
 * [資訊科技公司面試演練: LeetCode 和台灣 IC 設計公司軟體職缺常見題目](https://www.youtube.com/watch?v=81h38ZSSnOM)，Jserv的面試課程
 * [資料結構&演算法筆記](https://clu.gitbook.io/data-structure-note)
 * [Data-Structure-in-C](https://github.com/ksw2000/Data-Structure-in-C)
-* [我的neetcode 150刷題筆記](https://github.com/nicehorse06/neetcode150-note)

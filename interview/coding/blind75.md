@@ -1,7 +1,5 @@
 # blind75筆記
 
-* 此處筆記會慢慢轉移到 [neetcode 150專案](https://github.com/nicehorse06/neetcode150-note)
-
 # Array
 
 ## [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
