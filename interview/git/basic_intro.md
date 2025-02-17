@@ -88,3 +88,4 @@
 * [為你自己學 Git](https://gitbook.tw/)
 * [twtrubiks/Git-Tutorials](https://github.com/twtrubiks/Git-Tutorials) Git-Tutorials 
 * [什麼是 Git？為什麼要學習它？](https://gitbook.tw/chapters/introduction/what-is-git.html)
+* [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
