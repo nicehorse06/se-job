@@ -19,7 +19,7 @@
 * 後端
     * [後端語言介紹](https://github.com/nicehorse06/se-job/blob/master/interview/backend_intro.md)
 * 面試
-    * [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/interview/coding.md)
+    * [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/interview/coding/README.md)
     * [履歷準備](https://github.com/nicehorse06/se-job/blob/master/interview/resume.md)
 * 工具
     * [git基礎介紹](https://github.com/nicehorse06/se-job/blob/master/interview/git/basic_intro.md)
