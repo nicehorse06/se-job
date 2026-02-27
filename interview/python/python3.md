@@ -1,4 +1,4 @@
-# Python 3 的主要變化 (3.0 到 3.11)
+# Python 3 的主要變化 (3.0 到 3.15)
 
 ## python 2 vs python3
 ### 1. Syntax and Print Statement
@@ -126,7 +126,36 @@ Python 3 is the current standard, offering better syntax consistency, performanc
 - **異常鏈改進**：改進了異常處理鏈，使調試時更加直觀。
 - **類型注解改進**：進一步增強了 `typing` 模塊，使其更易用。
 
+## Python 3.12（2023-10-02）
+- **泛型語法升級（PEP 695）**：可直接在函式與類別定義 type parameters，並新增 `type` 別名語句。
+- **f-string 更完整（PEP 701）**：移除許多過去限制，語法更一致、可讀性更高。
+- **每個子解譯器獨立 GIL（PEP 684）**：為多解譯器隔離與平行能力打基礎。
+- **`distutils` 移除**：正式從標準函式庫刪除，改用 `setuptools` / `pyproject.toml` 生態。
+
+## Python 3.13（2024-10-07）
+- **新版 REPL 互動體驗**：互動式解譯器更好用，錯誤提示與可讀性再提升。
+- **實驗性自由執行緒模式（PEP 703）**：提供不依賴 GIL 的實驗路徑（需特定建置）。
+- **實驗性 JIT（PEP 744）**：CPython 加入實驗性 JIT，持續探索效能上限。
+- **移除更多已棄用標準庫（PEP 594）**：清理歷史包袱，降低維護成本。
+
+## Python 3.14（2025-10-07）
+- **延遲求值註解（PEP 649 / 749）**：註解預設改為需要時才評估，改善效能與前向引用體驗。
+- **標準庫多解譯器（PEP 734）**：新增 `concurrent.interpreters`，更容易做真並行工作分配。
+- **模板字串（PEP 750）**：新增 template string literals，提供更彈性的字串模板能力。
+- **新增 `compression.zstd`（PEP 784）**：標準庫原生支援 Zstandard 壓縮格式。
+
+## Python 3.15（開發中，3.15.0a6 文件）
+- **`lazy import`（PEP 810）**：可顯式延後 import 到第一次使用時，改善大型專案啟動速度。
+- **`frozendict` 內建不可變映射（PEP 814）**：可雜湊、可當 key 用，適合不可變設定資料。
+- **profiling 套件整合（PEP 799）**：新增 `profiling` 命名空間，並加入 Tachyon 高頻取樣 profiler。
+- **Comprehension 支援 unpack（PEP 798）**：推導式語法更彈性，可直接展開元素。
+- **預設文字編碼改為 UTF-8（PEP 686）**：未指定 encoding 的 I/O 預設 UTF-8，跨平台一致性更高。
+- **JIT 再升級**：3.15 對 JIT 編譯器做了較大幅優化，官方基準顯示在部分場景有可觀提升。
+- **錯誤訊息持續改進**：診斷訊息更清楚，降低除錯成本。
+
+> 註：官方文件目前明確標示為 draft（預發布版本會持續變動），面試時可先說「3.15 方向」而非「最終定案」。
+
 
 ## ref
-* GPT promp: `現在面試有一問題是 python3帶來什麼變化，請講從python3.0到python3.11 新增了什麼`
+* GPT promp: `現在面試有一問題是 python3帶來什麼變化，請講從python3.0到最新的python新增了什麼`
 * [What’s New in Python](https://docs.python.org/3/whatsnew/index.html)
