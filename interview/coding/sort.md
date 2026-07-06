@@ -1,6 +1,6 @@
 # sort interview
 
-# [Sorting algorithm demo note](https://github.com/nicehorse06/sort_demo_note)
+# [Sorting algorithm demo note](https://github.com/mengtsema/sort_demo_note)
 * 方便sorting測試的專案
 
 # 氣泡排序法(Bubble sort)

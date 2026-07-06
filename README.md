@@ -1,6 +1,6 @@
 # 軟體工作入門與求職記錄
 
-* 未解答問題可在[issue](https://github.com/nicehorse06/se-job/issues)提出。
+* 未解答問題可在[issue](https://github.com/mengtsema/se-job/issues)提出。
 * 如果覺得有幫助，可以幫我按星星、轉發給需要的朋友，感謝。
 
 ## 🐴簡介
@@ -9,23 +9,23 @@
 
 ## 🐴索引
 * Q&A，了解何謂軟體開發、如何學前端找工作、非本科系有差嗎?
-    * [簡介軟體工作Q&A](https://github.com/nicehorse06/se-job?tab=readme-ov-file#%E7%B0%A1%E4%BB%8B%E8%BB%9F%E9%AB%94%E5%B7%A5%E4%BD%9Cqa)
-    * [初學者的軟體工作學習Q&A](https://github.com/nicehorse06/se-job?tab=readme-ov-file#%E5%88%9D%E5%AD%B8%E8%80%85%E7%9A%84%E8%BB%9F%E9%AB%94%E5%B7%A5%E4%BD%9C%E5%AD%B8%E7%BF%92qa)
-    * [面試工作Q&A](https://github.com/nicehorse06/se-job#%E9%9D%A2%E8%A9%A6%E5%B7%A5%E4%BD%9Cqa)
-    * [軟體工作與資工學歷、研究所的關係](https://github.com/nicehorse06/se-job#%E8%BB%9F%E9%AB%94%E5%B7%A5%E4%BD%9C%E8%88%87%E8%B3%87%E5%B7%A5%E5%AD%B8%E6%AD%B7%E7%A0%94%E7%A9%B6%E6%89%80%E7%9A%84%E9%97%9C%E4%BF%82)
+    * [簡介軟體工作Q&A](https://github.com/mengtsema/se-job?tab=readme-ov-file#%E7%B0%A1%E4%BB%8B%E8%BB%9F%E9%AB%94%E5%B7%A5%E4%BD%9Cqa)
+    * [初學者的軟體工作學習Q&A](https://github.com/mengtsema/se-job?tab=readme-ov-file#%E5%88%9D%E5%AD%B8%E8%80%85%E7%9A%84%E8%BB%9F%E9%AB%94%E5%B7%A5%E4%BD%9C%E5%AD%B8%E7%BF%92qa)
+    * [面試工作Q&A](https://github.com/mengtsema/se-job#%E9%9D%A2%E8%A9%A6%E5%B7%A5%E4%BD%9Cqa)
+    * [軟體工作與資工學歷、研究所的關係](https://github.com/mengtsema/se-job#%E8%BB%9F%E9%AB%94%E5%B7%A5%E4%BD%9C%E8%88%87%E8%B3%87%E5%B7%A5%E5%AD%B8%E6%AD%B7%E7%A0%94%E7%A9%B6%E6%89%80%E7%9A%84%E9%97%9C%E4%BF%82)
 * 前端
-    * [網頁前端程式入門筆記與學習資源](https://github.com/nicehorse06/se-job/tree/master/frontend/README.md)
-    * [前端自學路線建議](https://github.com/nicehorse06/se-job/blob/master/frontend/learning_path.md)
+    * [網頁前端程式入門筆記與學習資源](https://github.com/mengtsema/se-job/tree/master/frontend/README.md)
+    * [前端自學路線建議](https://github.com/mengtsema/se-job/blob/master/frontend/learning_path.md)
 * 後端
-    * [後端語言介紹](https://github.com/nicehorse06/se-job/blob/master/interview/backend_intro.md)
+    * [後端語言介紹](https://github.com/mengtsema/se-job/blob/master/interview/backend_intro.md)
 * 面試
-    * [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/interview/coding/README.md)
-    * [履歷準備](https://github.com/nicehorse06/se-job/blob/master/interview/resume.md)
+    * [程式面試準備](https://github.com/mengtsema/se-job/blob/master/interview/coding/README.md)
+    * [履歷準備](https://github.com/mengtsema/se-job/blob/master/interview/resume.md)
 * 工具
-    * [git基礎介紹](https://github.com/nicehorse06/se-job/blob/master/interview/git/basic_intro.md)
+    * [git基礎介紹](https://github.com/mengtsema/se-job/blob/master/interview/git/basic_intro.md)
 * 學習心法
-    * [如何開始學一種新的程式語言](https://github.com/nicehorse06/software-learning-step/tree/main/language)
-* [關於我](https://github.com/nicehorse06/se-job#%E9%97%9C%E6%96%BC%E6%88%91)
+    * [如何開始學一種新的程式語言](https://github.com/mengtsema/software-learning-step/tree/main/language)
+* [關於我](https://github.com/mengtsema/se-job#%E9%97%9C%E6%96%BC%E6%88%91)
 
 
 ## 🐴簡介軟體工作Q&A
@@ -100,7 +100,7 @@
 * 小公司的後端也是要懂前端，希望你有全端的能力
 * 建議可以先熟悉前端再跨入後端
     * 尤其JavaScript前後端都可寫
-* [更多後端介紹](https://github.com/nicehorse06/se-job/blob/master/interview/backend_intro.md)
+* [更多後端介紹](https://github.com/mengtsema/se-job/blob/master/interview/backend_intro.md)
 
 ### 為什麼不推薦新手走APP?
 * 執行環境是各式各樣不同尺寸的手機，比瀏覽器複雜
@@ -257,7 +257,7 @@
     * [初心者的計概與 coding 火球術](https://lidemy.com/p/cs101-coding)
 * 你刷題了嗎? 技術高的公司很難不考白板題
     * [先別急著寫 leetcode](https://lidemy.com/p/alg101-leetcode)
-    * [程式面試準備](https://github.com/nicehorse06/se-job/blob/master/interview/coding.md)
+    * [程式面試準備](https://github.com/mengtsema/se-job/blob/master/interview/coding.md)
 * 你的作品夠強嗎? 還是看起來像玩具或照抄課程的project?
     * 務必了解作品的每一個細節
     * 試著加入JS框架、API使用、RWD頁面並佈署在github page

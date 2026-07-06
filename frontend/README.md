@@ -64,7 +64,7 @@
 
 ## 前端學習與作品產出資源
 * [Bootstrap教學 - 利用HTML + CSS，完整編寫網站外觀示範](https://www.youtube.com/watch?v=9X1graZtuPs)
-	* 從0開始一小時快速建立一頁活動網站，如[範例](https://nicehorse06.github.io/bootstrap-demo-note/)
+	* 從0開始一小時快速建立一頁活動網站，如[範例](https://mengtsema.github.io/bootstrap-demo-note/)
 * [JavaScript 30](https://javascript30.com/) 有三十個不錯的 JS範例
 * [從新手到中手：前端工程加強班](https://lidemy.com/p/frontend-intermediate-course)
 	* [github](https://github.com/aszx87410/frontend-intermediate-course) 
@@ -176,7 +176,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 ### node.js
 * 一個以JavaScript在後端運行的框架
 * 其提供的npm工具可管理下載CSS和JS的套件
-* [Jimmy的簡易npm心得](https://github.com/nicehorse06/se-job/blob/master/userful_note/node_and_npm.md)
+* [Jimmy的簡易npm心得](https://github.com/mengtsema/se-job/blob/master/userful_note/node_and_npm.md)
 
 ### 英文
 * 非常重要，請弄好英文
@@ -210,7 +210,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* A collective list of free APIs
 * [The Star Wars API](https://swapi.co/)
 * [Dog API](https://dog.ceo/dog-api/)
-* 用網頁製作履歷如[範例](https://nicehorse06.github.io/se-job/)，或是用markdown製作也可以
+* 用網頁製作履歷如[範例](https://mengtsema.github.io/se-job/)，或是用markdown製作也可以
 * twitch API
 * [pokeapi](https://pokeapi.co/)
 * 即時爬蟲API，如即時爬股票、匯率、天氣
@@ -221,7 +221,7 @@ React和Vue為前端框架，現代前端工程師都建議了解其中一項
 	* 參考[ifreesite](https://www.ifreesite.com/)
 * 遊戲開發，HTML5
 	* [MDN Web 遊戲開發介紹](https://developer.mozilla.org/zh-TW/docs/Games/Introduction)
-	* [phaser引擎筆記](https://github.com/nicehorse06/phaser-demo) 一個很強大的遊戲框架
+	* [phaser引擎筆記](https://github.com/mengtsema/phaser-demo) 一個很強大的遊戲框架
 * [寫給純前端，讓 Google Sheets 當你的後端完成寫入功能](https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013)
 * todo list，參考[工程師是否有年紀背景限制？](https://ithelp.ithome.com.tw/articles/10191952)
 * [軟體需求與功能規格書-以線上糕餅網站為例](https://masonwu1762.gitbooks.io/bakerystorespec/content/)
